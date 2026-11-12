@@ -1,0 +1,18 @@
+[
+ {
+  "name": "微信",
+  "bundle": "com.fake.notreal.app",
+  "list": "black",
+  "category": "exclude",
+  "stage": "conflict-existing",
+  "date": "2026-11-12"
+ },
+ {
+  "name": "掌阅",
+  "bundle": "com.zhangyue.ireader.hm",
+  "list": "black",
+  "category": "exclude",
+  "stage": "vcck-no-exact-phone-hit",
+  "date": "2026-11-12"
+ }
+]
