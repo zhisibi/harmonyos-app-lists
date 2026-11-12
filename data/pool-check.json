@@ -3,126 +3,6 @@
  "generatedAt": "2026-11-12",
  "results": [
   {
-   "name": "Opera Mini: Fast Web Browser",
-   "agwebBundle": "com.opera.mini.native",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
-   "name": "CapCut",
-   "agwebBundle": "com.lemon.lvoverseas",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
-   "name": "Госуслуги",
-   "agwebBundle": "ru.rostel",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
-   "name": "Temu: Shop Like a Billionaire",
-   "agwebBundle": "com.einnovation.temu",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
-   "name": "Likee - Short Video Community",
-   "agwebBundle": "video.like.huawei",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
-   "name": "VPN Master: Free & Secure VPN",
-   "agwebBundle": "free.vpn.unblock.proxy.vpnmaster",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
-   "name": "SHAREit lite",
-   "agwebBundle": "shareit.lite",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
-   "name": "Clear Scan - PDF Scanner App",
-   "agwebBundle": "com.indymobileapp.document.scanner.huawei",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
-   "name": "Absa Banking App",
-   "agwebBundle": "com.barclays.absa.banking",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
-   "name": "Yandex Music, Books & Podcasts",
-   "agwebBundle": "ru.yandex.music",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
-   "name": "Outlook",
-   "agwebBundle": "com.microsoft.office.outlook",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
-   "name": "Loklok",
-   "agwebBundle": "com.tv.loklok",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
-   "name": "Radio FM",
-   "agwebBundle": "com.radio.fmradio",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
-   "name": "QR Code Reader - Scanner Code",
-   "agwebBundle": "com.gamma.scan.app",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
-   "name": "BBVA México",
-   "agwebBundle": "com.bancomer.mbanking",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
-  },
-  {
    "name": "车祸模拟器2",
    "agwebBundle": "com.achmnqe",
    "hmBundle": "com.chmnqe.huawei",
@@ -152,8 +32,32 @@
    ]
   },
   {
+   "name": "CapCut",
+   "agwebBundle": "com.lemon.lvoverseas",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
    "name": "暴走山地自行车2",
    "agwebBundle": "com.bzsdzxc2apk.huawei",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Госуслуги",
+   "agwebBundle": "ru.rostel",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Temu: Shop Like a Billionaire",
+   "agwebBundle": "com.einnovation.temu",
    "hmBundle": null,
    "confirmedBundles": [],
    "exactHits": [],
@@ -197,6 +101,22 @@
    ]
   },
   {
+   "name": "Likee - Short Video Community",
+   "agwebBundle": "video.like.huawei",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Google Maps",
+   "agwebBundle": "com.gbox.com.google.android.apps.maps",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
    "name": "开心台球",
    "agwebBundle": "com.zyyx.kxtqyx.huawei",
    "hmBundle": "com.zykeji.kxtq.huawei",
@@ -234,6 +154,22 @@
    "confirmations": []
   },
   {
+   "name": "VPN Master: Free & Secure VPN",
+   "agwebBundle": "free.vpn.unblock.proxy.vpnmaster",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Uber",
+   "agwebBundle": "com.gbox.com.ubercab",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
    "name": "警车驾驶模拟",
    "agwebBundle": "com.jcjsmnapk.huawei",
    "hmBundle": "com.jcjsmn.hm.huawei",
@@ -261,6 +197,14 @@
      "byIdName": "警车驾驶模拟"
     }
    ]
+  },
+  {
+   "name": "Shazam",
+   "agwebBundle": "com.gbox.com.shazam.android",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
   },
   {
    "name": "挖掘机3D驾驶",
@@ -292,8 +236,24 @@
    ]
   },
   {
+   "name": "Pinterest",
+   "agwebBundle": "com.gbox.com.pinterest",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
    "name": "卡车模拟驾驶",
    "agwebBundle": "com.kcmnjsapk.huawei",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "X",
+   "agwebBundle": "com.gbox.com.twitter.android",
    "hmBundle": null,
    "confirmedBundles": [],
    "exactHits": [],
@@ -358,6 +318,22 @@
    ]
   },
   {
+   "name": "SHAREit lite",
+   "agwebBundle": "shareit.lite",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Clear Scan - PDF Scanner App",
+   "agwebBundle": "com.indymobileapp.document.scanner.huawei",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
    "name": "越野摩托车",
    "agwebBundle": "com.yymtcapk.huawei",
    "hmBundle": "com.yymtc.hm.huawei",
@@ -385,6 +361,14 @@
      "byIdName": "越野摩托车"
     }
    ]
+  },
+  {
+   "name": "Absa Banking App",
+   "agwebBundle": "com.barclays.absa.banking",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
   },
   {
    "name": "越野车山地竞速",
@@ -424,8 +408,16 @@
    ]
   },
   {
-   "name": "Snaptube",
-   "agwebBundle": "com.snaptube.premium",
+   "name": "Yandex Music, Books & Podcasts",
+   "agwebBundle": "ru.yandex.music",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Outlook",
+   "agwebBundle": "com.microsoft.office.outlook",
    "hmBundle": null,
    "confirmedBundles": [],
    "exactHits": [],
@@ -459,6 +451,54 @@
      "byIdName": "越野登山赛车"
     }
    ]
+  },
+  {
+   "name": "Opera Mini: Fast Web Browser",
+   "agwebBundle": "com.opera.mini.native",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Loklok",
+   "agwebBundle": "com.tv.loklok",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Radio FM",
+   "agwebBundle": "com.radio.fmradio",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "QR Code Reader - Scanner Code",
+   "agwebBundle": "com.gamma.scan.app",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "BBVA México",
+   "agwebBundle": "com.bancomer.mbanking",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Snaptube",
+   "agwebBundle": "com.snaptube.premium",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
   },
   {
    "name": "易次元",

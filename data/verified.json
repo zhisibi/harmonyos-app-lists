@@ -437,5 +437,425 @@
   "source": "vcck-search+ag-appinfo",
   "collectedAt": "2026-11-12",
   "developer": "上海任意门科技有限公司"
+ },
+ "七猫免费小说": {
+  "bundle": "com.qimao.novel",
+  "fullName": "七猫免费小说",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "上海七猫文化传媒有限公司"
+ },
+ "快看漫画": {
+  "bundle": "com.kuaikan.world",
+  "fullName": "快看漫画",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "快看世界（北京）科技有限公司"
+ },
+ "咪咕悦看": {
+  "bundle": "com.migu.cmread.hm",
+  "fullName": "咪咕悦看",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "咪咕数字传媒有限公司"
+ },
+ "京东读书": {
+  "bundle": "com.jd.app.reader.hos",
+  "fullName": "京东读书",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "北京京东叁佰陆拾度电子商务有限公司"
+ },
+ "哔哩哔哩漫画": {
+  "bundle": "yylx.bilibili.comic",
+  "fullName": "哔哩哔哩漫画",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "上海呵呵呵文化传播有限公司"
+ },
+ "懒人听书": {
+  "bundle": "bubei.tingshu.hos",
+  "fullName": "懒人听书",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "深圳市懒人在线科技有限公司"
+ },
+ "直播吧": {
+  "bundle": "com.zhibo8.hmclient",
+  "fullName": "直播吧",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "厦门傲播网络科技有限公司"
+ },
+ "虎扑": {
+  "bundle": "com.hupu.heroes",
+  "fullName": "虎扑",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "上海匡慧网络科技有限公司"
+ },
+ "盐言故事": {
+  "bundle": "com.zhihu.vip.hmos",
+  "fullName": "盐言故事",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "北京智者天下科技有限公司"
+ },
+ "简讯": {
+  "bundle": "com.tipsoon.harm",
+  "fullName": "简讯",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "成都黑领科技有限公司"
+ },
+ "画涯": {
+  "bundle": "com.huaya.view",
+  "fullName": "画涯",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "福州市画涯网络科技有限公司"
+ },
+ "京东金融": {
+  "bundle": "com.jd.jrapp.hongmeng",
+  "fullName": "京东金融",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "京东科技控股股份有限公司"
+ },
+ "东方财富": {
+  "bundle": "com.eastmoney.hmn.berlin",
+  "fullName": "东方财富",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "东方财富信息股份有限公司"
+ },
+ "同花顺": {
+  "bundle": "com.hexin.hmn.sjcg",
+  "fullName": "同花顺",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "浙江同花顺云软件有限公司"
+ },
+ "浦发银行": {
+  "bundle": "cn.com.spdb.mobilebank.hos.per",
+  "fullName": "浦发银行",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "上海浦东发展银行股份有限公司"
+ },
+ "江苏银行": {
+  "bundle": "cn.jsbank.china",
+  "fullName": "江苏银行",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "江苏银行股份有限公司"
+ },
+ "宁波银行": {
+  "bundle": "com.nbcb.mobilebank",
+  "fullName": "宁波银行",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "宁波银行股份有限公司"
+ },
+ "南京银行": {
+  "bundle": "cn.com.njcb.app.mobilebank",
+  "fullName": "南京银行",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "南京银行股份有限公司"
+ },
+ "浙商银行": {
+  "bundle": "com.czbank.mbankharmony",
+  "fullName": "浙商银行",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "浙商银行股份有限公司"
+ },
+ "微众银行": {
+  "bundle": "com.webank.wemoney.ohapp",
+  "fullName": "微众银行",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "深圳前海微众银行股份有限公司"
+ },
+ "中国电信": {
+  "bundle": "com.ct.client.hm",
+  "fullName": "中国电信",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "中国电信股份有限公司全渠道运营中心"
+ },
+ "电子社保卡": {
+  "bundle": "com.esscard.esscardapp_harmonyos",
+  "fullName": "电子社保卡",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "金保信社保卡科技有限公司"
+ },
+ "国家政务服务平台": {
+  "bundle": "com.service.harmenyos.gov.cn",
+  "fullName": "国家政务服务平台",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "国务院办公厅"
+ },
+ "浙里办": {
+  "bundle": "zjzwfw.gov.cn",
+  "fullName": "浙里办",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "数字浙江技术运营有限公司"
+ },
+ "掌上12333": {
+  "bundle": "com.ylzinfo.chinahrss.hm",
+  "fullName": "掌上12333",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "人力资源和社会保障部信息中心"
+ },
+ "金铲铲之战": {
+  "bundle": "com.tencent.jkchess.huawei",
+  "fullName": "金铲铲之战",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "深圳市腾讯计算机系统有限公司"
+ },
+ "苏宁易购": {
+  "bundle": "com.suning.ebuy.hos",
+  "fullName": "苏宁易购",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "深圳市云网万店电子商务有限公司"
+ },
+ "抖音商城": {
+  "bundle": "com.ss.hm.ugc.aweme.livelite",
+  "fullName": "抖音商城",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "北京抖音科技有限公司"
+ },
+ "央视频": {
+  "bundle": "com.cctv.yangshipin.app.harmonyp",
+  "fullName": "央视频",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "中央广播电视总台"
+ },
+ "西瓜视频": {
+  "bundle": "com.ss.hm.article.video",
+  "fullName": "西瓜视频",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "北京抖音信息服务有限公司"
+ },
+ "抖音极速版": {
+  "bundle": "com.ss.hm.ugc.aweme.lite",
+  "fullName": "抖音极速版",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "北京抖音科技有限公司"
+ },
+ "咪咕音乐": {
+  "bundle": "cn.migu.music",
+  "fullName": "咪咕音乐",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "咪咕音乐有限公司"
+ },
+ "虎牙直播": {
+  "bundle": "com.duowan.hyhos",
+  "fullName": "虎牙直播",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "广州虎牙信息科技有限公司"
+ },
+ "斗鱼": {
+  "bundle": "com.douyu.ho.app",
+  "fullName": "斗鱼",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "武汉瓯越网视有限公司"
+ },
+ "番茄免费小说": {
+  "bundle": "com.dragon.read.next",
+  "fullName": "番茄免费小说",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "北京臻鼎科技有限公司"
+ },
+ "微信读书": {
+  "bundle": "com.tencent.weread.hmos",
+  "fullName": "微信读书",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "广州腾讯科技有限公司"
+ },
+ "QQ阅读": {
+  "bundle": "com.yuewen.qqreaderhm",
+  "fullName": "QQ阅读",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "上海阅文信息技术有限公司"
+ },
+ "起点读书": {
+  "bundle": "com.qidian.reader",
+  "fullName": "起点读书",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "上海玄霆娱乐信息科技有限公司"
+ },
+ "携程旅行": {
+  "bundle": "com.ctrip.harmonynext",
+  "fullName": "携程旅行",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "携程计算机技术（上海）有限公司"
+ },
+ "去哪儿旅行": {
+  "bundle": "com.qunar.hos",
+  "fullName": "去哪儿旅行",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "北京趣拿软件科技有限公司"
+ },
+ "飞猪旅行": {
+  "bundle": "com.fliggy.hmos",
+  "fullName": "飞猪旅行",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "杭州淘美航空服务有限公司"
+ },
+ "哈啰": {
+  "bundle": "com.hellobike.app",
+  "fullName": "哈啰",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "上海哈啰普惠科技有限公司"
+ },
+ "肯德基": {
+  "bundle": "com.yumc.kfc.superapp",
+  "fullName": "肯德基",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "环胜电子商务（上海）有限公司"
+ },
+ "麦当劳": {
+  "bundle": "com.mcdonalds.cma.hm",
+  "fullName": "麦当劳",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "金拱门（中国）有限公司"
+ },
+ "瑞幸咖啡": {
+  "bundle": "com.lucky.luckincoffee",
+  "fullName": "瑞幸咖啡",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "瑞幸咖啡（北京）有限公司"
+ },
+ "盒马": {
+  "bundle": "com.wudaokou.hippo_hmos",
+  "fullName": "盒马",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "上海盒礼网络技术服务有限公司"
+ },
+ "BOSS直聘": {
+  "bundle": "com.bzl.bosszhipin",
+  "fullName": "BOSS直聘",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "北京华品博睿网络技术有限公司"
+ },
+ "贝壳找房": {
+  "bundle": "com.beike.hongmeng",
+  "fullName": "贝壳找房",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "天津小屋信息科技有限公司"
+ },
+ "百度网盘": {
+  "bundle": "com.baidu.netdisk.hmos",
+  "fullName": "百度网盘",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "北京度友科技有限公司"
+ },
+ "阿里云盘": {
+  "bundle": "com.alicloud.hmdatabox",
+  "fullName": "阿里云盘",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "杭州短趣网络传媒技术有限公司"
+ },
+ "夸克": {
+  "bundle": "com.quark.ohosbrowser",
+  "fullName": "夸克",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "广州市动悦信息技术有限公司"
+ },
+ "剪映": {
+  "bundle": "com.lemon.hm.lv",
+  "fullName": "剪映",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "深圳市脸萌科技有限公司"
+ },
+ "讯飞输入法": {
+  "bundle": "com.iflytek.inputmethod.iFlytekInputIME",
+  "fullName": "讯飞输入法",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "科大讯飞股份有限公司"
+ },
+ "QQ邮箱": {
+  "bundle": "com.tencent.qqmail.hmos",
+  "fullName": "QQ邮箱",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "广州腾讯科技有限公司"
+ },
+ "学习强国": {
+  "bundle": "cn.xuexi.qg4ohos",
+  "fullName": "学习强国",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "中央宣传部宣传舆情研究中心（中央宣传部思想政治工作研究所）"
+ },
+ "作业帮": {
+  "bundle": "com.zuoyebang.homework",
+  "fullName": "作业帮",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "广州极目未来文化科技有限公司"
+ },
+ "Keep": {
+  "bundle": "com.gotokeep.hm.keep",
+  "fullName": "Keep",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "北京卡路里科技有限公司"
+ },
+ "王者荣耀": {
+  "bundle": "com.tencent.tmgp.sgame.hw",
+  "fullName": "王者荣耀",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "深圳市腾讯计算机系统有限公司"
+ },
+ "和平精英": {
+  "bundle": "com.tencent.tmgp.pubgmhd.hw",
+  "fullName": "和平精英",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "深圳市腾讯计算机系统有限公司"
+ },
+ "原神": {
+  "bundle": "com.miHoYo.Yuanshen",
+  "fullName": "原神",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "上海米哈游影铁科技有限公司"
  }
 }

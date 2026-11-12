@@ -1,37 +1,85 @@
 [
  {
-  "name": "Opera Mini: Fast Web Browser",
-  "bundle": "com.opera.mini.native",
+  "name": "车祸模拟器2",
+  "bundle": "com.achmnqe",
+  "rank": 1,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "hmBundle": "com.chmnqe.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "CapCut",
+  "bundle": "com.lemon.lvoverseas",
   "rank": 1,
   "from": "Top",
   "bundleSource": "appgallery-web"
  },
  {
-  "name": "CapCut",
-  "bundle": "com.lemon.lvoverseas",
+  "name": "暴走山地自行车2",
+  "bundle": "com.bzsdzxc2apk.huawei",
   "rank": 2,
-  "from": "Top",
+  "from": "Games",
   "bundleSource": "appgallery-web"
  },
  {
   "name": "Госуслуги",
   "bundle": "ru.rostel",
-  "rank": 3,
+  "rank": 2,
   "from": "Top",
   "bundleSource": "appgallery-web"
  },
  {
   "name": "Temu: Shop Like a Billionaire",
   "bundle": "com.einnovation.temu",
+  "rank": 3,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "欧洲卡车模拟器",
+  "bundle": "com.ozkcmnqapk.huawei",
+  "rank": 3,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "国产车模拟器",
+  "bundle": "com.gccmnqapk.huawei",
+  "rank": 4,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "hmBundle": "com.gccmnqhap.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "Likee - Short Video Community",
+  "bundle": "video.like.huawei",
   "rank": 4,
   "from": "Top",
   "bundleSource": "appgallery-web"
  },
  {
-  "name": "Likee - Short Video Community",
-  "bundle": "video.like.huawei",
+  "name": "Google Maps",
+  "bundle": "com.gbox.com.google.android.apps.maps",
   "rank": 5,
   "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "开心台球",
+  "bundle": "com.zyyx.kxtqyx.huawei",
+  "rank": 5,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "hmBundle": "com.zykeji.kxtq.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "警车模拟2025",
+  "bundle": "com.jcmn2025apk.huawei",
+  "rank": 6,
+  "from": "Games",
   "bundleSource": "appgallery-web"
  },
  {
@@ -42,121 +90,11 @@
   "bundleSource": "appgallery-web"
  },
  {
-  "name": "SHAREit lite",
-  "bundle": "shareit.lite",
+  "name": "Uber",
+  "bundle": "com.gbox.com.ubercab",
   "rank": 7,
   "from": "Top",
   "bundleSource": "appgallery-web"
- },
- {
-  "name": "Clear Scan - PDF Scanner App",
-  "bundle": "com.indymobileapp.document.scanner.huawei",
-  "rank": 8,
-  "from": "Top",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "Absa Banking App",
-  "bundle": "com.barclays.absa.banking",
-  "rank": 9,
-  "from": "Top",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "Yandex Music, Books & Podcasts",
-  "bundle": "ru.yandex.music",
-  "rank": 10,
-  "from": "Top",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "Outlook",
-  "bundle": "com.microsoft.office.outlook",
-  "rank": 11,
-  "from": "Top",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "Loklok",
-  "bundle": "com.tv.loklok",
-  "rank": 12,
-  "from": "Top",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "Radio FM",
-  "bundle": "com.radio.fmradio",
-  "rank": 13,
-  "from": "Top",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "QR Code Reader - Scanner Code",
-  "bundle": "com.gamma.scan.app",
-  "rank": 14,
-  "from": "Top",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "BBVA México",
-  "bundle": "com.bancomer.mbanking",
-  "rank": 15,
-  "from": "Top",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "车祸模拟器2",
-  "bundle": "com.achmnqe",
-  "rank": 1,
-  "from": "Games",
-  "bundleSource": "appgallery-web",
-  "stale": true,
-  "hmBundle": "com.chmnqe.huawei",
-  "hmBundleSource": "vcck-search+ag-appinfo"
- },
- {
-  "name": "暴走山地自行车2",
-  "bundle": "com.bzsdzxc2apk.huawei",
-  "rank": 2,
-  "from": "Games",
-  "bundleSource": "appgallery-web",
-  "stale": true
- },
- {
-  "name": "欧洲卡车模拟器",
-  "bundle": "com.ozkcmnqapk.huawei",
-  "rank": 3,
-  "from": "Games",
-  "bundleSource": "appgallery-web",
-  "stale": true
- },
- {
-  "name": "国产车模拟器",
-  "bundle": "com.gccmnqapk.huawei",
-  "rank": 4,
-  "from": "Games",
-  "bundleSource": "appgallery-web",
-  "stale": true,
-  "hmBundle": "com.gccmnqhap.huawei",
-  "hmBundleSource": "vcck-search+ag-appinfo"
- },
- {
-  "name": "开心台球",
-  "bundle": "com.zyyx.kxtqyx.huawei",
-  "rank": 5,
-  "from": "Games",
-  "bundleSource": "appgallery-web",
-  "stale": true,
-  "hmBundle": "com.zykeji.kxtq.huawei",
-  "hmBundleSource": "vcck-search+ag-appinfo"
- },
- {
-  "name": "警车模拟2025",
-  "bundle": "com.jcmn2025apk.huawei",
-  "rank": 6,
-  "from": "Games",
-  "bundleSource": "appgallery-web",
-  "stale": true
  },
  {
   "name": "警车驾驶模拟",
@@ -164,9 +102,15 @@
   "rank": 7,
   "from": "Games",
   "bundleSource": "appgallery-web",
-  "stale": true,
   "hmBundle": "com.jcjsmn.hm.huawei",
   "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "Shazam",
+  "bundle": "com.gbox.com.shazam.android",
+  "rank": 8,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
  },
  {
   "name": "挖掘机3D驾驶",
@@ -174,17 +118,29 @@
   "rank": 8,
   "from": "Games",
   "bundleSource": "appgallery-web",
-  "stale": true,
   "hmBundle": "com.wjj3djs.hm.huawei",
   "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "Pinterest",
+  "bundle": "com.gbox.com.pinterest",
+  "rank": 9,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
  },
  {
   "name": "卡车模拟驾驶",
   "bundle": "com.kcmnjsapk.huawei",
   "rank": 9,
   "from": "Games",
-  "bundleSource": "appgallery-web",
-  "stale": true
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "X",
+  "bundle": "com.gbox.com.twitter.android",
+  "rank": 10,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
  },
  {
   "name": "亚洲卡车驾驶模拟器",
@@ -192,7 +148,6 @@
   "rank": 10,
   "from": "Games",
   "bundleSource": "appgallery-web",
-  "stale": true,
   "hmBundle": "com.yzkcjsmnq.hm.huawei",
   "hmBundleSource": "vcck-search+ag-appinfo"
  },
@@ -202,9 +157,22 @@
   "rank": 11,
   "from": "Games",
   "bundleSource": "appgallery-web",
-  "stale": true,
   "hmBundle": "com.fktjsc.hm.huawei",
   "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "SHAREit lite",
+  "bundle": "shareit.lite",
+  "rank": 11,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "Clear Scan - PDF Scanner App",
+  "bundle": "com.indymobileapp.document.scanner.huawei",
+  "rank": 12,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
  },
  {
   "name": "越野摩托车",
@@ -212,17 +180,22 @@
   "rank": 12,
   "from": "Games",
   "bundleSource": "appgallery-web",
-  "stale": true,
   "hmBundle": "com.yymtc.hm.huawei",
   "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "Absa Banking App",
+  "bundle": "com.barclays.absa.banking",
+  "rank": 13,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
  },
  {
   "name": "越野车山地竞速",
   "bundle": "com.yycsdjsapk.huawei",
   "rank": 13,
   "from": "Games",
-  "bundleSource": "appgallery-web",
-  "stale": true
+  "bundleSource": "appgallery-web"
  },
  {
   "name": "救护车驾驶",
@@ -230,9 +203,71 @@
   "rank": 14,
   "from": "Games",
   "bundleSource": "appgallery-web",
-  "stale": true,
   "hmBundle": "com.hm.jhcjs.huawei",
   "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "Yandex Music, Books & Podcasts",
+  "bundle": "ru.yandex.music",
+  "rank": 14,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "Outlook",
+  "bundle": "com.microsoft.office.outlook",
+  "rank": 15,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "越野登山赛车",
+  "bundle": "com.yydsscapk.huawei",
+  "rank": 15,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "hmBundle": "com.yydssc.hm.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "Opera Mini: Fast Web Browser",
+  "bundle": "com.opera.mini.native",
+  "rank": 1,
+  "from": "Top",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "Loklok",
+  "bundle": "com.tv.loklok",
+  "rank": 12,
+  "from": "Top",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "Radio FM",
+  "bundle": "com.radio.fmradio",
+  "rank": 13,
+  "from": "Top",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "QR Code Reader - Scanner Code",
+  "bundle": "com.gamma.scan.app",
+  "rank": 14,
+  "from": "Top",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "BBVA México",
+  "bundle": "com.bancomer.mbanking",
+  "rank": 15,
+  "from": "Top",
+  "bundleSource": "appgallery-web",
+  "stale": true
  },
  {
   "name": "Snaptube",
@@ -241,16 +276,6 @@
   "from": "Top",
   "bundleSource": "appgallery-web",
   "stale": true
- },
- {
-  "name": "越野登山赛车",
-  "bundle": "com.yydsscapk.huawei",
-  "rank": 15,
-  "from": "Games",
-  "bundleSource": "appgallery-web",
-  "stale": true,
-  "hmBundle": "com.yydssc.hm.huawei",
-  "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
   "name": "易次元",
