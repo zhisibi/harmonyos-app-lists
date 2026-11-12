@@ -184,11 +184,11 @@
   "fullName": "飞书"
  },
  "WPS Office": {
-  "bundle": "cn.wps.mobileoffice.hap",
+  "bundle": "cn.wps.office.hap",
   "fullName": "WPS Office"
  },
  "个人所得税": {
-  "bundle": "cn.gov.chinatax.gt4.hm",
+  "bundle": "cn.gov.tax.its.hm",
   "fullName": "个人所得税"
  },
  "中国工商银行": {
@@ -268,7 +268,7 @@
   "fullName": "海底捞"
  },
  "中国移动": {
-  "bundle": "com.droi.tong",
+  "bundle": "com.chinamobile.cmcc",
   "fullName": "中国移动"
  },
  "中国联通": {

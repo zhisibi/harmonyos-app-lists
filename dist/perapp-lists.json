@@ -234,12 +234,12 @@
   },
   {
    "name": "WPS Office",
-   "bundle": "cn.wps.mobileoffice.hap",
+   "bundle": "cn.wps.office.hap",
    "verified": true
   },
   {
    "name": "个人所得税",
-   "bundle": "cn.gov.chinatax.gt4.hm",
+   "bundle": "cn.gov.tax.its.hm",
    "verified": true
   },
   {
@@ -339,7 +339,7 @@
   },
   {
    "name": "中国移动",
-   "bundle": "com.droi.tong",
+   "bundle": "com.chinamobile.cmcc",
    "verified": true
   },
   {
