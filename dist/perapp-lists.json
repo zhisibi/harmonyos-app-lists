@@ -1,0 +1,406 @@
+{
+ "white": [
+  {
+   "name": "华为浏览器",
+   "bundle": "com.huawei.hmos.browser",
+   "verified": true
+  },
+  {
+   "name": "花瓣搜索",
+   "bundle": "com.huawei.hmsapp.hisearch",
+   "verified": true
+  },
+  {
+   "name": "花瓣地图 Petal Maps",
+   "bundle": "com.huawei.hmos.maps.app",
+   "verified": true
+  },
+  {
+   "name": "华为邮箱",
+   "bundle": "com.huawei.hmos.email",
+   "verified": true
+  },
+  {
+   "name": "HMTG",
+   "bundle": "com.YuanChu.HMTG",
+   "verified": true
+  },
+  {
+   "name": "Petrelgram",
+   "bundle": "com.miramira8295.petrelgram",
+   "verified": true
+  },
+  {
+   "name": "OHgram",
+   "bundle": "com.mikannqaq.ohgram",
+   "verified": true
+  },
+  {
+   "name": "Harmony X",
+   "bundle": "com.haohaoai0.harmonyx",
+   "verified": true
+  },
+  {
+   "name": "Instamony",
+   "bundle": "com.fanha.instarmony",
+   "verified": true
+  },
+  {
+   "name": "YourPipe",
+   "bundle": "com.talon.yourpipe",
+   "verified": true
+  },
+  {
+   "name": "ArkCat",
+   "bundle": "me.zmbad.arkcat",
+   "verified": true
+  }
+ ],
+ "black": [
+  {
+   "name": "微信",
+   "bundle": "com.tencent.wechat",
+   "verified": true
+  },
+  {
+   "name": "QQ",
+   "bundle": "com.tencent.mqq",
+   "verified": true
+  },
+  {
+   "name": "微博",
+   "bundle": "com.sina.weibo.stage",
+   "verified": true
+  },
+  {
+   "name": "支付宝",
+   "bundle": "com.alipay.mobile.client",
+   "verified": true
+  },
+  {
+   "name": "淘宝",
+   "bundle": "com.taobao.taobao4hmos",
+   "verified": true
+  },
+  {
+   "name": "京东",
+   "bundle": "com.jd.hm.mall",
+   "verified": true
+  },
+  {
+   "name": "拼多多",
+   "bundle": "com.xunmeng.pinduoduo.hos",
+   "verified": true
+  },
+  {
+   "name": "闲鱼",
+   "bundle": "com.taobao.idlefish4ohos",
+   "verified": true
+  },
+  {
+   "name": "唯品会",
+   "bundle": "com.vip.hosapp",
+   "verified": true
+  },
+  {
+   "name": "得物",
+   "bundle": "com.dewu.hos",
+   "verified": true
+  },
+  {
+   "name": "小红书",
+   "bundle": "com.xingin.xhs_hos",
+   "verified": true
+  },
+  {
+   "name": "知乎",
+   "bundle": "com.zhihu.hmos",
+   "verified": true
+  },
+  {
+   "name": "抖音",
+   "bundle": "com.ss.hm.ugc.aweme",
+   "verified": true
+  },
+  {
+   "name": "快手",
+   "bundle": "com.kuaishou.hmapp",
+   "verified": true
+  },
+  {
+   "name": "快手极速版",
+   "bundle": "com.kuaishou.hmnebula",
+   "verified": true
+  },
+  {
+   "name": "哔哩哔哩",
+   "bundle": "yylx.danmaku.bili",
+   "verified": true
+  },
+  {
+   "name": "百度",
+   "bundle": "com.baidu.baiduapp",
+   "verified": true
+  },
+  {
+   "name": "今日头条",
+   "bundle": "com.ss.hm.article.news",
+   "verified": true
+  },
+  {
+   "name": "豆包",
+   "bundle": "com.larus.nova.hm",
+   "verified": true
+  },
+  {
+   "name": "QQ音乐",
+   "bundle": "com.tencent.hm.qqmusic",
+   "verified": true
+  },
+  {
+   "name": "汽水音乐",
+   "bundle": "com.luna.hm.music",
+   "verified": true
+  },
+  {
+   "name": "喜马拉雅",
+   "bundle": "com.ximalaya.ting.xmharmony",
+   "verified": true
+  },
+  {
+   "name": "高德地图",
+   "bundle": "com.amap.hmapp",
+   "verified": true
+  },
+  {
+   "name": "百度地图",
+   "bundle": "com.baidu.hmmap",
+   "verified": true
+  },
+  {
+   "name": "美团",
+   "bundle": "com.sankuai.hmeituan",
+   "verified": true
+  },
+  {
+   "name": "美团外卖",
+   "bundle": "com.meituan.takeaway",
+   "verified": true
+  },
+  {
+   "name": "大众点评",
+   "bundle": "com.sankuai.dianping",
+   "verified": true
+  },
+  {
+   "name": "滴滴出行",
+   "bundle": "com.sdu.didi.hmos.psnger",
+   "verified": true
+  },
+  {
+   "name": "铁路12306",
+   "bundle": "com.chinarailway.ticketingHM",
+   "verified": true
+  },
+  {
+   "name": "同程旅行",
+   "bundle": "com.tongcheng.hmos",
+   "verified": true
+  },
+  {
+   "name": "腾讯视频",
+   "bundle": "com.tencent.videohm",
+   "verified": true
+  },
+  {
+   "name": "爱奇艺",
+   "bundle": "com.qiyi.video.hmy",
+   "verified": true
+  },
+  {
+   "name": "芒果TV",
+   "bundle": "com.mgtv.phone",
+   "verified": true
+  },
+  {
+   "name": "企业微信",
+   "bundle": "com.tencent.wework.hmos",
+   "verified": true
+  },
+  {
+   "name": "飞书",
+   "bundle": "com.ss.feishu",
+   "verified": true
+  },
+  {
+   "name": "WPS Office",
+   "bundle": "cn.wps.mobileoffice.hap",
+   "verified": true
+  },
+  {
+   "name": "个人所得税",
+   "bundle": "cn.gov.chinatax.gt4.hm",
+   "verified": true
+  },
+  {
+   "name": "中国工商银行",
+   "bundle": "com.icbc.harmonyclient",
+   "verified": true
+  },
+  {
+   "name": "中国建设银行",
+   "bundle": "com.ccb.mobilebank.hm",
+   "verified": true
+  },
+  {
+   "name": "招商银行",
+   "bundle": "com.cmbchina.harmony",
+   "verified": true
+  },
+  {
+   "name": "中国农业银行",
+   "bundle": "com.bankabc.openharmonyapp.release",
+   "verified": true
+  },
+  {
+   "name": "中国银行",
+   "bundle": "com.boc.bocsoft.mbs.personal",
+   "verified": true
+  },
+  {
+   "name": "交通银行",
+   "bundle": "com.bankcomm.mobshos",
+   "verified": true
+  },
+  {
+   "name": "邮储银行",
+   "bundle": "com.psbc.mbank.hm",
+   "verified": true
+  },
+  {
+   "name": "中信银行",
+   "bundle": "cn.citicbank.wap",
+   "verified": true
+  },
+  {
+   "name": "中国民生银行",
+   "bundle": "cn.com.cmbc.ohmbank",
+   "verified": true
+  },
+  {
+   "name": "平安银行",
+   "bundle": "com.pingan.bank.pocket",
+   "verified": true
+  },
+  {
+   "name": "兴业银行",
+   "bundle": "com.cib.cibmbhmos",
+   "verified": true
+  },
+  {
+   "name": "华为视频",
+   "bundle": "com.huawei.hmsapp.himovie",
+   "verified": true
+  },
+  {
+   "name": "华为音乐",
+   "bundle": "com.huawei.hmsapp.music",
+   "verified": true
+  },
+  {
+   "name": "华为阅读",
+   "bundle": "com.huawei.hmsapp.books",
+   "verified": true
+  },
+  {
+   "name": "华为钱包",
+   "bundle": "com.huawei.hmos.wallet",
+   "verified": true
+  },
+  {
+   "name": "运动健康",
+   "bundle": "com.huawei.hmos.health",
+   "verified": true
+  },
+  {
+   "name": "转转",
+   "bundle": "com.zhuanzhuan.hmoszz",
+   "verified": true
+  },
+  {
+   "name": "58同城",
+   "bundle": "com.wuba.life",
+   "verified": true
+  },
+  {
+   "name": "海底捞",
+   "bundle": "com.haidilao.haros",
+   "verified": true
+  },
+  {
+   "name": "中国移动",
+   "bundle": "com.droi.tong",
+   "verified": true
+  },
+  {
+   "name": "中国联通",
+   "bundle": "com.sinovatech.unicom.ha",
+   "verified": true
+  },
+  {
+   "name": "阿里巴巴",
+   "bundle": "com.alibaba.wireless_hmos",
+   "verified": true
+  },
+  {
+   "name": "UC浏览器",
+   "bundle": "com.uc.mobile",
+   "verified": true
+  },
+  {
+   "name": "迅雷",
+   "bundle": "com.xunlei.thunder",
+   "verified": true
+  },
+  {
+   "name": "搜狗输入法",
+   "bundle": "com.sogou.input",
+   "verified": true
+  },
+  {
+   "name": "扫描全能王",
+   "bundle": "com.intsig.camscanner.hap",
+   "verified": true
+  },
+  {
+   "name": "美图秀秀",
+   "bundle": "com.meitu.meitupic",
+   "verified": true
+  },
+  {
+   "name": "中国光大银行",
+   "bundle": "com.cebbank.mobile.cembhmwork",
+   "verified": true
+  },
+  {
+   "name": "华夏银行",
+   "bundle": "com.hxb.mobile.hm",
+   "verified": true
+  },
+  {
+   "name": "北京银行",
+   "bundle": "com.bankofbeijing.hmobilebanking",
+   "verified": true
+  },
+  {
+   "name": "广发银行",
+   "bundle": "com.cgbchina.xpt.hm",
+   "verified": true
+  },
+  {
+   "name": "上海银行",
+   "bundle": "cn.com.shbank.mperhm",
+   "verified": true
+  }
+ ]
+}

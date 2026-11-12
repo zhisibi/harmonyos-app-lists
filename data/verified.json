@@ -1,0 +1,322 @@
+{
+ "华为浏览器": {
+  "bundle": "com.huawei.hmos.browser",
+  "fullName": "华为浏览器"
+ },
+ "花瓣搜索": {
+  "bundle": "com.huawei.hmsapp.hisearch",
+  "fullName": "花瓣搜索（华为搜索）"
+ },
+ "花瓣地图 Petal Maps": {
+  "bundle": "com.huawei.hmos.maps.app",
+  "fullName": "花瓣地图 Petal Maps（华为地图）"
+ },
+ "华为邮箱": {
+  "bundle": "com.huawei.hmos.email",
+  "fullName": "华为邮箱"
+ },
+ "HMTG": {
+  "bundle": "com.YuanChu.HMTG",
+  "fullName": "HMTG（Telegram 第三方客户端）"
+ },
+ "Petrelgram": {
+  "bundle": "com.miramira8295.petrelgram",
+  "fullName": "Petrelgram（Telegram 第三方客户端）"
+ },
+ "OHgram": {
+  "bundle": "com.mikannqaq.ohgram",
+  "fullName": "OHgram（Telegram 第三方客户端）"
+ },
+ "Harmony X": {
+  "bundle": "com.haohaoai0.harmonyx",
+  "fullName": "Harmony X（X 第三方客户端）"
+ },
+ "Instamony": {
+  "bundle": "com.fanha.instarmony",
+  "fullName": "Instamony（Instagram 第三方客户端）"
+ },
+ "YourPipe": {
+  "bundle": "com.talon.yourpipe",
+  "fullName": "YourPipe（YouTube 第三方客户端）"
+ },
+ "ArkCat": {
+  "bundle": "me.zmbad.arkcat",
+  "fullName": "ArkCat（GitHub 第三方客户端）"
+ },
+ "微信": {
+  "bundle": "com.tencent.wechat",
+  "fullName": "微信"
+ },
+ "QQ": {
+  "bundle": "com.tencent.mqq",
+  "fullName": "QQ"
+ },
+ "微博": {
+  "bundle": "com.sina.weibo.stage",
+  "fullName": "微博"
+ },
+ "支付宝": {
+  "bundle": "com.alipay.mobile.client",
+  "fullName": "支付宝"
+ },
+ "淘宝": {
+  "bundle": "com.taobao.taobao4hmos",
+  "fullName": "淘宝"
+ },
+ "京东": {
+  "bundle": "com.jd.hm.mall",
+  "fullName": "京东"
+ },
+ "拼多多": {
+  "bundle": "com.xunmeng.pinduoduo.hos",
+  "fullName": "拼多多"
+ },
+ "闲鱼": {
+  "bundle": "com.taobao.idlefish4ohos",
+  "fullName": "闲鱼"
+ },
+ "唯品会": {
+  "bundle": "com.vip.hosapp",
+  "fullName": "唯品会"
+ },
+ "得物": {
+  "bundle": "com.dewu.hos",
+  "fullName": "得物"
+ },
+ "小红书": {
+  "bundle": "com.xingin.xhs_hos",
+  "fullName": "小红书"
+ },
+ "知乎": {
+  "bundle": "com.zhihu.hmos",
+  "fullName": "知乎"
+ },
+ "抖音": {
+  "bundle": "com.ss.hm.ugc.aweme",
+  "fullName": "抖音"
+ },
+ "快手": {
+  "bundle": "com.kuaishou.hmapp",
+  "fullName": "快手"
+ },
+ "快手极速版": {
+  "bundle": "com.kuaishou.hmnebula",
+  "fullName": "快手极速版"
+ },
+ "哔哩哔哩": {
+  "bundle": "yylx.danmaku.bili",
+  "fullName": "哔哩哔哩"
+ },
+ "百度": {
+  "bundle": "com.baidu.baiduapp",
+  "fullName": "百度"
+ },
+ "今日头条": {
+  "bundle": "com.ss.hm.article.news",
+  "fullName": "今日头条"
+ },
+ "豆包": {
+  "bundle": "com.larus.nova.hm",
+  "fullName": "豆包"
+ },
+ "QQ音乐": {
+  "bundle": "com.tencent.hm.qqmusic",
+  "fullName": "QQ音乐"
+ },
+ "汽水音乐": {
+  "bundle": "com.luna.hm.music",
+  "fullName": "汽水音乐"
+ },
+ "喜马拉雅": {
+  "bundle": "com.ximalaya.ting.xmharmony",
+  "fullName": "喜马拉雅"
+ },
+ "高德地图": {
+  "bundle": "com.amap.hmapp",
+  "fullName": "高德地图"
+ },
+ "百度地图": {
+  "bundle": "com.baidu.hmmap",
+  "fullName": "百度地图"
+ },
+ "美团": {
+  "bundle": "com.sankuai.hmeituan",
+  "fullName": "美团"
+ },
+ "美团外卖": {
+  "bundle": "com.meituan.takeaway",
+  "fullName": "美团外卖"
+ },
+ "大众点评": {
+  "bundle": "com.sankuai.dianping",
+  "fullName": "大众点评"
+ },
+ "滴滴出行": {
+  "bundle": "com.sdu.didi.hmos.psnger",
+  "fullName": "滴滴出行"
+ },
+ "铁路12306": {
+  "bundle": "com.chinarailway.ticketingHM",
+  "fullName": "铁路12306"
+ },
+ "同程旅行": {
+  "bundle": "com.tongcheng.hmos",
+  "fullName": "同程旅行"
+ },
+ "腾讯视频": {
+  "bundle": "com.tencent.videohm",
+  "fullName": "腾讯视频"
+ },
+ "爱奇艺": {
+  "bundle": "com.qiyi.video.hmy",
+  "fullName": "爱奇艺"
+ },
+ "芒果TV": {
+  "bundle": "com.mgtv.phone",
+  "fullName": "芒果TV"
+ },
+ "企业微信": {
+  "bundle": "com.tencent.wework.hmos",
+  "fullName": "企业微信"
+ },
+ "飞书": {
+  "bundle": "com.ss.feishu",
+  "fullName": "飞书"
+ },
+ "WPS Office": {
+  "bundle": "cn.wps.mobileoffice.hap",
+  "fullName": "WPS Office"
+ },
+ "个人所得税": {
+  "bundle": "cn.gov.chinatax.gt4.hm",
+  "fullName": "个人所得税"
+ },
+ "中国工商银行": {
+  "bundle": "com.icbc.harmonyclient",
+  "fullName": "中国工商银行"
+ },
+ "中国建设银行": {
+  "bundle": "com.ccb.mobilebank.hm",
+  "fullName": "中国建设银行"
+ },
+ "招商银行": {
+  "bundle": "com.cmbchina.harmony",
+  "fullName": "招商银行"
+ },
+ "中国农业银行": {
+  "bundle": "com.bankabc.openharmonyapp.release",
+  "fullName": "中国农业银行"
+ },
+ "中国银行": {
+  "bundle": "com.boc.bocsoft.mbs.personal",
+  "fullName": "中国银行"
+ },
+ "交通银行": {
+  "bundle": "com.bankcomm.mobshos",
+  "fullName": "交通银行"
+ },
+ "邮储银行": {
+  "bundle": "com.psbc.mbank.hm",
+  "fullName": "邮储银行"
+ },
+ "中信银行": {
+  "bundle": "cn.citicbank.wap",
+  "fullName": "中信银行"
+ },
+ "中国民生银行": {
+  "bundle": "cn.com.cmbc.ohmbank",
+  "fullName": "中国民生银行"
+ },
+ "平安银行": {
+  "bundle": "com.pingan.bank.pocket",
+  "fullName": "平安银行"
+ },
+ "兴业银行": {
+  "bundle": "com.cib.cibmbhmos",
+  "fullName": "兴业银行"
+ },
+ "华为视频": {
+  "bundle": "com.huawei.hmsapp.himovie",
+  "fullName": "华为视频"
+ },
+ "华为音乐": {
+  "bundle": "com.huawei.hmsapp.music",
+  "fullName": "华为音乐"
+ },
+ "华为阅读": {
+  "bundle": "com.huawei.hmsapp.books",
+  "fullName": "华为阅读"
+ },
+ "华为钱包": {
+  "bundle": "com.huawei.hmos.wallet",
+  "fullName": "华为钱包"
+ },
+ "运动健康": {
+  "bundle": "com.huawei.hmos.health",
+  "fullName": "运动健康"
+ },
+ "转转": {
+  "bundle": "com.zhuanzhuan.hmoszz",
+  "fullName": "转转"
+ },
+ "58同城": {
+  "bundle": "com.wuba.life",
+  "fullName": "58同城"
+ },
+ "海底捞": {
+  "bundle": "com.haidilao.haros",
+  "fullName": "海底捞"
+ },
+ "中国移动": {
+  "bundle": "com.droi.tong",
+  "fullName": "中国移动"
+ },
+ "中国联通": {
+  "bundle": "com.sinovatech.unicom.ha",
+  "fullName": "中国联通"
+ },
+ "阿里巴巴": {
+  "bundle": "com.alibaba.wireless_hmos",
+  "fullName": "阿里巴巴"
+ },
+ "UC浏览器": {
+  "bundle": "com.uc.mobile",
+  "fullName": "UC浏览器"
+ },
+ "迅雷": {
+  "bundle": "com.xunlei.thunder",
+  "fullName": "迅雷"
+ },
+ "搜狗输入法": {
+  "bundle": "com.sogou.input",
+  "fullName": "搜狗输入法"
+ },
+ "扫描全能王": {
+  "bundle": "com.intsig.camscanner.hap",
+  "fullName": "扫描全能王"
+ },
+ "美图秀秀": {
+  "bundle": "com.meitu.meitupic",
+  "fullName": "美图秀秀"
+ },
+ "中国光大银行": {
+  "bundle": "com.cebbank.mobile.cembhmwork",
+  "fullName": "中国光大银行"
+ },
+ "华夏银行": {
+  "bundle": "com.hxb.mobile.hm",
+  "fullName": "华夏银行"
+ },
+ "北京银行": {
+  "bundle": "com.bankofbeijing.hmobilebanking",
+  "fullName": "北京银行"
+ },
+ "广发银行": {
+  "bundle": "com.cgbchina.xpt.hm",
+  "fullName": "广发银行"
+ },
+ "上海银行": {
+  "bundle": "cn.com.shbank.mperhm",
+  "fullName": "上海银行"
+ }
+}

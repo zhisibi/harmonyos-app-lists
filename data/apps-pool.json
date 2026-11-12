@@ -1,0 +1,332 @@
+[
+ {
+  "name": "车祸模拟器2",
+  "bundle": "com.achmnqe",
+  "rank": 1,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "Opera Mini: Fast Web Browser",
+  "bundle": "com.opera.mini.native",
+  "rank": 1,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "暴走山地自行车2",
+  "bundle": "com.bzsdzxc2apk.huawei",
+  "rank": 2,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "CapCut",
+  "bundle": "com.lemon.lvoverseas",
+  "rank": 2,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "欧洲卡车模拟器",
+  "bundle": "com.ozkcmnqapk.huawei",
+  "rank": 3,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "Госуслуги",
+  "bundle": "ru.rostel",
+  "rank": 3,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "Temu: Shop Like a Billionaire",
+  "bundle": "com.einnovation.temu",
+  "rank": 4,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "国产车模拟器",
+  "bundle": "com.gccmnqapk.huawei",
+  "rank": 4,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "开心台球",
+  "bundle": "com.zyyx.kxtqyx.huawei",
+  "rank": 5,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "Likee - Short Video Community",
+  "bundle": "video.like.huawei",
+  "rank": 5,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "警车模拟2025",
+  "bundle": "com.jcmn2025apk.huawei",
+  "rank": 6,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "VPN Master: Free & Secure VPN",
+  "bundle": "free.vpn.unblock.proxy.vpnmaster",
+  "rank": 6,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "警车驾驶模拟",
+  "bundle": "com.jcjsmnapk.huawei",
+  "rank": 7,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "SHAREit lite",
+  "bundle": "shareit.lite",
+  "rank": 7,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "Clear Scan - PDF Scanner App",
+  "bundle": "com.indymobileapp.document.scanner.huawei",
+  "rank": 8,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "挖掘机3D驾驶",
+  "bundle": "com.whj3djsapk.huawei",
+  "rank": 8,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "Absa Banking App",
+  "bundle": "com.barclays.absa.banking",
+  "rank": 9,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "卡车模拟驾驶",
+  "bundle": "com.kcmnjsapk.huawei",
+  "rank": 9,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "亚洲卡车驾驶模拟器",
+  "bundle": "com.yzkcjsmnqapk.huawei",
+  "rank": 10,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "Yandex Music, Books & Podcasts",
+  "bundle": "ru.yandex.music",
+  "rank": 10,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "疯狂特技赛车",
+  "bundle": "com.fktjscapk.huawei",
+  "rank": 11,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "Outlook",
+  "bundle": "com.microsoft.office.outlook",
+  "rank": 11,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "Loklok",
+  "bundle": "com.tv.loklok",
+  "rank": 12,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "越野摩托车",
+  "bundle": "com.yymtcapk.huawei",
+  "rank": 12,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "Radio FM",
+  "bundle": "com.radio.fmradio",
+  "rank": 13,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "越野车山地竞速",
+  "bundle": "com.yycsdjsapk.huawei",
+  "rank": 13,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "QR Code Reader - Scanner Code",
+  "bundle": "com.gamma.scan.app",
+  "rank": 14,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "救护车驾驶",
+  "bundle": "com.jhcjsapk.huawei",
+  "rank": 14,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "Snaptube",
+  "bundle": "com.snaptube.premium",
+  "rank": 15,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "越野登山赛车",
+  "bundle": "com.yydsscapk.huawei",
+  "rank": 15,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "易次元",
+  "bundle": "com.netease.avg.huawei",
+  "rank": 1,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "七猫免费小说",
+  "bundle": "com.kmxs.reader",
+  "rank": 2,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "快看漫画",
+  "bundle": "com.kuaikan.comic",
+  "rank": 3,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "话本小说",
+  "bundle": "com.huabenapp",
+  "rank": 4,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "咪咕悦看",
+  "bundle": "com.ophone.reader.ui",
+  "rank": 5,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "百灵创作",
+  "bundle": "com.abailing.write",
+  "rank": 6,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "京东读书",
+  "bundle": "com.jd.app.reader",
+  "rank": 7,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "哔哩哔哩漫画",
+  "bundle": "com.bilibili.comic",
+  "rank": 8,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "懒人听书",
+  "bundle": "bubei.tingshu",
+  "rank": 9,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "今日看看极速版",
+  "bundle": "com.syey.jinrikk",
+  "rank": 10,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "直播吧",
+  "bundle": "android.zhibo8",
+  "rank": 11,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "虎扑",
+  "bundle": "com.hupu.games",
+  "rank": 12,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "盐言故事",
+  "bundle": "com.zhihu.vip.android",
+  "rank": 13,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "简讯",
+  "bundle": "com.tipsoon.android",
+  "rank": 14,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "画涯",
+  "bundle": "cn.fzhuayantcoltd.huayaapp",
+  "rank": 15,
+  "from": "Apps",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ }
+]

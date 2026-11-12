@@ -1,0 +1,802 @@
+[
+ {
+  "seed": "华为浏览器",
+  "category": "white",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "OffLine Browser",
+  "agTopBundle": "it.nikodroid.offline",
+  "verifiedBundle": "com.huawei.hmos.browser",
+  "match": false
+ },
+ {
+  "seed": "花瓣搜索",
+  "category": "white",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "花瓣地图",
+  "agTopBundle": "com.huawei.maps.app",
+  "verifiedBundle": "com.huawei.hmsapp.hisearch",
+  "match": false
+ },
+ {
+  "seed": "花瓣地图 Petal Maps",
+  "category": "white",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "花瓣地图",
+  "agTopBundle": "com.huawei.maps.app",
+  "verifiedBundle": "com.huawei.hmos.maps.app",
+  "match": false
+ },
+ {
+  "seed": "华为邮箱",
+  "category": "white",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "指南针",
+  "agTopBundle": "com.huawei.compass",
+  "verifiedBundle": "com.huawei.hmos.email",
+  "match": false
+ },
+ {
+  "seed": "HMTG",
+  "category": "white",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.YuanChu.HMTG",
+  "match": false
+ },
+ {
+  "seed": "Petrelgram",
+  "category": "white",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.miramira8295.petrelgram",
+  "match": false
+ },
+ {
+  "seed": "OHgram",
+  "category": "white",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.mikannqaq.ohgram",
+  "match": false
+ },
+ {
+  "seed": "Harmony X",
+  "category": "white",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.haohaoai0.harmonyx",
+  "match": false
+ },
+ {
+  "seed": "Instamony",
+  "category": "white",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.fanha.instarmony",
+  "match": false
+ },
+ {
+  "seed": "YourPipe",
+  "category": "white",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.talon.yourpipe",
+  "match": false
+ },
+ {
+  "seed": "ArkCat",
+  "category": "white",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "ARK CAT ATTACK",
+  "agTopBundle": "com.mozthetiger.arkcatattack.huawei",
+  "verifiedBundle": "me.zmbad.arkcat",
+  "match": false
+ },
+ {
+  "seed": "微信",
+  "category": "black",
+  "agName": "微信",
+  "agBundle": "com.tencent.mm",
+  "agTopName": "微信",
+  "agTopBundle": "com.tencent.mm",
+  "verifiedBundle": "com.tencent.wechat",
+  "match": false
+ },
+ {
+  "seed": "QQ",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "Penguin Wallpapers",
+  "agTopBundle": "best.lovely.wallpaper.PenguinWallpapers.Penguin_Wallpapers",
+  "verifiedBundle": "com.tencent.mqq",
+  "match": false
+ },
+ {
+  "seed": "微博",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "ArtHola",
+  "agTopBundle": "com.arthola.app",
+  "verifiedBundle": "com.sina.weibo.stage",
+  "match": false
+ },
+ {
+  "seed": "支付宝",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "Currency Converter",
+  "agTopBundle": "com.imploded.currencyconverter",
+  "verifiedBundle": "com.alipay.mobile.client",
+  "match": false
+ },
+ {
+  "seed": "淘宝",
+  "category": "black",
+  "agName": "淘宝",
+  "agBundle": "com.taobao.taobao",
+  "agTopName": "淘宝",
+  "agTopBundle": "com.taobao.taobao",
+  "verifiedBundle": "com.taobao.taobao4hmos",
+  "match": false
+ },
+ {
+  "seed": "京东",
+  "category": "black",
+  "agName": "京东",
+  "agBundle": "com.jingdong.app.mall",
+  "agTopName": "京东",
+  "agTopBundle": "com.jingdong.app.mall",
+  "verifiedBundle": "com.jd.hm.mall",
+  "match": false
+ },
+ {
+  "seed": "拼多多",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "淘宝",
+  "agTopBundle": "com.taobao.taobao",
+  "verifiedBundle": "com.xunmeng.pinduoduo.hos",
+  "match": false
+ },
+ {
+  "seed": "闲鱼",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "Idle Ocean Tycoon",
+  "agTopBundle": "com.swdsystem.iot.huawei",
+  "verifiedBundle": "com.taobao.idlefish4ohos",
+  "match": false
+ },
+ {
+  "seed": "唯品会",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "Air Force Jet Combat",
+  "agTopBundle": "com.huawie.AirForce.Jet.Combat",
+  "verifiedBundle": "com.vip.hosapp",
+  "match": false
+ },
+ {
+  "seed": "得物",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "TommyGuide",
+  "agTopBundle": "com.tommy.mjtt.en",
+  "verifiedBundle": "com.dewu.hos",
+  "match": false
+ },
+ {
+  "seed": "小红书",
+  "category": "black",
+  "agName": "小红书",
+  "agBundle": "com.xingin.xhs",
+  "agTopName": "小红书",
+  "agTopBundle": "com.xingin.xhs",
+  "verifiedBundle": "com.xingin.xhs_hos",
+  "match": false
+ },
+ {
+  "seed": "知乎",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.zhihu.hmos",
+  "match": false
+ },
+ {
+  "seed": "抖音",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "微信",
+  "agTopBundle": "com.tencent.mm",
+  "verifiedBundle": "com.ss.hm.ugc.aweme",
+  "match": false
+ },
+ {
+  "seed": "快手",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.kuaishou.hmapp",
+  "match": false
+ },
+ {
+  "seed": "快手极速版",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.kuaishou.hmnebula",
+  "match": false
+ },
+ {
+  "seed": "哔哩哔哩",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "SpeedBall Crazy Smash Hit",
+  "agTopBundle": "com.huawie.speeball",
+  "verifiedBundle": "yylx.danmaku.bili",
+  "match": false
+ },
+ {
+  "seed": "百度",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "OffLine Browser",
+  "agTopBundle": "it.nikodroid.offline",
+  "verifiedBundle": "com.baidu.baiduapp",
+  "match": false
+ },
+ {
+  "seed": "今日头条",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.ss.hm.article.news",
+  "match": false
+ },
+ {
+  "seed": "豆包",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.larus.nova.hm",
+  "match": false
+ },
+ {
+  "seed": "QQ音乐",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "MiMu - Music & Audio Player",
+  "agTopBundle": "com.beshevgames.mimu.music.player",
+  "verifiedBundle": "com.tencent.hm.qqmusic",
+  "match": false
+ },
+ {
+  "seed": "汽水音乐",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "Mahjong Deluxe 3",
+  "agTopBundle": "com.ensenasoft.mahjongdeluxe3",
+  "verifiedBundle": "com.luna.hm.music",
+  "match": false
+ },
+ {
+  "seed": "喜马拉雅",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "孩子们学习写作",
+  "agTopBundle": "com.greysprings.abc.phonics.alphabets.numbers123.shapes.kids.tracing.games",
+  "verifiedBundle": "com.ximalaya.ting.xmharmony",
+  "match": false
+ },
+ {
+  "seed": "高德地图",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "TommyGuide",
+  "agTopBundle": "com.tommy.mjtt.en",
+  "verifiedBundle": "com.amap.hmapp",
+  "match": false
+ },
+ {
+  "seed": "百度地图",
+  "category": "black",
+  "agName": "百度地图",
+  "agBundle": "com.baidu.BaiduMap",
+  "agTopName": "百度地图",
+  "agTopBundle": "com.baidu.BaiduMap",
+  "verifiedBundle": "com.baidu.hmmap",
+  "match": false
+ },
+ {
+  "seed": "美团",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "QQ",
+  "agTopBundle": "com.tencent.mobileqq",
+  "verifiedBundle": "com.sankuai.hmeituan",
+  "match": false
+ },
+ {
+  "seed": "美团外卖",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.meituan.takeaway",
+  "match": false
+ },
+ {
+  "seed": "大众点评",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "LaListe",
+  "agTopBundle": "com.laliste",
+  "verifiedBundle": "com.sankuai.dianping",
+  "match": false
+ },
+ {
+  "seed": "滴滴出行",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.sdu.didi.hmos.psnger",
+  "match": false
+ },
+ {
+  "seed": "铁路12306",
+  "category": "black",
+  "agName": "铁路12306",
+  "agBundle": "com.MobileTicket",
+  "agTopName": "铁路12306",
+  "agTopBundle": "com.MobileTicket",
+  "verifiedBundle": "com.chinarailway.ticketingHM",
+  "match": false
+ },
+ {
+  "seed": "同程旅行",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "LaListe",
+  "agTopBundle": "com.laliste",
+  "verifiedBundle": "com.tongcheng.hmos",
+  "match": false
+ },
+ {
+  "seed": "腾讯视频",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "WeTV: Asian & Local Drama",
+  "agTopBundle": "com.tencent.qqlivei18n",
+  "verifiedBundle": "com.tencent.videohm",
+  "match": false
+ },
+ {
+  "seed": "爱奇艺",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "影视大全",
+  "agTopBundle": "com.le123.ysdq",
+  "verifiedBundle": "com.qiyi.video.hmy",
+  "match": false
+ },
+ {
+  "seed": "芒果TV",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.mgtv.phone",
+  "match": false
+ },
+ {
+  "seed": "企业微信",
+  "category": "black",
+  "agName": "企业微信",
+  "agBundle": "com.tencent.wework",
+  "agTopName": "企业微信",
+  "agTopBundle": "com.tencent.wework",
+  "verifiedBundle": "com.tencent.wework.hmos",
+  "match": false
+ },
+ {
+  "seed": "飞书",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "铁路12306",
+  "agTopBundle": "com.MobileTicket",
+  "verifiedBundle": "com.ss.feishu",
+  "match": false
+ },
+ {
+  "seed": "WPS Office",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "WPS WPA Connect Dumpper‏",
+  "agTopBundle": "com.wpsdumpper",
+  "verifiedBundle": "cn.wps.mobileoffice.hap",
+  "match": false
+ },
+ {
+  "seed": "个人所得税",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "Privary",
+  "agTopBundle": "com.fourchars.privary",
+  "verifiedBundle": "cn.gov.chinatax.gt4.hm",
+  "match": false
+ },
+ {
+  "seed": "中国工商银行",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "中国联通",
+  "agTopBundle": "com.sinovatech.unicom.ui",
+  "verifiedBundle": "com.icbc.harmonyclient",
+  "match": false
+ },
+ {
+  "seed": "中国建设银行",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "货币汇率计算器国际版",
+  "agTopBundle": "mvtrail.calculator.currencyexchange.intl",
+  "verifiedBundle": "com.ccb.mobilebank.hm",
+  "match": false
+ },
+ {
+  "seed": "招商银行",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "Privary",
+  "agTopBundle": "com.fourchars.privary",
+  "verifiedBundle": "com.cmbchina.harmony",
+  "match": false
+ },
+ {
+  "seed": "中国农业银行",
+  "category": "black",
+  "agName": "中国农业银行",
+  "agBundle": "com.android.bankabc",
+  "agTopName": "中国农业银行",
+  "agTopBundle": "com.android.bankabc",
+  "verifiedBundle": "com.bankabc.openharmonyapp.release",
+  "match": false
+ },
+ {
+  "seed": "中国银行",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "货币汇率计算器国际版",
+  "agTopBundle": "mvtrail.calculator.currencyexchange.intl",
+  "verifiedBundle": "com.boc.bocsoft.mbs.personal",
+  "match": false
+ },
+ {
+  "seed": "交通银行",
+  "category": "black",
+  "agName": "交通银行",
+  "agBundle": "com.bankcomm.Bankcomm",
+  "agTopName": "交通银行",
+  "agTopBundle": "com.bankcomm.Bankcomm",
+  "verifiedBundle": "com.bankcomm.mobshos",
+  "match": false
+ },
+ {
+  "seed": "邮储银行",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "兴业银行",
+  "agTopBundle": "com.cib.cibmb",
+  "verifiedBundle": "com.psbc.mbank.hm",
+  "match": false
+ },
+ {
+  "seed": "中信银行",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "Privary",
+  "agTopBundle": "com.fourchars.privary",
+  "verifiedBundle": "cn.citicbank.wap",
+  "match": false
+ },
+ {
+  "seed": "中国民生银行",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "民生银行",
+  "agTopBundle": "cn.com.cmbc.newmbank",
+  "verifiedBundle": "cn.com.cmbc.ohmbank",
+  "match": false
+ },
+ {
+  "seed": "平安银行",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "平安银行香港",
+  "agTopBundle": "com.pingan.paces.hk",
+  "verifiedBundle": "com.pingan.bank.pocket",
+  "match": false
+ },
+ {
+  "seed": "兴业银行",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "Privary",
+  "agTopBundle": "com.fourchars.privary",
+  "verifiedBundle": "com.cib.cibmbhmos",
+  "match": false
+ },
+ {
+  "seed": "华为视频",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "Deep视频生成AI",
+  "agTopBundle": "com.ledu.deepvideoAIgenerator",
+  "verifiedBundle": "com.huawei.hmsapp.himovie",
+  "match": false
+ },
+ {
+  "seed": "华为音乐",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "MiMu - Music & Audio Player",
+  "agTopBundle": "com.beshevgames.mimu.music.player",
+  "verifiedBundle": "com.huawei.hmsapp.music",
+  "match": false
+ },
+ {
+  "seed": "华为阅读",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "七猫免费小说",
+  "agTopBundle": "com.kmxs.reader",
+  "verifiedBundle": "com.huawei.hmsapp.books",
+  "match": false
+ },
+ {
+  "seed": "华为钱包",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "鹏华A加钱包",
+  "agTopBundle": "com.phfund.wallet",
+  "verifiedBundle": "com.huawei.hmos.wallet",
+  "match": false
+ },
+ {
+  "seed": "运动健康",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "华为运动健康",
+  "agTopBundle": "com.huawei.health",
+  "verifiedBundle": "com.huawei.hmos.health",
+  "match": false
+ },
+ {
+  "seed": "转转",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "Idle Ocean Tycoon",
+  "agTopBundle": "com.swdsystem.iot.huawei",
+  "verifiedBundle": "com.zhuanzhuan.hmoszz",
+  "match": false
+ },
+ {
+  "seed": "58同城",
+  "category": "black",
+  "agName": "58同城",
+  "agBundle": "com.wuba",
+  "agTopName": "58同城",
+  "agTopBundle": "com.wuba",
+  "verifiedBundle": "com.wuba.life",
+  "match": false
+ },
+ {
+  "seed": "海底捞",
+  "category": "black",
+  "agName": "海底捞",
+  "agBundle": "com.haidilao",
+  "agTopName": "海底捞",
+  "agTopBundle": "com.haidilao",
+  "verifiedBundle": "com.haidilao.haros",
+  "match": false
+ },
+ {
+  "seed": "中国移动",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "发现精彩",
+  "agTopBundle": "com.cs_credit_bank",
+  "verifiedBundle": "com.droi.tong",
+  "match": false
+ },
+ {
+  "seed": "中国联通",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "Mahjong Deluxe 3",
+  "agTopBundle": "com.ensenasoft.mahjongdeluxe3",
+  "verifiedBundle": "com.sinovatech.unicom.ha",
+  "match": false
+ },
+ {
+  "seed": "阿里巴巴",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": null,
+  "agTopBundle": null,
+  "verifiedBundle": "com.alibaba.wireless_hmos",
+  "match": false
+ },
+ {
+  "seed": "UC浏览器",
+  "category": "black",
+  "agName": "UC浏览器",
+  "agBundle": "com.UCMobile",
+  "agTopName": "UC浏览器",
+  "agTopBundle": "com.UCMobile",
+  "verifiedBundle": "com.uc.mobile",
+  "match": false
+ },
+ {
+  "seed": "迅雷",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "UC浏览器",
+  "agTopBundle": "com.UCMobile",
+  "verifiedBundle": "com.xunlei.thunder",
+  "match": false
+ },
+ {
+  "seed": "搜狗输入法",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "淘宝",
+  "agTopBundle": "com.taobao.taobao",
+  "verifiedBundle": "com.sogou.input",
+  "match": false
+ },
+ {
+  "seed": "扫描全能王",
+  "category": "black",
+  "agName": "扫描全能王OCR",
+  "agBundle": "com.jkwl.scan.scanningking",
+  "agTopName": "扫描全能王OCR",
+  "agTopBundle": "com.jkwl.scan.scanningking",
+  "verifiedBundle": "com.intsig.camscanner.hap",
+  "match": false
+ },
+ {
+  "seed": "美图秀秀",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "P图修图美图",
+  "agTopBundle": "com.psmasterts.beaty",
+  "verifiedBundle": "com.meitu.meitupic",
+  "match": false
+ },
+ {
+  "seed": "中国光大银行",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "光大银行",
+  "agTopBundle": "com.cebbank.mobile.cemb",
+  "verifiedBundle": "com.cebbank.mobile.cembhmwork",
+  "match": false
+ },
+ {
+  "seed": "华夏银行",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "Privary",
+  "agTopBundle": "com.fourchars.privary",
+  "verifiedBundle": "com.hxb.mobile.hm",
+  "match": false
+ },
+ {
+  "seed": "北京银行",
+  "category": "black",
+  "agName": "北京银行",
+  "agBundle": "com.bankofbeijing.mobilebanking",
+  "agTopName": "北京银行",
+  "agTopBundle": "com.bankofbeijing.mobilebanking",
+  "verifiedBundle": "com.bankofbeijing.hmobilebanking",
+  "match": false
+ },
+ {
+  "seed": "广发银行",
+  "category": "black",
+  "agName": null,
+  "agBundle": null,
+  "agTopName": "广发银行海外",
+  "agTopBundle": "com.cgbchina.aomen",
+  "verifiedBundle": "com.cgbchina.xpt.hm",
+  "match": false
+ },
+ {
+  "seed": "上海银行",
+  "category": "black",
+  "agName": "上海银行",
+  "agBundle": "cn.com.shbank.mper",
+  "agTopName": "上海银行",
+  "agTopBundle": "cn.com.shbank.mper",
+  "verifiedBundle": "cn.com.shbank.mperhm",
+  "match": false
+ }
+]
