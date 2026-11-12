@@ -1,0 +1,41 @@
+name: Update app lists
+
+# 每日定时更新（cron 为 UTC 时间），也可在 Actions 页面手动触发。
+on:
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 采集脚本 scripts/collect.py 由后续提交补入：
+      # 它读取 seeds/ 种子，从华为应用市场公开接口匹配包名，
+      # 刷新 data/apps-pool.json 并生成 dist/perapp-lists.json。
+      - name: Collect app lists
+        run: python scripts/collect.py
+
+      # 只有 dist/ 与 data/ 有实际变化时才提交，避免空提交。
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- dist data && [ -z "$(git status --porcelain -- dist data)" ]; then
+            echo "No changes in dist/ or data/, skip commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist data
+          git commit -m "chore: daily update $(date -u +%F)"
+          git push

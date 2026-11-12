@@ -1,0 +1,14 @@
+# 白名单种子：一行一个应用名，# 开头为注释行。
+# 名称只写括注前的短名（如「花瓣搜索」「HMTG」），不要带括号说明。
+# 白名单 = 需要走代理的应用；采集脚本按此名称去应用市场匹配包名。
+华为浏览器
+花瓣搜索
+花瓣地图 Petal Maps
+华为邮箱
+HMTG
+Petrelgram
+OHgram
+Harmony X
+Instamony
+YourPipe
+ArkCat

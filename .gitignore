@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist-build/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Tooling / IDE
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 本地实跑的临时文件与原始抓取数据（不进仓）
+*.tmp
+raw/
+
+# 注意：dist/perapp-lists.json 与 data/apps-pool.json 是要提交进仓的
+# 正式产物，不要 ignore 它们。
