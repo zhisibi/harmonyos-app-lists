@@ -8,7 +8,7 @@
      （微信 com.tencent.mm），与鸿蒙包名大面积不一致（实测 0/15）。
      本脚本里它只用于榜单采集——发现「哪些应用常用」的名字，包名仅作
      对照记录（bundleSource="appgallery-web"），永不作数。
-  2. 「在线获取包名」接口组（咪咪v2ray App 内同源，见 docs/api.md）：
+  2. 「在线获取包名」接口组（见 docs/api.md）：
      - next.vcck.cn 按名搜索：索引的是鸿蒙 NEXT 目录，返回候选
        （app_id + pkg_name，pkg_name 即鸿蒙包名）；
      - AG webedge/appinfo 精确查（Interface-Code 流程）：按包名查必须
@@ -51,11 +51,11 @@ THROTTLE = 0.45        # AG Web 每请求最小间隔（秒），要求 >= 0.4
 CODE_TTL = 800         # interface-code 有效期 900s，提前刷新
 SEARCH_RETRIES = 2     # 搜索失败重试上限
 
-# --- 「在线获取包名」接口组（与咪咪v2ray AppSearchNet.ets 同源同 UA） ---
+# --- 「在线获取包名」接口组 ---
 HM_BASE = BASE + "/webedge/"
 VCCK_SEARCH = "https://next.vcck.cn/api/apps/search-by-name"
-HM_UA = "Mozilla/5.0 (Linux; HarmonyOS) v2rayMi"   # appinfo 的 JWT 与此 UA 绑定
-VCCK_UA = "v2rayMi"
+HM_UA = "Mozilla/5.0 (Linux; HarmonyOS) harmonyos-app-lists"   # appinfo 的 JWT 与此 UA 绑定
+VCCK_UA = "harmonyos-app-lists"
 HM_THROTTLE = 0.35
 TODAY = date.today().isoformat()
 
@@ -164,7 +164,7 @@ def extract_apps(payload):
 
 # ------------------------------------------------- 在线获取包名（鸿蒙目录）
 class HmClient:
-    """vcck 按名搜索 + AG webedge/appinfo 精确查（流程同 v2raymi App 内）。
+    """vcck 按名搜索 + AG webedge/appinfo 精确查。
 
     - vcck 索引的是鸿蒙 NEXT 目录：search-by-name 返回候选的 pkg_name
       就是鸿蒙包名，但它是第三方索引、覆盖不全，未收录不等于不存在；
