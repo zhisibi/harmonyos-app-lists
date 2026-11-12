@@ -796,6 +796,26 @@
    "name": "车祸模拟器2",
    "bundle": "com.chmnqe.huawei",
    "verified": true
+  },
+  {
+   "name": "咪咪SSH",
+   "bundle": "com.catssh.zhisibi",
+   "verified": true
+  },
+  {
+   "name": "甘肃银行",
+   "bundle": "com.gsbankchina.hphone",
+   "verified": true
+  },
+  {
+   "name": "开发者联盟",
+   "bundle": "com.huawei.hmsapp.alliance",
+   "verified": true
+  },
+  {
+   "name": "咪咪FTP",
+   "bundle": "com.zhisibi.mimiftp",
+   "verified": true
   }
  ]
 }

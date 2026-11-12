@@ -22,5 +22,29 @@
   "category": "exclude",
   "stage": "vcck-no-exact-phone-hit",
   "date": "2026-11-12"
+ },
+ {
+  "name": "个人所得税",
+  "bundle": "cn.gov.chinatax.gt4.hm",
+  "list": "black",
+  "category": "exclude",
+  "stage": "vcck-no-exact-phone-hit",
+  "date": "2026-11-12"
+ },
+ {
+  "name": "WPS Office",
+  "bundle": "cn.wps.mobileoffice.hap",
+  "list": "black",
+  "category": "exclude",
+  "stage": "vcck-no-exact-phone-hit",
+  "date": "2026-11-12"
+ },
+ {
+  "name": "中国移动",
+  "bundle": "com.droi.tong",
+  "list": "black",
+  "category": "exclude",
+  "stage": "vcck-no-exact-phone-hit",
+  "date": "2026-11-12"
  }
 ]

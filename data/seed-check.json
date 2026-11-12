@@ -4675,6 +4675,126 @@
      "byIdName": "车祸模拟器2"
     }
    ]
+  },
+  {
+   "seed": "咪咪SSH",
+   "category": "exclude",
+   "verifiedBundle": "com.catssh.zhisibi",
+   "confirmedBundles": [
+    "com.catssh.zhisibi"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "咪咪SSH",
+     "pkgName": "com.catssh.zhisibi",
+     "appId": "C6917618969542252973",
+     "developerName": "张世博",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/cb05b37dc22a473889e970714dda54de.webp",
+     "version": "1.5.26"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.catssh.zhisibi",
+     "appId": "C6917618969542252973",
+     "developerName": "张世博",
+     "byBundlePkg": "com.catssh.zhisibi",
+     "byBundleName": "咪咪SSH",
+     "byIdPkg": "com.catssh.zhisibi",
+     "byIdName": "咪咪SSH"
+    }
+   ]
+  },
+  {
+   "seed": "甘肃银行",
+   "category": "exclude",
+   "verifiedBundle": "com.gsbankchina.hphone",
+   "confirmedBundles": [
+    "com.gsbankchina.hphone"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "甘肃银行",
+     "pkgName": "com.gsbankchina.hphone",
+     "appId": "C5765880207854358113",
+     "developerName": "甘肃银行股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/13c95221c6b1435ca7d6f5a06b27ec29.webp",
+     "version": "8.3.4"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.gsbankchina.hphone",
+     "appId": "C5765880207854358113",
+     "developerName": "甘肃银行股份有限公司",
+     "byBundlePkg": "com.gsbankchina.hphone",
+     "byBundleName": "甘肃银行",
+     "byIdPkg": "com.gsbankchina.hphone",
+     "byIdName": "甘肃银行"
+    }
+   ]
+  },
+  {
+   "seed": "开发者联盟",
+   "category": "exclude",
+   "verifiedBundle": "com.huawei.hmsapp.alliance",
+   "confirmedBundles": [
+    "com.huawei.hmsapp.alliance"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "开发者联盟",
+     "pkgName": "com.huawei.hmsapp.alliance",
+     "appId": "C5765880207853860463",
+     "developerName": "华为软件技术有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a4a4260e3e8844a3944b24386062165b.webp",
+     "version": "1.1.1.300"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.huawei.hmsapp.alliance",
+     "appId": "C5765880207853860463",
+     "developerName": "华为软件技术有限公司",
+     "byBundlePkg": "com.huawei.hmsapp.alliance",
+     "byBundleName": "开发者联盟",
+     "byIdPkg": "com.huawei.hmsapp.alliance",
+     "byIdName": "开发者联盟"
+    }
+   ]
+  },
+  {
+   "seed": "咪咪FTP",
+   "category": "exclude",
+   "verifiedBundle": "com.zhisibi.mimiftp",
+   "confirmedBundles": [
+    "com.zhisibi.mimiftp"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "咪咪FTP",
+     "pkgName": "com.zhisibi.mimiftp",
+     "appId": "C6917619057925325356",
+     "developerName": "张世博",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/84b5c53fea2b4733b5edae252c582242.webp",
+     "version": "1.3.5"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.zhisibi.mimiftp",
+     "appId": "C6917619057925325356",
+     "developerName": "张世博",
+     "byBundlePkg": "com.zhisibi.mimiftp",
+     "byBundleName": "咪咪FTP",
+     "byIdPkg": "com.zhisibi.mimiftp",
+     "byIdName": "咪咪FTP"
+    }
+   ]
   }
  ]
 }

@@ -871,5 +871,33 @@
   "source": "app-submit+vcck-search+ag-appinfo",
   "collectedAt": "2026-11-12",
   "developer": "厦门歆阳网络科技有限公司"
+ },
+ "咪咪SSH": {
+  "bundle": "com.catssh.zhisibi",
+  "fullName": "咪咪SSH",
+  "source": "app-submit+vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "张世博"
+ },
+ "甘肃银行": {
+  "bundle": "com.gsbankchina.hphone",
+  "fullName": "甘肃银行",
+  "source": "app-submit+vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "甘肃银行股份有限公司"
+ },
+ "开发者联盟": {
+  "bundle": "com.huawei.hmsapp.alliance",
+  "fullName": "开发者联盟",
+  "source": "app-submit+vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "华为软件技术有限公司"
+ },
+ "咪咪FTP": {
+  "bundle": "com.zhisibi.mimiftp",
+  "fullName": "咪咪FTP",
+  "source": "app-submit+vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "张世博"
  }
 }
