@@ -1,20 +1,34 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""华为应用市场（AppGallery Web）采集脚本 —— 仅 Python 标准库。
+"""华为应用市场采集脚本 —— 仅 Python 标准库。
 
-数据口径（重要）：
-  AG Web 接口返回的是**安卓目录包名**（如微信 com.tencent.mm），与已核实的
-  鸿蒙包名（com.tencent.wechat）大面积不一致。因此：
+数据口径（重要，2026-11-12 改版）：
+  本仓库涉及两个完全不同的接口，返回的包名不是一回事：
+  1. AG Web 目录接口（getTabDetail / getTemplate）：返回**安卓目录包名**
+     （微信 com.tencent.mm），与鸿蒙包名大面积不一致（实测 0/15）。
+     本脚本里它只用于榜单采集——发现「哪些应用常用」的名字，包名仅作
+     对照记录（bundleSource="appgallery-web"），永不作数。
+  2. 「在线获取包名」接口组（咪咪v2ray App 内同源，见 docs/api.md）：
+     - next.vcck.cn 按名搜索：索引的是鸿蒙 NEXT 目录，返回候选
+       （app_id + pkg_name，pkg_name 即鸿蒙包名）；
+     - AG webedge/appinfo 精确查（Interface-Code 流程）：按包名查必须
+       原样回显该包名、按 appId 查返回其 pkgName，双向都对上才算确认。
+     已用 12 个已知应用验证：appinfo 按包名 12/12 精确回显已核实鸿蒙
+     包名；vcck 精确名命中里 10/12 含已核实包名（未收录 ≠ 冲突）。
+
   - data/verified.json 是唯一权威源，dist 的 bundle 只取它；
-  - AG 搜索只用于种子对账（data/seed-check.json）与榜单应用池
-    （data/apps-pool.json，条目带 bundleSource="appgallery-web" 标明来源）。
+  - 新包名进 verified.json 的唯一路径：vcck 发现 + appinfo 双向确认 +
+    人工/多源复核后手动写入（带 source / collectedAt / developer）；
+  - 对账发现的冲突只记录在 data/seed-check.json，绝不静默改 verified。
 
 流程：
-  1. interface-code 三件套取码（见 docs/api.md）；
-  2. 逐个种子调 searchApp|<名> 对账 AG 包名 vs 已核实包名；
-  3. getTemplate -> Top tab + 分类 tab（Apps/Games）各取一页榜单，汇总 pool；
-  4. 按 seeds 顺序、只用 verified.json 生成 dist/perapp-lists.json；
-  5. stdout 打印运行摘要。
+  1. 种子对账：逐个种子走 vcck 搜索 + appinfo 确认，与 verified 比对，
+     结果写 data/seed-check.json（match / conflict / not-indexed）；
+  2. 榜单采集：getTemplate -> Top + 分类（Apps/Games）各一页，汇入应用池
+     （data/apps-pool.json），再逐个用新接口核实鸿蒙包名，核实结果写
+     data/pool-check.json 并以 hmBundle 字段标注回应用池；
+  3. 按 seeds 顺序、只用 verified.json 生成 dist/perapp-lists.json；
+  4. stdout 打印运行摘要。
 """
 
 import http.cookiejar
@@ -25,6 +39,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -32,14 +47,26 @@ BASE = "https://web-drcn.hispace.dbankcloud.com/edge"  # 中国区
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
 LOCALE = "zh"
-THROTTLE = 0.45        # 每请求最小间隔（秒），要求 >= 0.4
+THROTTLE = 0.45        # AG Web 每请求最小间隔（秒），要求 >= 0.4
 CODE_TTL = 800         # interface-code 有效期 900s，提前刷新
 SEARCH_RETRIES = 2     # 搜索失败重试上限
+
+# --- 「在线获取包名」接口组（与咪咪v2ray AppSearchNet.ets 同源同 UA） ---
+HM_BASE = BASE + "/webedge/"
+VCCK_SEARCH = "https://next.vcck.cn/api/apps/search-by-name"
+HM_UA = "Mozilla/5.0 (Linux; HarmonyOS) v2rayMi"   # appinfo 的 JWT 与此 UA 绑定
+VCCK_UA = "v2rayMi"
+HM_THROTTLE = 0.35
+TODAY = date.today().isoformat()
 
 
 # ---------------------------------------------------------------- HTTP 层
 class AgClient:
-    """照抄官网 JS 的 interface-code 流程（实测细节见 docs/api.md）。"""
+    """照抄官网 JS 的 interface-code 流程（实测细节见 docs/api.md）。
+
+    只用于 getTabDetail / getTemplate（榜单发现应用名）；其返回的包名
+    是安卓目录包名，不作核实依据。
+    """
 
     def __init__(self):
         cj = http.cookiejar.CookieJar()
@@ -135,51 +162,177 @@ def extract_apps(payload):
     return apps
 
 
-# ---------------------------------------------------------------- 种子对账
-def pick_best(seed, apps):
-    """取与种子名可信对应的结果，宁缺毋滥。
+# ------------------------------------------------- 在线获取包名（鸿蒙目录）
+class HmClient:
+    """vcck 按名搜索 + AG webedge/appinfo 精确查（流程同 v2raymi App 内）。
 
-    实测教训：本接口的搜索返回的是宽松的 safeappcard 推荐流，目标应用
-    经常不在结果里，且混有大量近名异物（如搜「花瓣搜索」混入「花瓣地图」、
-    搜「QQ音乐」只有「QQ音乐HD」）。用包含/相似度匹配会把异物当成本体，
-    污染对账，故只接受：
-      1. 规范化（去空格、忽略大小写）后名称全等；
-      2. 名称以种子名开头且尾巴是已知良性后缀（OCR / -PDF,…，如
-         「扫描全能王OCR」「WPS Office-PDF,Word,Excel,PPT」）。
-    其余一律视为未找到（返回 None），不用异物包名冒充对账结果。
+    - vcck 索引的是鸿蒙 NEXT 目录：search-by-name 返回候选的 pkg_name
+      就是鸿蒙包名，但它是第三方索引、覆盖不全，未收录不等于不存在；
+    - appinfo 是精确核验器：按包名查，响应 pkgName 必须与所查包名全等；
+      按 appId 查，响应 pkgName 即该应用的包名。候选须两向都对上、
+      且 appinfo 返回名与查询名全等，才计 confirmed。
     """
-    if not apps:
-        return None
-    norm = lambda s: s.replace(" ", "").lower()
-    nseed = norm(seed)
-    for a in apps:
-        if norm(a["name"]) == nseed:
-            return a
-    for a in apps:
-        nname = norm(a["name"])
-        if nname.startswith(nseed):
-            rest = nname[len(nseed):].lstrip("-")
-            if rest == "ocr" or rest.startswith("pdf"):
-                return a
-    return None
 
+    def __init__(self):
+        self.code = None
+        self.code_at = 0.0
+        self._last_req = 0.0
 
-def search_seed(client, seed):
-    """搜索单个种子，失败重试 <= SEARCH_RETRIES 次。
+    def _throttle(self):
+        wait = HM_THROTTLE - (time.time() - self._last_req)
+        if wait > 0:
+            time.sleep(wait)
+        self._last_req = time.time()
 
-    返回 (最佳可信匹配, 结果首条)；都可能为 None。
-    """
-    last_err = None
-    for _ in range(SEARCH_RETRIES + 1):
+    def _raw(self, url, method="GET", body=None, headers=None, ua=HM_UA):
+        h = {"User-Agent": ua, "Accept": "application/json"}
+        if headers:
+            h.update(headers)
+        data = body.encode() if isinstance(body, str) else body
+        req = urllib.request.Request(url, data=data, headers=h, method=method)
+        self._throttle()
         try:
-            payload = client.get_tab_detail(f"searchApp|{seed}")
-            apps = extract_apps(payload)
-            return pick_best(seed, apps), (apps[0] if apps else None)
-        except RuntimeError as e:
-            last_err = e
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                return resp.status, resp.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as e:
+            return e.code, e.read().decode("utf-8", "replace")
+        except Exception as e:
+            return None, f"ERR {e}"
+
+    def _fetch_code(self):
+        st, raw = self._raw(HM_BASE + "getInterfaceCode", "POST",
+                            '{"params":{},"zone":"","locale":"zh"}',
+                            {"Content-Type": "application/json"})
+        if st != 200:
+            raise RuntimeError(f"hm getInterfaceCode HTTP {st}")
+        code = json.loads(raw)
+        if not isinstance(code, str) or len(code) < 40:
+            raise RuntimeError("hm getInterfaceCode: bad body")
+        self.code, self.code_at = code, time.time()
+
+    def _code(self):
+        if self.code is None or time.time() - self.code_at > 600:
+            self._fetch_code()
+        return self.code
+
+    def appinfo(self, pkg_name, app_id):
+        """POST appinfo；返回解析后的 dict，查无此应用时带 empty=True。"""
+        for attempt in (0, 1):
+            try:
+                jwt = self._code()
+            except RuntimeError:
+                self.code = None
+                if attempt == 0:
+                    continue
+                return {"error": "no interface code"}
+            body = json.dumps({"pkgName": pkg_name, "appId": app_id,
+                               "locale": "zh_CN", "countryCode": "CN"})
+            st, raw = self._raw(
+                HM_BASE + "appinfo", "POST", body,
+                {"Content-Type": "application/json",
+                 "Interface-Code": f"{jwt}_{int(time.time() * 1000)}"})
+            if st == 200 and raw.strip():
+                try:
+                    return json.loads(raw)
+                except ValueError:
+                    return {"error": "bad json"}
+            if st == 200:
+                return {"empty": True}
+            self.code = None
             time.sleep(1.0)
-    print(f"  [warn] search failed for {seed}: {last_err}", file=sys.stderr)
-    return None, None
+        return {"error": "appinfo failed"}
+
+    def vcck_pages(self, q, max_pages=4):
+        """逐页拉 vcck 搜索结果（page_size=20），命中精确名或翻完即停。"""
+        out, total = [], None
+        for page in range(1, max_pages + 1):
+            url = VCCK_SEARCH + "?" + urllib.parse.urlencode(
+                {"q": q, "page": page, "page_size": 20})
+            got = None
+            for _ in range(SEARCH_RETRIES + 1):
+                st, raw = self._raw(url, ua=VCCK_UA)
+                if st == 200:
+                    try:
+                        got = json.loads(raw)
+                        break
+                    except ValueError:
+                        pass
+                time.sleep(1.2)
+            if not got or not got.get("success"):
+                break
+            data = got.get("data") or []
+            out.extend(data)
+            total = got.get("total", total)
+            if any(norm(it.get("name")) == norm(q) for it in data):
+                break
+            if not data or (total is not None and len(out) >= total):
+                break
+            time.sleep(HM_THROTTLE)
+        return out, total
+
+
+def norm(s):
+    return (s or "").replace(" ", "").replace("　", "").lower()
+
+
+def _is_variant(pkg, icon):
+    """同名异物：PC 版、手表版不算手机本体候选。"""
+    p = (pkg or "").lower()
+    if p.endswith(".pc") or ".pc." in p or "watch" in p:
+        return True
+    return bool(icon) and "/pc/" in icon
+
+
+def resolve_name(hm, name):
+    """按名解析一个应用，返回带完整证据的记录（不做任何写库决定）。
+
+    confirmed 的判定（与 2026-11-12 验证轮一致）：候选来自 vcck 精确名
+    命中、图标为 phone 形态、非 PC/手表变体，且 appinfo 按包名与按
+    appId 两向返回的 pkgName 都等于候选、返回名与查询名全等。
+    元服务版（com.atomicservice.*）会一并出现在 confirmed 里，取本体时
+    须排除（见 pick_main_bundle）。
+    """
+    rec = {"query": name}
+    data, total = hm.vcck_pages(name)
+    rec["vcckTotal"] = total
+    exact = [it for it in data if norm(it.get("name")) == norm(name)]
+    rec["exactHits"] = [
+        {"name": it.get("name"), "pkgName": it.get("pkg_name"),
+         "appId": it.get("app_id"), "developerName": it.get("developer_name"),
+         "iconUrl": it.get("icon_url"), "version": it.get("version")}
+        for it in exact]
+    phones = [it for it in exact
+              if it.get("icon_url") and "/phone/" in it["icon_url"]
+              and not _is_variant(it.get("pkg_name"), it.get("icon_url"))]
+    rec["phoneCandidates"] = [it.get("pkg_name") for it in phones]
+    confs = []
+    for it in phones[:3]:
+        cand = it.get("pkg_name")
+        by_bundle = hm.appinfo(cand, cand)
+        time.sleep(HM_THROTTLE)
+        by_id = hm.appinfo("", str(it.get("app_id") or ""))
+        time.sleep(HM_THROTTLE)
+        confs.append({
+            "bundle": cand, "appId": it.get("app_id"),
+            "developerName": it.get("developer_name"),
+            "byBundlePkg": by_bundle.get("pkgName"),
+            "byBundleName": by_bundle.get("name"),
+            "byIdPkg": by_id.get("pkgName"),
+            "byIdName": by_id.get("name")})
+    rec["confirmations"] = confs
+    rec["confirmed"] = [
+        c["bundle"] for c in confs
+        if c["byBundlePkg"] == c["bundle"] and c["byIdPkg"] == c["bundle"]
+        and c["byBundleName"] and norm(c["byBundleName"]) == norm(name)]
+    return rec
+
+
+def pick_main_bundle(confirmed):
+    """confirmed 里取本体包名：排除元服务（com.atomicservice.*）后的第一条。"""
+    for b in confirmed or []:
+        if not b.startswith("com.atomicservice."):
+            return b
+    return None
 
 
 def read_seeds(name):
@@ -211,7 +364,11 @@ def find_tabs(template):
 
 
 def collect_pool(client):
-    """Top 总榜 + 主要分类各一页，按 bundle 去重保留最高排名。"""
+    """Top 总榜 + 主要分类各一页，按 bundle 去重保留最高排名。
+
+    注意：这里的 bundle 是 AG Web 的安卓目录包名，只用于发现应用名与
+    对照记录；鸿蒙包名由 resolve_name 另行核实（hmBundle）。
+    """
     template = client.get_template()
     top_id, categories = find_tabs(template)
     sources = []
@@ -240,7 +397,10 @@ def collect_pool(client):
 
 
 def merge_pool(old, new):
-    """与上次 pool 合并：旧条目本次没抓到不删，标 stale=true。"""
+    """与上次 pool 合并：旧条目本次没抓到不删，标 stale=true。
+
+    旧条目上的 hmBundle 等核实标注随条目保留，resolve 阶段会刷新。
+    """
     new_bundles = {e["bundle"] for e in new}
     merged = list(new)
     for e in old or []:
@@ -255,46 +415,88 @@ def merge_pool(old, new):
 def main():
     verified = json.loads((ROOT / "data" / "verified.json").read_text("utf-8"))
     seeds = {cat: read_seeds(cat) for cat in ("white", "black")}
-    client = AgClient()
+    ag = AgClient()
+    hm = HmClient()
 
-    # 1) 种子对账：AG 搜索包名 vs 已核实包名
-    check, match, conflict, unresolved = [], 0, 0, []
+    # 1) 种子对账：vcck 搜索 + appinfo 确认 vs verified（只记录，不改 verified）
+    check, n_match, n_conflict, n_absent = [], 0, 0, 0
     total = sum(len(v) for v in seeds.values())
     done = 0
     for cat in ("white", "black"):
         for seed in seeds[cat]:
             done += 1
             v = verified.get(seed)
-            if v is None:
-                unresolved.append(seed)  # 无权威源，不用 AG 包名冒充
-            hit, top = search_seed(client, seed)
-            ag_bundle = hit["bundle"] if hit else None
-            same = (ag_bundle is not None and v is not None
-                    and ag_bundle == v["bundle"])
-            if v is not None:
-                if same:
-                    match += 1
-                elif ag_bundle is not None:
-                    conflict += 1
-            check.append({"seed": seed, "category": cat,
-                          "agName": hit["name"] if hit else None,
-                          "agBundle": ag_bundle,
-                          "agTopName": top["name"] if top else None,
-                          "agTopBundle": top["bundle"] if top else None,
-                          "verifiedBundle": v["bundle"] if v else None,
-                          "match": same if v is not None else None})
-            print(f"  [{done}/{total}] {seed}: AG={ag_bundle} "
-                  f"verified={v['bundle'] if v else None} match={same}")
+            v_bundle = v["bundle"] if v else None
+            try:
+                rec = resolve_name(hm, seed)
+            except Exception as e:  # 单条失败不中断全轮
+                print(f"  [warn] resolve failed for {seed}: {e}",
+                      file=sys.stderr)
+                rec = {"query": seed, "exactHits": [], "phoneCandidates": [],
+                       "confirmations": [], "confirmed": [], "fatal": str(e)}
+            confirmed = rec.get("confirmed", [])
+            if v_bundle is not None and v_bundle in confirmed:
+                status = "match"
+                n_match += 1
+            elif confirmed:
+                status = "conflict"  # 接口确认了别的包名：只上报，不改 verified
+                n_conflict += 1
+            else:
+                status = "not-indexed"  # 索引未收录，不等于 verified 有问题
+                n_absent += 1
+            entry = {"seed": seed, "category": cat,
+                     "verifiedBundle": v_bundle,
+                     "confirmedBundles": confirmed,
+                     "status": status,
+                     "exactHits": rec.get("exactHits", []),
+                     "confirmations": rec.get("confirmations", [])}
+            if status == "conflict" and v_bundle is not None:
+                # 附带查清 verified 包名在目录里到底是谁，供人工裁决
+                info = hm.appinfo(v_bundle, v_bundle)
+                entry["verifiedBundleName"] = info.get("name")
+                time.sleep(HM_THROTTLE)
+            check.append(entry)
+            print(f"  [{done}/{total}] {seed}: status={status} "
+                  f"confirmed={confirmed} verified={v_bundle}")
     (ROOT / "data" / "seed-check.json").write_text(
-        json.dumps(check, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        json.dumps({"interface": "vcck-search+ag-appinfo",
+                    "generatedAt": TODAY, "results": check},
+                   ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
-    # 2) 榜单采集 + 与旧 pool 合并
+    # 2) 榜单采集（AG Web 只发现名字）+ 与旧 pool 合并 + 鸿蒙包名核实
     pool_path = ROOT / "data" / "apps-pool.json"
     old_pool = (json.loads(pool_path.read_text("utf-8"))
                 if pool_path.exists() else [])
-    pool = merge_pool(old_pool, collect_pool(client))
+    pool = merge_pool(old_pool, collect_pool(ag))
+    pool_check, n_pool_ok = [], 0
+    for e in pool:
+        try:
+            rec = resolve_name(hm, e["name"])
+        except Exception as ex:
+            print(f"  [warn] pool resolve failed for {e['name']}: {ex}",
+                  file=sys.stderr)
+            rec = {"confirmed": [], "exactHits": [], "confirmations": []}
+        main_bundle = pick_main_bundle(rec.get("confirmed", []))
+        if main_bundle:
+            e["hmBundle"] = main_bundle
+            e["hmBundleSource"] = "vcck-search+ag-appinfo"
+            n_pool_ok += 1
+        else:
+            e.pop("hmBundle", None)
+            e.pop("hmBundleSource", None)
+        pool_check.append({
+            "name": e["name"], "agwebBundle": e["bundle"],
+            "hmBundle": main_bundle,
+            "confirmedBundles": rec.get("confirmed", []),
+            "exactHits": rec.get("exactHits", []),
+            "confirmations": rec.get("confirmations", [])})
+        print(f"  [pool] {e['name']}: hmBundle={main_bundle}")
     pool_path.write_text(json.dumps(pool, ensure_ascii=False, indent=1) + "\n",
                          encoding="utf-8")
+    (ROOT / "data" / "pool-check.json").write_text(
+        json.dumps({"interface": "vcck-search+ag-appinfo",
+                    "generatedAt": TODAY, "results": pool_check},
+                   ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     # 3) dist：只取 verified.json，顺序同 seeds，解析不到的不进表
     dist = {}
@@ -307,12 +509,14 @@ def main():
 
     # 4) 摘要
     print("=== summary ===")
-    print(f"pool entries: {len(pool)}")
-    print(f"seed check: match={match} conflict={conflict} "
-          f"total_verified={match + conflict}")
-    print(f"seed check: ag_not_found="
-          f"{sum(len(v) for v in seeds.values()) - len(unresolved) - match - conflict}")
-    print(f"unresolved seeds: {len(unresolved)} {unresolved}")
+    print(f"seed check: match={n_match} conflict={n_conflict} "
+          f"not-indexed={n_absent} total={total}")
+    for e in check:
+        if e["status"] == "conflict":
+            print(f"  conflict: {e['seed']} verified={e['verifiedBundle']} "
+                  f"({e.get('verifiedBundleName')}) "
+                  f"confirmed={e['confirmedBundles']}")
+    print(f"pool entries: {len(pool)} hmBundle confirmed: {n_pool_ok}")
     print(f"dist: white={len(dist['white'])} black={len(dist['black'])}")
 
 

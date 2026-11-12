@@ -1,12 +1,5 @@
 [
  {
-  "name": "车祸模拟器2",
-  "bundle": "com.achmnqe",
-  "rank": 1,
-  "from": "Games",
-  "bundleSource": "appgallery-web"
- },
- {
   "name": "Opera Mini: Fast Web Browser",
   "bundle": "com.opera.mini.native",
   "rank": 1,
@@ -14,24 +7,10 @@
   "bundleSource": "appgallery-web"
  },
  {
-  "name": "暴走山地自行车2",
-  "bundle": "com.bzsdzxc2apk.huawei",
-  "rank": 2,
-  "from": "Games",
-  "bundleSource": "appgallery-web"
- },
- {
   "name": "CapCut",
   "bundle": "com.lemon.lvoverseas",
   "rank": 2,
   "from": "Top",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "欧洲卡车模拟器",
-  "bundle": "com.ozkcmnqapk.huawei",
-  "rank": 3,
-  "from": "Games",
   "bundleSource": "appgallery-web"
  },
  {
@@ -49,20 +28,6 @@
   "bundleSource": "appgallery-web"
  },
  {
-  "name": "国产车模拟器",
-  "bundle": "com.gccmnqapk.huawei",
-  "rank": 4,
-  "from": "Games",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "开心台球",
-  "bundle": "com.zyyx.kxtqyx.huawei",
-  "rank": 5,
-  "from": "Games",
-  "bundleSource": "appgallery-web"
- },
- {
   "name": "Likee - Short Video Community",
   "bundle": "video.like.huawei",
   "rank": 5,
@@ -70,24 +35,10 @@
   "bundleSource": "appgallery-web"
  },
  {
-  "name": "警车模拟2025",
-  "bundle": "com.jcmn2025apk.huawei",
-  "rank": 6,
-  "from": "Games",
-  "bundleSource": "appgallery-web"
- },
- {
   "name": "VPN Master: Free & Secure VPN",
   "bundle": "free.vpn.unblock.proxy.vpnmaster",
   "rank": 6,
   "from": "Top",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "警车驾驶模拟",
-  "bundle": "com.jcjsmnapk.huawei",
-  "rank": 7,
-  "from": "Games",
   "bundleSource": "appgallery-web"
  },
  {
@@ -105,13 +56,6 @@
   "bundleSource": "appgallery-web"
  },
  {
-  "name": "挖掘机3D驾驶",
-  "bundle": "com.whj3djsapk.huawei",
-  "rank": 8,
-  "from": "Games",
-  "bundleSource": "appgallery-web"
- },
- {
   "name": "Absa Banking App",
   "bundle": "com.barclays.absa.banking",
   "rank": 9,
@@ -119,31 +63,10 @@
   "bundleSource": "appgallery-web"
  },
  {
-  "name": "卡车模拟驾驶",
-  "bundle": "com.kcmnjsapk.huawei",
-  "rank": 9,
-  "from": "Games",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "亚洲卡车驾驶模拟器",
-  "bundle": "com.yzkcjsmnqapk.huawei",
-  "rank": 10,
-  "from": "Games",
-  "bundleSource": "appgallery-web"
- },
- {
   "name": "Yandex Music, Books & Podcasts",
   "bundle": "ru.yandex.music",
   "rank": 10,
   "from": "Top",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "疯狂特技赛车",
-  "bundle": "com.fktjscapk.huawei",
-  "rank": 11,
-  "from": "Games",
   "bundleSource": "appgallery-web"
  },
  {
@@ -161,24 +84,10 @@
   "bundleSource": "appgallery-web"
  },
  {
-  "name": "越野摩托车",
-  "bundle": "com.yymtcapk.huawei",
-  "rank": 12,
-  "from": "Games",
-  "bundleSource": "appgallery-web"
- },
- {
   "name": "Radio FM",
   "bundle": "com.radio.fmradio",
   "rank": 13,
   "from": "Top",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "越野车山地竞速",
-  "bundle": "com.yycsdjsapk.huawei",
-  "rank": 13,
-  "from": "Games",
   "bundleSource": "appgallery-web"
  },
  {
@@ -189,25 +98,159 @@
   "bundleSource": "appgallery-web"
  },
  {
+  "name": "BBVA México",
+  "bundle": "com.bancomer.mbanking",
+  "rank": 15,
+  "from": "Top",
+  "bundleSource": "appgallery-web"
+ },
+ {
+  "name": "车祸模拟器2",
+  "bundle": "com.achmnqe",
+  "rank": 1,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "stale": true,
+  "hmBundle": "com.chmnqe.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "暴走山地自行车2",
+  "bundle": "com.bzsdzxc2apk.huawei",
+  "rank": 2,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "欧洲卡车模拟器",
+  "bundle": "com.ozkcmnqapk.huawei",
+  "rank": 3,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "国产车模拟器",
+  "bundle": "com.gccmnqapk.huawei",
+  "rank": 4,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "stale": true,
+  "hmBundle": "com.gccmnqhap.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "开心台球",
+  "bundle": "com.zyyx.kxtqyx.huawei",
+  "rank": 5,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "stale": true,
+  "hmBundle": "com.zykeji.kxtq.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "警车模拟2025",
+  "bundle": "com.jcmn2025apk.huawei",
+  "rank": 6,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "警车驾驶模拟",
+  "bundle": "com.jcjsmnapk.huawei",
+  "rank": 7,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "stale": true,
+  "hmBundle": "com.jcjsmn.hm.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "挖掘机3D驾驶",
+  "bundle": "com.whj3djsapk.huawei",
+  "rank": 8,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "stale": true,
+  "hmBundle": "com.wjj3djs.hm.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "卡车模拟驾驶",
+  "bundle": "com.kcmnjsapk.huawei",
+  "rank": 9,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
+  "name": "亚洲卡车驾驶模拟器",
+  "bundle": "com.yzkcjsmnqapk.huawei",
+  "rank": 10,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "stale": true,
+  "hmBundle": "com.yzkcjsmnq.hm.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "疯狂特技赛车",
+  "bundle": "com.fktjscapk.huawei",
+  "rank": 11,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "stale": true,
+  "hmBundle": "com.fktjsc.hm.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "越野摩托车",
+  "bundle": "com.yymtcapk.huawei",
+  "rank": 12,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "stale": true,
+  "hmBundle": "com.yymtc.hm.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
+  "name": "越野车山地竞速",
+  "bundle": "com.yycsdjsapk.huawei",
+  "rank": 13,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "stale": true
+ },
+ {
   "name": "救护车驾驶",
   "bundle": "com.jhcjsapk.huawei",
   "rank": 14,
   "from": "Games",
-  "bundleSource": "appgallery-web"
+  "bundleSource": "appgallery-web",
+  "stale": true,
+  "hmBundle": "com.hm.jhcjs.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
   "name": "Snaptube",
   "bundle": "com.snaptube.premium",
   "rank": 15,
   "from": "Top",
-  "bundleSource": "appgallery-web"
+  "bundleSource": "appgallery-web",
+  "stale": true
  },
  {
   "name": "越野登山赛车",
   "bundle": "com.yydsscapk.huawei",
   "rank": 15,
   "from": "Games",
-  "bundleSource": "appgallery-web"
+  "bundleSource": "appgallery-web",
+  "stale": true,
+  "hmBundle": "com.yydssc.hm.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
   "name": "易次元",
@@ -223,7 +266,9 @@
   "rank": 2,
   "from": "Apps",
   "bundleSource": "appgallery-web",
-  "stale": true
+  "stale": true,
+  "hmBundle": "com.qimao.novel",
+  "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
   "name": "快看漫画",
@@ -231,7 +276,9 @@
   "rank": 3,
   "from": "Apps",
   "bundleSource": "appgallery-web",
-  "stale": true
+  "stale": true,
+  "hmBundle": "com.kuaikan.world",
+  "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
   "name": "话本小说",
@@ -247,7 +294,9 @@
   "rank": 5,
   "from": "Apps",
   "bundleSource": "appgallery-web",
-  "stale": true
+  "stale": true,
+  "hmBundle": "com.migu.cmread.hm",
+  "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
   "name": "百灵创作",
@@ -263,7 +312,9 @@
   "rank": 7,
   "from": "Apps",
   "bundleSource": "appgallery-web",
-  "stale": true
+  "stale": true,
+  "hmBundle": "com.jd.app.reader.hos",
+  "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
   "name": "哔哩哔哩漫画",
@@ -271,7 +322,9 @@
   "rank": 8,
   "from": "Apps",
   "bundleSource": "appgallery-web",
-  "stale": true
+  "stale": true,
+  "hmBundle": "yylx.bilibili.comic",
+  "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
   "name": "懒人听书",
@@ -279,7 +332,9 @@
   "rank": 9,
   "from": "Apps",
   "bundleSource": "appgallery-web",
-  "stale": true
+  "stale": true,
+  "hmBundle": "bubei.tingshu.hos",
+  "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
   "name": "今日看看极速版",
@@ -295,7 +350,9 @@
   "rank": 11,
   "from": "Apps",
   "bundleSource": "appgallery-web",
-  "stale": true
+  "stale": true,
+  "hmBundle": "com.zhibo8.hmclient",
+  "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
   "name": "虎扑",
@@ -303,7 +360,9 @@
   "rank": 12,
   "from": "Apps",
   "bundleSource": "appgallery-web",
-  "stale": true
+  "stale": true,
+  "hmBundle": "com.hupu.heroes",
+  "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
   "name": "盐言故事",
@@ -311,7 +370,9 @@
   "rank": 13,
   "from": "Apps",
   "bundleSource": "appgallery-web",
-  "stale": true
+  "stale": true,
+  "hmBundle": "com.zhihu.vip.hmos",
+  "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
   "name": "简讯",
@@ -319,7 +380,9 @@
   "rank": 14,
   "from": "Apps",
   "bundleSource": "appgallery-web",
-  "stale": true
+  "stale": true,
+  "hmBundle": "com.tipsoon.harm",
+  "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
   "name": "画涯",
@@ -327,6 +390,8 @@
   "rank": 15,
   "from": "Apps",
   "bundleSource": "appgallery-web",
-  "stale": true
+  "stale": true,
+  "hmBundle": "com.huaya.view",
+  "hmBundleSource": "vcck-search+ag-appinfo"
  }
 ]

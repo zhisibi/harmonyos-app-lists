@@ -1,802 +1,2718 @@
-[
- {
-  "seed": "华为浏览器",
-  "category": "white",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "OffLine Browser",
-  "agTopBundle": "it.nikodroid.offline",
-  "verifiedBundle": "com.huawei.hmos.browser",
-  "match": false
- },
- {
-  "seed": "花瓣搜索",
-  "category": "white",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "花瓣地图",
-  "agTopBundle": "com.huawei.maps.app",
-  "verifiedBundle": "com.huawei.hmsapp.hisearch",
-  "match": false
- },
- {
-  "seed": "花瓣地图 Petal Maps",
-  "category": "white",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "花瓣地图",
-  "agTopBundle": "com.huawei.maps.app",
-  "verifiedBundle": "com.huawei.hmos.maps.app",
-  "match": false
- },
- {
-  "seed": "华为邮箱",
-  "category": "white",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "指南针",
-  "agTopBundle": "com.huawei.compass",
-  "verifiedBundle": "com.huawei.hmos.email",
-  "match": false
- },
- {
-  "seed": "HMTG",
-  "category": "white",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.YuanChu.HMTG",
-  "match": false
- },
- {
-  "seed": "Petrelgram",
-  "category": "white",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.miramira8295.petrelgram",
-  "match": false
- },
- {
-  "seed": "OHgram",
-  "category": "white",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.mikannqaq.ohgram",
-  "match": false
- },
- {
-  "seed": "Harmony X",
-  "category": "white",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.haohaoai0.harmonyx",
-  "match": false
- },
- {
-  "seed": "Instamony",
-  "category": "white",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.fanha.instarmony",
-  "match": false
- },
- {
-  "seed": "YourPipe",
-  "category": "white",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.talon.yourpipe",
-  "match": false
- },
- {
-  "seed": "ArkCat",
-  "category": "white",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "ARK CAT ATTACK",
-  "agTopBundle": "com.mozthetiger.arkcatattack.huawei",
-  "verifiedBundle": "me.zmbad.arkcat",
-  "match": false
- },
- {
-  "seed": "微信",
-  "category": "black",
-  "agName": "微信",
-  "agBundle": "com.tencent.mm",
-  "agTopName": "微信",
-  "agTopBundle": "com.tencent.mm",
-  "verifiedBundle": "com.tencent.wechat",
-  "match": false
- },
- {
-  "seed": "QQ",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "Penguin Wallpapers",
-  "agTopBundle": "best.lovely.wallpaper.PenguinWallpapers.Penguin_Wallpapers",
-  "verifiedBundle": "com.tencent.mqq",
-  "match": false
- },
- {
-  "seed": "微博",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "ArtHola",
-  "agTopBundle": "com.arthola.app",
-  "verifiedBundle": "com.sina.weibo.stage",
-  "match": false
- },
- {
-  "seed": "支付宝",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "Currency Converter",
-  "agTopBundle": "com.imploded.currencyconverter",
-  "verifiedBundle": "com.alipay.mobile.client",
-  "match": false
- },
- {
-  "seed": "淘宝",
-  "category": "black",
-  "agName": "淘宝",
-  "agBundle": "com.taobao.taobao",
-  "agTopName": "淘宝",
-  "agTopBundle": "com.taobao.taobao",
-  "verifiedBundle": "com.taobao.taobao4hmos",
-  "match": false
- },
- {
-  "seed": "京东",
-  "category": "black",
-  "agName": "京东",
-  "agBundle": "com.jingdong.app.mall",
-  "agTopName": "京东",
-  "agTopBundle": "com.jingdong.app.mall",
-  "verifiedBundle": "com.jd.hm.mall",
-  "match": false
- },
- {
-  "seed": "拼多多",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "淘宝",
-  "agTopBundle": "com.taobao.taobao",
-  "verifiedBundle": "com.xunmeng.pinduoduo.hos",
-  "match": false
- },
- {
-  "seed": "闲鱼",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "Idle Ocean Tycoon",
-  "agTopBundle": "com.swdsystem.iot.huawei",
-  "verifiedBundle": "com.taobao.idlefish4ohos",
-  "match": false
- },
- {
-  "seed": "唯品会",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "Air Force Jet Combat",
-  "agTopBundle": "com.huawie.AirForce.Jet.Combat",
-  "verifiedBundle": "com.vip.hosapp",
-  "match": false
- },
- {
-  "seed": "得物",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "TommyGuide",
-  "agTopBundle": "com.tommy.mjtt.en",
-  "verifiedBundle": "com.dewu.hos",
-  "match": false
- },
- {
-  "seed": "小红书",
-  "category": "black",
-  "agName": "小红书",
-  "agBundle": "com.xingin.xhs",
-  "agTopName": "小红书",
-  "agTopBundle": "com.xingin.xhs",
-  "verifiedBundle": "com.xingin.xhs_hos",
-  "match": false
- },
- {
-  "seed": "知乎",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.zhihu.hmos",
-  "match": false
- },
- {
-  "seed": "抖音",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "微信",
-  "agTopBundle": "com.tencent.mm",
-  "verifiedBundle": "com.ss.hm.ugc.aweme",
-  "match": false
- },
- {
-  "seed": "快手",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.kuaishou.hmapp",
-  "match": false
- },
- {
-  "seed": "快手极速版",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.kuaishou.hmnebula",
-  "match": false
- },
- {
-  "seed": "哔哩哔哩",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "SpeedBall Crazy Smash Hit",
-  "agTopBundle": "com.huawie.speeball",
-  "verifiedBundle": "yylx.danmaku.bili",
-  "match": false
- },
- {
-  "seed": "百度",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "OffLine Browser",
-  "agTopBundle": "it.nikodroid.offline",
-  "verifiedBundle": "com.baidu.baiduapp",
-  "match": false
- },
- {
-  "seed": "今日头条",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.ss.hm.article.news",
-  "match": false
- },
- {
-  "seed": "豆包",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.larus.nova.hm",
-  "match": false
- },
- {
-  "seed": "QQ音乐",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "MiMu - Music & Audio Player",
-  "agTopBundle": "com.beshevgames.mimu.music.player",
-  "verifiedBundle": "com.tencent.hm.qqmusic",
-  "match": false
- },
- {
-  "seed": "汽水音乐",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "Mahjong Deluxe 3",
-  "agTopBundle": "com.ensenasoft.mahjongdeluxe3",
-  "verifiedBundle": "com.luna.hm.music",
-  "match": false
- },
- {
-  "seed": "喜马拉雅",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "孩子们学习写作",
-  "agTopBundle": "com.greysprings.abc.phonics.alphabets.numbers123.shapes.kids.tracing.games",
-  "verifiedBundle": "com.ximalaya.ting.xmharmony",
-  "match": false
- },
- {
-  "seed": "高德地图",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "TommyGuide",
-  "agTopBundle": "com.tommy.mjtt.en",
-  "verifiedBundle": "com.amap.hmapp",
-  "match": false
- },
- {
-  "seed": "百度地图",
-  "category": "black",
-  "agName": "百度地图",
-  "agBundle": "com.baidu.BaiduMap",
-  "agTopName": "百度地图",
-  "agTopBundle": "com.baidu.BaiduMap",
-  "verifiedBundle": "com.baidu.hmmap",
-  "match": false
- },
- {
-  "seed": "美团",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "QQ",
-  "agTopBundle": "com.tencent.mobileqq",
-  "verifiedBundle": "com.sankuai.hmeituan",
-  "match": false
- },
- {
-  "seed": "美团外卖",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.meituan.takeaway",
-  "match": false
- },
- {
-  "seed": "大众点评",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "LaListe",
-  "agTopBundle": "com.laliste",
-  "verifiedBundle": "com.sankuai.dianping",
-  "match": false
- },
- {
-  "seed": "滴滴出行",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.sdu.didi.hmos.psnger",
-  "match": false
- },
- {
-  "seed": "铁路12306",
-  "category": "black",
-  "agName": "铁路12306",
-  "agBundle": "com.MobileTicket",
-  "agTopName": "铁路12306",
-  "agTopBundle": "com.MobileTicket",
-  "verifiedBundle": "com.chinarailway.ticketingHM",
-  "match": false
- },
- {
-  "seed": "同程旅行",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "LaListe",
-  "agTopBundle": "com.laliste",
-  "verifiedBundle": "com.tongcheng.hmos",
-  "match": false
- },
- {
-  "seed": "腾讯视频",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "WeTV: Asian & Local Drama",
-  "agTopBundle": "com.tencent.qqlivei18n",
-  "verifiedBundle": "com.tencent.videohm",
-  "match": false
- },
- {
-  "seed": "爱奇艺",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "影视大全",
-  "agTopBundle": "com.le123.ysdq",
-  "verifiedBundle": "com.qiyi.video.hmy",
-  "match": false
- },
- {
-  "seed": "芒果TV",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.mgtv.phone",
-  "match": false
- },
- {
-  "seed": "企业微信",
-  "category": "black",
-  "agName": "企业微信",
-  "agBundle": "com.tencent.wework",
-  "agTopName": "企业微信",
-  "agTopBundle": "com.tencent.wework",
-  "verifiedBundle": "com.tencent.wework.hmos",
-  "match": false
- },
- {
-  "seed": "飞书",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "铁路12306",
-  "agTopBundle": "com.MobileTicket",
-  "verifiedBundle": "com.ss.feishu",
-  "match": false
- },
- {
-  "seed": "WPS Office",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "WPS WPA Connect Dumpper‏",
-  "agTopBundle": "com.wpsdumpper",
-  "verifiedBundle": "cn.wps.mobileoffice.hap",
-  "match": false
- },
- {
-  "seed": "个人所得税",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "Privary",
-  "agTopBundle": "com.fourchars.privary",
-  "verifiedBundle": "cn.gov.chinatax.gt4.hm",
-  "match": false
- },
- {
-  "seed": "中国工商银行",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "中国联通",
-  "agTopBundle": "com.sinovatech.unicom.ui",
-  "verifiedBundle": "com.icbc.harmonyclient",
-  "match": false
- },
- {
-  "seed": "中国建设银行",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "货币汇率计算器国际版",
-  "agTopBundle": "mvtrail.calculator.currencyexchange.intl",
-  "verifiedBundle": "com.ccb.mobilebank.hm",
-  "match": false
- },
- {
-  "seed": "招商银行",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "Privary",
-  "agTopBundle": "com.fourchars.privary",
-  "verifiedBundle": "com.cmbchina.harmony",
-  "match": false
- },
- {
-  "seed": "中国农业银行",
-  "category": "black",
-  "agName": "中国农业银行",
-  "agBundle": "com.android.bankabc",
-  "agTopName": "中国农业银行",
-  "agTopBundle": "com.android.bankabc",
-  "verifiedBundle": "com.bankabc.openharmonyapp.release",
-  "match": false
- },
- {
-  "seed": "中国银行",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "货币汇率计算器国际版",
-  "agTopBundle": "mvtrail.calculator.currencyexchange.intl",
-  "verifiedBundle": "com.boc.bocsoft.mbs.personal",
-  "match": false
- },
- {
-  "seed": "交通银行",
-  "category": "black",
-  "agName": "交通银行",
-  "agBundle": "com.bankcomm.Bankcomm",
-  "agTopName": "交通银行",
-  "agTopBundle": "com.bankcomm.Bankcomm",
-  "verifiedBundle": "com.bankcomm.mobshos",
-  "match": false
- },
- {
-  "seed": "邮储银行",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "兴业银行",
-  "agTopBundle": "com.cib.cibmb",
-  "verifiedBundle": "com.psbc.mbank.hm",
-  "match": false
- },
- {
-  "seed": "中信银行",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "Privary",
-  "agTopBundle": "com.fourchars.privary",
-  "verifiedBundle": "cn.citicbank.wap",
-  "match": false
- },
- {
-  "seed": "中国民生银行",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "民生银行",
-  "agTopBundle": "cn.com.cmbc.newmbank",
-  "verifiedBundle": "cn.com.cmbc.ohmbank",
-  "match": false
- },
- {
-  "seed": "平安银行",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "平安银行香港",
-  "agTopBundle": "com.pingan.paces.hk",
-  "verifiedBundle": "com.pingan.bank.pocket",
-  "match": false
- },
- {
-  "seed": "兴业银行",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "Privary",
-  "agTopBundle": "com.fourchars.privary",
-  "verifiedBundle": "com.cib.cibmbhmos",
-  "match": false
- },
- {
-  "seed": "华为视频",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "Deep视频生成AI",
-  "agTopBundle": "com.ledu.deepvideoAIgenerator",
-  "verifiedBundle": "com.huawei.hmsapp.himovie",
-  "match": false
- },
- {
-  "seed": "华为音乐",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "MiMu - Music & Audio Player",
-  "agTopBundle": "com.beshevgames.mimu.music.player",
-  "verifiedBundle": "com.huawei.hmsapp.music",
-  "match": false
- },
- {
-  "seed": "华为阅读",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "七猫免费小说",
-  "agTopBundle": "com.kmxs.reader",
-  "verifiedBundle": "com.huawei.hmsapp.books",
-  "match": false
- },
- {
-  "seed": "华为钱包",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "鹏华A加钱包",
-  "agTopBundle": "com.phfund.wallet",
-  "verifiedBundle": "com.huawei.hmos.wallet",
-  "match": false
- },
- {
-  "seed": "运动健康",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "华为运动健康",
-  "agTopBundle": "com.huawei.health",
-  "verifiedBundle": "com.huawei.hmos.health",
-  "match": false
- },
- {
-  "seed": "转转",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "Idle Ocean Tycoon",
-  "agTopBundle": "com.swdsystem.iot.huawei",
-  "verifiedBundle": "com.zhuanzhuan.hmoszz",
-  "match": false
- },
- {
-  "seed": "58同城",
-  "category": "black",
-  "agName": "58同城",
-  "agBundle": "com.wuba",
-  "agTopName": "58同城",
-  "agTopBundle": "com.wuba",
-  "verifiedBundle": "com.wuba.life",
-  "match": false
- },
- {
-  "seed": "海底捞",
-  "category": "black",
-  "agName": "海底捞",
-  "agBundle": "com.haidilao",
-  "agTopName": "海底捞",
-  "agTopBundle": "com.haidilao",
-  "verifiedBundle": "com.haidilao.haros",
-  "match": false
- },
- {
-  "seed": "中国移动",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "发现精彩",
-  "agTopBundle": "com.cs_credit_bank",
-  "verifiedBundle": "com.droi.tong",
-  "match": false
- },
- {
-  "seed": "中国联通",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "Mahjong Deluxe 3",
-  "agTopBundle": "com.ensenasoft.mahjongdeluxe3",
-  "verifiedBundle": "com.sinovatech.unicom.ha",
-  "match": false
- },
- {
-  "seed": "阿里巴巴",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": null,
-  "agTopBundle": null,
-  "verifiedBundle": "com.alibaba.wireless_hmos",
-  "match": false
- },
- {
-  "seed": "UC浏览器",
-  "category": "black",
-  "agName": "UC浏览器",
-  "agBundle": "com.UCMobile",
-  "agTopName": "UC浏览器",
-  "agTopBundle": "com.UCMobile",
-  "verifiedBundle": "com.uc.mobile",
-  "match": false
- },
- {
-  "seed": "迅雷",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "UC浏览器",
-  "agTopBundle": "com.UCMobile",
-  "verifiedBundle": "com.xunlei.thunder",
-  "match": false
- },
- {
-  "seed": "搜狗输入法",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "淘宝",
-  "agTopBundle": "com.taobao.taobao",
-  "verifiedBundle": "com.sogou.input",
-  "match": false
- },
- {
-  "seed": "扫描全能王",
-  "category": "black",
-  "agName": "扫描全能王OCR",
-  "agBundle": "com.jkwl.scan.scanningking",
-  "agTopName": "扫描全能王OCR",
-  "agTopBundle": "com.jkwl.scan.scanningking",
-  "verifiedBundle": "com.intsig.camscanner.hap",
-  "match": false
- },
- {
-  "seed": "美图秀秀",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "P图修图美图",
-  "agTopBundle": "com.psmasterts.beaty",
-  "verifiedBundle": "com.meitu.meitupic",
-  "match": false
- },
- {
-  "seed": "中国光大银行",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "光大银行",
-  "agTopBundle": "com.cebbank.mobile.cemb",
-  "verifiedBundle": "com.cebbank.mobile.cembhmwork",
-  "match": false
- },
- {
-  "seed": "华夏银行",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "Privary",
-  "agTopBundle": "com.fourchars.privary",
-  "verifiedBundle": "com.hxb.mobile.hm",
-  "match": false
- },
- {
-  "seed": "北京银行",
-  "category": "black",
-  "agName": "北京银行",
-  "agBundle": "com.bankofbeijing.mobilebanking",
-  "agTopName": "北京银行",
-  "agTopBundle": "com.bankofbeijing.mobilebanking",
-  "verifiedBundle": "com.bankofbeijing.hmobilebanking",
-  "match": false
- },
- {
-  "seed": "广发银行",
-  "category": "black",
-  "agName": null,
-  "agBundle": null,
-  "agTopName": "广发银行海外",
-  "agTopBundle": "com.cgbchina.aomen",
-  "verifiedBundle": "com.cgbchina.xpt.hm",
-  "match": false
- },
- {
-  "seed": "上海银行",
-  "category": "black",
-  "agName": "上海银行",
-  "agBundle": "cn.com.shbank.mper",
-  "agTopName": "上海银行",
-  "agTopBundle": "cn.com.shbank.mper",
-  "verifiedBundle": "cn.com.shbank.mperhm",
-  "match": false
- }
-]
+{
+ "interface": "vcck-search+ag-appinfo",
+ "generatedAt": "2026-11-12",
+ "results": [
+  {
+   "seed": "华为浏览器",
+   "category": "white",
+   "verifiedBundle": "com.huawei.hmos.browser",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "花瓣搜索",
+   "category": "white",
+   "verifiedBundle": "com.huawei.hmsapp.hisearch",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "花瓣地图 Petal Maps",
+   "category": "white",
+   "verifiedBundle": "com.huawei.hmos.maps.app",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "华为邮箱",
+   "category": "white",
+   "verifiedBundle": "com.huawei.hmos.email",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "HMTG",
+   "category": "white",
+   "verifiedBundle": "com.YuanChu.HMTG",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "Petrelgram",
+   "category": "white",
+   "verifiedBundle": "com.miramira8295.petrelgram",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "OHgram",
+   "category": "white",
+   "verifiedBundle": "com.mikannqaq.ohgram",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "Harmony X",
+   "category": "white",
+   "verifiedBundle": "com.haohaoai0.harmonyx",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "Instamony",
+   "category": "white",
+   "verifiedBundle": "com.fanha.instarmony",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "YourPipe",
+   "category": "white",
+   "verifiedBundle": "com.talon.yourpipe",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "ArkCat",
+   "category": "white",
+   "verifiedBundle": "me.zmbad.arkcat",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "微信",
+   "category": "black",
+   "verifiedBundle": "com.tencent.wechat",
+   "confirmedBundles": [
+    "com.tencent.wechat"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "微信",
+     "pkgName": "com.tencent.wechat",
+     "appId": "C5765880207854244859",
+     "developerName": "腾讯科技（北京）有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/333c850ef7f546829fefaf84b0daaa58.webp",
+     "version": "8.0.23.34"
+    },
+    {
+     "name": "微信",
+     "pkgName": "com.tencent.wechat.pc",
+     "appId": "C6917570106963681171",
+     "developerName": "腾讯科技（北京）有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/995f2686ab99493c8d558a759d0ed1d4.png",
+     "version": "4.1.0.20"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.tencent.wechat",
+     "appId": "C5765880207854244859",
+     "developerName": "腾讯科技（北京）有限公司",
+     "byBundlePkg": "com.tencent.wechat",
+     "byBundleName": "微信",
+     "byIdPkg": "com.tencent.wechat",
+     "byIdName": "微信"
+    }
+   ]
+  },
+  {
+   "seed": "QQ",
+   "category": "black",
+   "verifiedBundle": "com.tencent.mqq",
+   "confirmedBundles": [
+    "com.tencent.mqq"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "QQ",
+     "pkgName": "com.tencent.mqq",
+     "appId": "C5765880207854493645",
+     "developerName": "腾讯科技（深圳）有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/d1f9dd5489fd4b5599c095229da961fb.webp",
+     "version": "9.2.80"
+    },
+    {
+     "name": "QQ",
+     "pkgName": "com.tencent.harmonyqq",
+     "appId": "C5765880207855048925",
+     "developerName": "腾讯科技（深圳）有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/c8c40c39a54342db88d58194b7310a2d.png",
+     "version": "9.9.29"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.tencent.mqq",
+     "appId": "C5765880207854493645",
+     "developerName": "腾讯科技（深圳）有限公司",
+     "byBundlePkg": "com.tencent.mqq",
+     "byBundleName": "QQ",
+     "byIdPkg": "com.tencent.mqq",
+     "byIdName": "QQ"
+    }
+   ]
+  },
+  {
+   "seed": "微博",
+   "category": "black",
+   "verifiedBundle": "com.sina.weibo.stage",
+   "confirmedBundles": [
+    "com.sina.weibo.stage"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "微博",
+     "pkgName": "com.sina.weibo.stage",
+     "appId": "C5765880207853243673",
+     "developerName": "北京微梦创科网络技术有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b05a7575211844179827c456014fe63b.webp",
+     "version": "16.10.1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.sina.weibo.stage",
+     "appId": "C5765880207853243673",
+     "developerName": "北京微梦创科网络技术有限公司",
+     "byBundlePkg": "com.sina.weibo.stage",
+     "byBundleName": "微博",
+     "byIdPkg": "com.sina.weibo.stage",
+     "byIdName": "微博"
+    }
+   ]
+  },
+  {
+   "seed": "支付宝",
+   "category": "black",
+   "verifiedBundle": "com.alipay.mobile.client",
+   "confirmedBundles": [
+    "com.alipay.mobile.client"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "支付宝",
+     "pkgName": "com.alipay.mobile.client",
+     "appId": "C5765880207853300119",
+     "developerName": "支付宝（杭州）数字服务技术有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1ccf3ca5429a41b19ac9034c8b57b18a.webp",
+     "version": "12.12.50.5200"
+    },
+    {
+     "name": "支付宝",
+     "pkgName": "com.eg.harmonynext.watch.AlipayGwatch",
+     "appId": "C5765880207856092397",
+     "developerName": "支付宝（杭州）数字服务技术有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/watch/ddaf6fe28ef04253b502da4d195cf731.png",
+     "version": "1.1.14.9"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.alipay.mobile.client",
+     "appId": "C5765880207853300119",
+     "developerName": "支付宝（杭州）数字服务技术有限公司",
+     "byBundlePkg": "com.alipay.mobile.client",
+     "byBundleName": "支付宝",
+     "byIdPkg": "com.alipay.mobile.client",
+     "byIdName": "支付宝"
+    }
+   ]
+  },
+  {
+   "seed": "淘宝",
+   "category": "black",
+   "verifiedBundle": "com.taobao.taobao4hmos",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "京东",
+   "category": "black",
+   "verifiedBundle": "com.jd.hm.mall",
+   "confirmedBundles": [
+    "com.jd.hm.mall"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "京东",
+     "pkgName": "com.jd.hm.mall",
+     "appId": "C5765880207854246411",
+     "developerName": "北京京东世纪贸易有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/71f48713dbbe416d91443ce3a7a41a25.webp",
+     "version": "16.1.50"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.jd.hm.mall",
+     "appId": "C5765880207854246411",
+     "developerName": "北京京东世纪贸易有限公司",
+     "byBundlePkg": "com.jd.hm.mall",
+     "byBundleName": "京东",
+     "byIdPkg": "com.jd.hm.mall",
+     "byIdName": "京东"
+    }
+   ]
+  },
+  {
+   "seed": "拼多多",
+   "category": "black",
+   "verifiedBundle": "com.xunmeng.pinduoduo.hos",
+   "confirmedBundles": [
+    "com.xunmeng.pinduoduo.hos"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "拼多多",
+     "pkgName": "com.xunmeng.pinduoduo.hos",
+     "appId": "C5765880207855421353",
+     "developerName": "上海寻梦信息技术有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/3404cfac8bc140e2bb0381ec87146940.webp",
+     "version": "8.31.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.xunmeng.pinduoduo.hos",
+     "appId": "C5765880207855421353",
+     "developerName": "上海寻梦信息技术有限公司",
+     "byBundlePkg": "com.xunmeng.pinduoduo.hos",
+     "byBundleName": "拼多多",
+     "byIdPkg": "com.xunmeng.pinduoduo.hos",
+     "byIdName": "拼多多"
+    }
+   ]
+  },
+  {
+   "seed": "闲鱼",
+   "category": "black",
+   "verifiedBundle": "com.taobao.idlefish4ohos",
+   "confirmedBundles": [
+    "com.taobao.idlefish4ohos"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "闲鱼",
+     "pkgName": "com.taobao.idlefish4ohos",
+     "appId": "C5765880207854392995",
+     "developerName": "浙江阿里巴巴闲鱼网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b639de95d2324df382f1281a0f0427bd.webp",
+     "version": "7.29.10"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.taobao.idlefish4ohos",
+     "appId": "C5765880207854392995",
+     "developerName": "浙江阿里巴巴闲鱼网络科技有限公司",
+     "byBundlePkg": "com.taobao.idlefish4ohos",
+     "byBundleName": "闲鱼",
+     "byIdPkg": "com.taobao.idlefish4ohos",
+     "byIdName": "闲鱼"
+    }
+   ]
+  },
+  {
+   "seed": "唯品会",
+   "category": "black",
+   "verifiedBundle": "com.vip.hosapp",
+   "confirmedBundles": [
+    "com.vip.hosapp"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "唯品会",
+     "pkgName": "com.vip.hosapp",
+     "appId": "C5765880207853897799",
+     "developerName": "广州唯品会电子商务有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a86905bd0315477185323368071002a4.webp",
+     "version": "9.2.1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.vip.hosapp",
+     "appId": "C5765880207853897799",
+     "developerName": "广州唯品会电子商务有限公司",
+     "byBundlePkg": "com.vip.hosapp",
+     "byBundleName": "唯品会",
+     "byIdPkg": "com.vip.hosapp",
+     "byIdName": "唯品会"
+    }
+   ]
+  },
+  {
+   "seed": "得物",
+   "category": "black",
+   "verifiedBundle": "com.dewu.hos",
+   "confirmedBundles": [
+    "com.dewu.hos",
+    "com.atomicservice.6917587977421472979"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "得物",
+     "pkgName": "com.dewu.hos",
+     "appId": "C5765880207853455989",
+     "developerName": "上海得物信息集团有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0543683bb5db41d5a4b9bac8bff62cb9.webp",
+     "version": "6.4.1"
+    },
+    {
+     "name": "得物",
+     "pkgName": "com.atomicservice.6917587977421472979",
+     "appId": "C6917587977421472979",
+     "developerName": "上海得物信息集团有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/cc7698b55e674b91bd7a4124162b3fc9.webp",
+     "version": "5.78.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.dewu.hos",
+     "appId": "C5765880207853455989",
+     "developerName": "上海得物信息集团有限公司",
+     "byBundlePkg": "com.dewu.hos",
+     "byBundleName": "得物",
+     "byIdPkg": "com.dewu.hos",
+     "byIdName": "得物"
+    },
+    {
+     "bundle": "com.atomicservice.6917587977421472979",
+     "appId": "C6917587977421472979",
+     "developerName": "上海得物信息集团有限公司",
+     "byBundlePkg": "com.atomicservice.6917587977421472979",
+     "byBundleName": "得物",
+     "byIdPkg": "com.atomicservice.6917587977421472979",
+     "byIdName": "得物"
+    }
+   ]
+  },
+  {
+   "seed": "小红书",
+   "category": "black",
+   "verifiedBundle": "com.xingin.xhs_hos",
+   "confirmedBundles": [
+    "com.xingin.xhs_hos"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "小红书",
+     "pkgName": "com.xingin.xhs_hos",
+     "appId": "C5765880207852917075",
+     "developerName": "行吟信息科技（上海）有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/9856cce1c6fe46c197263bbfcc7abb45.webp",
+     "version": "9.52.2"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.xingin.xhs_hos",
+     "appId": "C5765880207852917075",
+     "developerName": "行吟信息科技（上海）有限公司",
+     "byBundlePkg": "com.xingin.xhs_hos",
+     "byBundleName": "小红书",
+     "byIdPkg": "com.xingin.xhs_hos",
+     "byIdName": "小红书"
+    }
+   ]
+  },
+  {
+   "seed": "知乎",
+   "category": "black",
+   "verifiedBundle": "com.zhihu.hmos",
+   "confirmedBundles": [
+    "com.zhihu.hmos"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "知乎",
+     "pkgName": "com.zhihu.hmos",
+     "appId": "C5765880207853190821",
+     "developerName": "智者四海（北京）技术有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/25cf9ab15ac1493984453489417c78dd.webp",
+     "version": "11.15.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.zhihu.hmos",
+     "appId": "C5765880207853190821",
+     "developerName": "智者四海（北京）技术有限公司",
+     "byBundlePkg": "com.zhihu.hmos",
+     "byBundleName": "知乎",
+     "byIdPkg": "com.zhihu.hmos",
+     "byIdName": "知乎"
+    }
+   ]
+  },
+  {
+   "seed": "抖音",
+   "category": "black",
+   "verifiedBundle": "com.ss.hm.ugc.aweme",
+   "confirmedBundles": [
+    "com.ss.hm.ugc.aweme"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "抖音",
+     "pkgName": "com.ss.hm.ugc.aweme",
+     "appId": "C5765880207853570783",
+     "developerName": "北京抖音科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/73954aea353241f6bf11860ec93b4de6.webp",
+     "version": "41.1.0"
+    },
+    {
+     "name": "抖音",
+     "pkgName": "com.ss.ohpc.ugc.aweme",
+     "appId": "C5765880207856155789",
+     "developerName": "北京抖音科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/54f265bc760e4c5e9495a8413331be2a.png",
+     "version": "6.0.415"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.ss.hm.ugc.aweme",
+     "appId": "C5765880207853570783",
+     "developerName": "北京抖音科技有限公司",
+     "byBundlePkg": "com.ss.hm.ugc.aweme",
+     "byBundleName": "抖音",
+     "byIdPkg": "com.ss.hm.ugc.aweme",
+     "byIdName": "抖音"
+    }
+   ]
+  },
+  {
+   "seed": "快手",
+   "category": "black",
+   "verifiedBundle": "com.kuaishou.hmapp",
+   "confirmedBundles": [
+    "com.kuaishou.hmapp"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "快手",
+     "pkgName": "com.kuaishou.hmapp",
+     "appId": "C5765880207853819885",
+     "developerName": "北京快手科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/9a29c5bdce234f5c89eb4093d5dbe57d.webp",
+     "version": "14.10.10"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.kuaishou.hmapp",
+     "appId": "C5765880207853819885",
+     "developerName": "北京快手科技有限公司",
+     "byBundlePkg": "com.kuaishou.hmapp",
+     "byBundleName": "快手",
+     "byIdPkg": "com.kuaishou.hmapp",
+     "byIdName": "快手"
+    }
+   ]
+  },
+  {
+   "seed": "快手极速版",
+   "category": "black",
+   "verifiedBundle": "com.kuaishou.hmnebula",
+   "confirmedBundles": [
+    "com.kuaishou.hmnebula"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "快手极速版",
+     "pkgName": "com.kuaishou.hmnebula",
+     "appId": "C5765880207854418971",
+     "developerName": "北京快手科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c3a241c53f484895b5ff1b3356706502.webp",
+     "version": "14.10.10"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.kuaishou.hmnebula",
+     "appId": "C5765880207854418971",
+     "developerName": "北京快手科技有限公司",
+     "byBundlePkg": "com.kuaishou.hmnebula",
+     "byBundleName": "快手极速版",
+     "byIdPkg": "com.kuaishou.hmnebula",
+     "byIdName": "快手极速版"
+    }
+   ]
+  },
+  {
+   "seed": "哔哩哔哩",
+   "category": "black",
+   "verifiedBundle": "yylx.danmaku.bili",
+   "confirmedBundles": [
+    "yylx.danmaku.bili"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "哔哩哔哩",
+     "pkgName": "yylx.danmaku.bili",
+     "appId": "C5765880207853448221",
+     "developerName": "上海宽娱数码科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/ba18b1ed32f34d02a98ebe10c4851acd.webp",
+     "version": "8.50.1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "yylx.danmaku.bili",
+     "appId": "C5765880207853448221",
+     "developerName": "上海宽娱数码科技有限公司",
+     "byBundlePkg": "yylx.danmaku.bili",
+     "byBundleName": "哔哩哔哩",
+     "byIdPkg": "yylx.danmaku.bili",
+     "byIdName": "哔哩哔哩"
+    }
+   ]
+  },
+  {
+   "seed": "百度",
+   "category": "black",
+   "verifiedBundle": "com.baidu.baiduapp",
+   "confirmedBundles": [
+    "com.baidu.baiduapp"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "百度",
+     "pkgName": "com.baidu.baiduapp",
+     "appId": "C5765880207855276403",
+     "developerName": "百度在线网络技术（北京）有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f523548fe06f42978c918bb23581efa2.webp",
+     "version": "15.82.0.10"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.baidu.baiduapp",
+     "appId": "C5765880207855276403",
+     "developerName": "百度在线网络技术（北京）有限公司",
+     "byBundlePkg": "com.baidu.baiduapp",
+     "byBundleName": "百度",
+     "byIdPkg": "com.baidu.baiduapp",
+     "byIdName": "百度"
+    }
+   ]
+  },
+  {
+   "seed": "今日头条",
+   "category": "black",
+   "verifiedBundle": "com.ss.hm.article.news",
+   "confirmedBundles": [
+    "com.ss.hm.article.news"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "今日头条",
+     "pkgName": "com.ss.hm.article.news",
+     "appId": "C5765880207854073269",
+     "developerName": "北京抖音信息服务有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/6bd1ba6e06ac432b9921b2eaff40b6e3.webp",
+     "version": "19.1.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.ss.hm.article.news",
+     "appId": "C5765880207854073269",
+     "developerName": "北京抖音信息服务有限公司",
+     "byBundlePkg": "com.ss.hm.article.news",
+     "byBundleName": "今日头条",
+     "byIdPkg": "com.ss.hm.article.news",
+     "byIdName": "今日头条"
+    }
+   ]
+  },
+  {
+   "seed": "豆包",
+   "category": "black",
+   "verifiedBundle": "com.larus.nova.hm",
+   "confirmedBundles": [
+    "com.larus.nova.hm"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "豆包",
+     "pkgName": "com.larus.nova.hm",
+     "appId": "C6917560816735994213",
+     "developerName": "北京春田知韵科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/21b1c81455c74e9193aa0affdf36cd22.webp",
+     "version": "15.7.0"
+    },
+    {
+     "name": "豆包",
+     "pkgName": "com.bot.pc.doubao",
+     "appId": "C6917615127616851417",
+     "developerName": "北京春田知韵科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/eea2baf4672c4f0bb9c9b155713fa03a.png",
+     "version": "2.25.1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.larus.nova.hm",
+     "appId": "C6917560816735994213",
+     "developerName": "北京春田知韵科技有限公司",
+     "byBundlePkg": "com.larus.nova.hm",
+     "byBundleName": "豆包",
+     "byIdPkg": "com.larus.nova.hm",
+     "byIdName": "豆包"
+    }
+   ]
+  },
+  {
+   "seed": "QQ音乐",
+   "category": "black",
+   "verifiedBundle": "com.tencent.hm.qqmusic",
+   "confirmedBundles": [
+    "com.tencent.hm.qqmusic"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "QQ音乐",
+     "pkgName": "com.tencent.hm.qqmusic",
+     "appId": "C5765880207853000627",
+     "developerName": "腾讯音乐娱乐（深圳）有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f463211101654c89867fd9a226cff454.webp",
+     "version": "3.5.5.2"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.tencent.hm.qqmusic",
+     "appId": "C5765880207853000627",
+     "developerName": "腾讯音乐娱乐（深圳）有限公司",
+     "byBundlePkg": "com.tencent.hm.qqmusic",
+     "byBundleName": "QQ音乐",
+     "byIdPkg": "com.tencent.hm.qqmusic",
+     "byIdName": "QQ音乐"
+    }
+   ]
+  },
+  {
+   "seed": "汽水音乐",
+   "category": "black",
+   "verifiedBundle": "com.luna.hm.music",
+   "confirmedBundles": [
+    "com.luna.hm.music"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "汽水音乐",
+     "pkgName": "com.luna.hm.music",
+     "appId": "C5765880207854902039",
+     "developerName": "北京抖音科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/4af62893de6246eeb88541f7c4f9d5bb.webp",
+     "version": "21.6.1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.luna.hm.music",
+     "appId": "C5765880207854902039",
+     "developerName": "北京抖音科技有限公司",
+     "byBundlePkg": "com.luna.hm.music",
+     "byBundleName": "汽水音乐",
+     "byIdPkg": "com.luna.hm.music",
+     "byIdName": "汽水音乐"
+    }
+   ]
+  },
+  {
+   "seed": "喜马拉雅",
+   "category": "black",
+   "verifiedBundle": "com.ximalaya.ting.xmharmony",
+   "confirmedBundles": [
+    "com.ximalaya.ting.xmharmony"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "喜马拉雅",
+     "pkgName": "com.ximalaya.ting.xmharmony",
+     "appId": "C5765880207853445853",
+     "developerName": "上海喜马拉雅科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/ab2ef3419fad4610af8364088bef7555.webp",
+     "version": "9.5.22.5"
+    },
+    {
+     "name": "喜马拉雅",
+     "pkgName": "com.ximalaya.wearnext",
+     "appId": "C5765880207855879297",
+     "developerName": "小雅智能平台（深圳）有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/watch/9a2829203ae740d88268c84d26960f31.png",
+     "version": "1.0.25.3"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.ximalaya.ting.xmharmony",
+     "appId": "C5765880207853445853",
+     "developerName": "上海喜马拉雅科技有限公司",
+     "byBundlePkg": "com.ximalaya.ting.xmharmony",
+     "byBundleName": "喜马拉雅",
+     "byIdPkg": "com.ximalaya.ting.xmharmony",
+     "byIdName": "喜马拉雅"
+    }
+   ]
+  },
+  {
+   "seed": "高德地图",
+   "category": "black",
+   "verifiedBundle": "com.amap.hmapp",
+   "confirmedBundles": [
+    "com.amap.hmapp"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "高德地图",
+     "pkgName": "com.amap.hmapp",
+     "appId": "C1268244389566675520",
+     "developerName": "北京高德图强科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/12f0a2565c3a4a8bacc2baad40ad3ae8.webp",
+     "version": "17.03.0.2009"
+    },
+    {
+     "name": "高德地图",
+     "pkgName": "com.autonavi.watch",
+     "appId": "C549118541882731264",
+     "developerName": "北京高德云图科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/watch/b9c3d3c61de242ed92af217e32b1aec5.png",
+     "version": "1.12"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.amap.hmapp",
+     "appId": "C1268244389566675520",
+     "developerName": "北京高德图强科技有限公司",
+     "byBundlePkg": "com.amap.hmapp",
+     "byBundleName": "高德地图",
+     "byIdPkg": "com.amap.hmapp",
+     "byIdName": "高德地图"
+    }
+   ]
+  },
+  {
+   "seed": "百度地图",
+   "category": "black",
+   "verifiedBundle": "com.baidu.hmmap",
+   "confirmedBundles": [
+    "com.baidu.hmmap"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "百度地图",
+     "pkgName": "com.baidu.hmmap",
+     "appId": "C5765880207855476629",
+     "developerName": "北京百度网讯科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/e58df1e338ff42e9b4df2d45385e61f4.webp",
+     "version": "1.22.20"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.baidu.hmmap",
+     "appId": "C5765880207855476629",
+     "developerName": "北京百度网讯科技有限公司",
+     "byBundlePkg": "com.baidu.hmmap",
+     "byBundleName": "百度地图",
+     "byIdPkg": "com.baidu.hmmap",
+     "byIdName": "百度地图"
+    }
+   ]
+  },
+  {
+   "seed": "美团",
+   "category": "black",
+   "verifiedBundle": "com.sankuai.hmeituan",
+   "confirmedBundles": [
+    "com.sankuai.hmeituan"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "美团",
+     "pkgName": "com.sankuai.hmeituan",
+     "appId": "C5765880207853190259",
+     "developerName": "厦门三快在线科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/50f45a3636214351b4d58f1ae1c25a1c.webp",
+     "version": "12.68.402"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.sankuai.hmeituan",
+     "appId": "C5765880207853190259",
+     "developerName": "厦门三快在线科技有限公司",
+     "byBundlePkg": "com.sankuai.hmeituan",
+     "byBundleName": "美团",
+     "byIdPkg": "com.sankuai.hmeituan",
+     "byIdName": "美团"
+    }
+   ]
+  },
+  {
+   "seed": "美团外卖",
+   "category": "black",
+   "verifiedBundle": "com.meituan.takeaway",
+   "confirmedBundles": [
+    "com.meituan.takeaway",
+    "com.atomicservice.6917584437461147371"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "美团外卖",
+     "pkgName": "com.meituan.takeaway",
+     "appId": "C5765880207853978109",
+     "developerName": "厦门三快在线科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/292d27e05efa460482b1460ae90ec56f.webp",
+     "version": "8.86.0"
+    },
+    {
+     "name": "美团外卖",
+     "pkgName": "com.atomicservice.6917584437461147371",
+     "appId": "C6917584437461147371",
+     "developerName": "厦门三快在线科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a91f2cf875d64c2a8b72ba89fe52115d.webp",
+     "version": "1.1.1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.meituan.takeaway",
+     "appId": "C5765880207853978109",
+     "developerName": "厦门三快在线科技有限公司",
+     "byBundlePkg": "com.meituan.takeaway",
+     "byBundleName": "美团外卖",
+     "byIdPkg": "com.meituan.takeaway",
+     "byIdName": "美团外卖"
+    },
+    {
+     "bundle": "com.atomicservice.6917584437461147371",
+     "appId": "C6917584437461147371",
+     "developerName": "厦门三快在线科技有限公司",
+     "byBundlePkg": "com.atomicservice.6917584437461147371",
+     "byBundleName": "美团外卖",
+     "byIdPkg": "com.atomicservice.6917584437461147371",
+     "byIdName": "美团外卖"
+    }
+   ]
+  },
+  {
+   "seed": "大众点评",
+   "category": "black",
+   "verifiedBundle": "com.sankuai.dianping",
+   "confirmedBundles": [
+    "com.sankuai.dianping"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "大众点评",
+     "pkgName": "com.sankuai.dianping",
+     "appId": "C5765880207853932133",
+     "developerName": "互诚信息技术（上海）有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/2478a5b4e3e2494e9ab6bddf97af47da.webp",
+     "version": "11.75.3"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.sankuai.dianping",
+     "appId": "C5765880207853932133",
+     "developerName": "互诚信息技术（上海）有限公司",
+     "byBundlePkg": "com.sankuai.dianping",
+     "byBundleName": "大众点评",
+     "byIdPkg": "com.sankuai.dianping",
+     "byIdName": "大众点评"
+    }
+   ]
+  },
+  {
+   "seed": "滴滴出行",
+   "category": "black",
+   "verifiedBundle": "com.sdu.didi.hmos.psnger",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "铁路12306",
+   "category": "black",
+   "verifiedBundle": "com.chinarailway.ticketingHM",
+   "confirmedBundles": [
+    "com.chinarailway.ticketingHM"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "铁路12306",
+     "pkgName": "com.chinarailway.ticketingHM",
+     "appId": "C5765880207853771301",
+     "developerName": "中国铁道科学研究院集团有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c5818cc7c68b4166b9653cf1f53f370e.webp",
+     "version": "5.9.6.5"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.chinarailway.ticketingHM",
+     "appId": "C5765880207853771301",
+     "developerName": "中国铁道科学研究院集团有限公司",
+     "byBundlePkg": "com.chinarailway.ticketingHM",
+     "byBundleName": "铁路12306",
+     "byIdPkg": "com.chinarailway.ticketingHM",
+     "byIdName": "铁路12306"
+    }
+   ]
+  },
+  {
+   "seed": "同程旅行",
+   "category": "black",
+   "verifiedBundle": "com.tongcheng.hmos",
+   "confirmedBundles": [
+    "com.tongcheng.hmos",
+    "com.atomicservice.5765880207853636497"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "同程旅行",
+     "pkgName": "com.tongcheng.hmos",
+     "appId": "C5765880207853077543",
+     "developerName": "同程网络科技股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/9de93afc1cce413a930e8870fa1cb299.webp",
+     "version": "11.5.3"
+    },
+    {
+     "name": "同程旅行",
+     "pkgName": "com.atomicservice.5765880207853636497",
+     "appId": "C5765880207853636497",
+     "developerName": "艺龙网信息技术（北京）有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/447a9dcfa22649eea52a4af6632095ee.webp",
+     "version": "1.4.7"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.tongcheng.hmos",
+     "appId": "C5765880207853077543",
+     "developerName": "同程网络科技股份有限公司",
+     "byBundlePkg": "com.tongcheng.hmos",
+     "byBundleName": "同程旅行",
+     "byIdPkg": "com.tongcheng.hmos",
+     "byIdName": "同程旅行"
+    },
+    {
+     "bundle": "com.atomicservice.5765880207853636497",
+     "appId": "C5765880207853636497",
+     "developerName": "艺龙网信息技术（北京）有限公司",
+     "byBundlePkg": "com.atomicservice.5765880207853636497",
+     "byBundleName": "同程旅行",
+     "byIdPkg": "com.atomicservice.5765880207853636497",
+     "byIdName": "同程旅行"
+    }
+   ]
+  },
+  {
+   "seed": "腾讯视频",
+   "category": "black",
+   "verifiedBundle": "com.tencent.videohm",
+   "confirmedBundles": [
+    "com.tencent.videohm"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "腾讯视频",
+     "pkgName": "com.tencent.videohm",
+     "appId": "C5765880207854575129",
+     "developerName": "腾讯科技（北京）有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/73504a60e38245f29090c4e24ff5a17e.webp",
+     "version": "9.04.80.13014"
+    },
+    {
+     "name": "腾讯视频",
+     "pkgName": "com.tencent.qqlivepchm",
+     "appId": "C5765880207855998795",
+     "developerName": "腾讯科技（北京）有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/185757b95c454cc29c35b78d973f8403.png",
+     "version": "1.5.8"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.tencent.videohm",
+     "appId": "C5765880207854575129",
+     "developerName": "腾讯科技（北京）有限公司",
+     "byBundlePkg": "com.tencent.videohm",
+     "byBundleName": "腾讯视频",
+     "byIdPkg": "com.tencent.videohm",
+     "byIdName": "腾讯视频"
+    }
+   ]
+  },
+  {
+   "seed": "爱奇艺",
+   "category": "black",
+   "verifiedBundle": "com.qiyi.video.hmy",
+   "confirmedBundles": [
+    "com.qiyi.video.hmy"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "爱奇艺",
+     "pkgName": "com.qiyi.video.hmy",
+     "appId": "C5765880207853052103",
+     "developerName": "北京爱奇艺科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/dffe4682c07545ab81d7522fd04a04cc.webp",
+     "version": "3.11.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.qiyi.video.hmy",
+     "appId": "C5765880207853052103",
+     "developerName": "北京爱奇艺科技有限公司",
+     "byBundlePkg": "com.qiyi.video.hmy",
+     "byBundleName": "爱奇艺",
+     "byIdPkg": "com.qiyi.video.hmy",
+     "byIdName": "爱奇艺"
+    }
+   ]
+  },
+  {
+   "seed": "芒果TV",
+   "category": "black",
+   "verifiedBundle": "com.mgtv.phone",
+   "confirmedBundles": [
+    "com.mgtv.phone"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "芒果TV",
+     "pkgName": "com.mgtv.phone",
+     "appId": "C5765880207853220769",
+     "developerName": "湖南快乐阳光互动娱乐传媒有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/04dbab89ca3141eb85bcb13ca198de37.webp",
+     "version": "9.2.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.mgtv.phone",
+     "appId": "C5765880207853220769",
+     "developerName": "湖南快乐阳光互动娱乐传媒有限公司",
+     "byBundlePkg": "com.mgtv.phone",
+     "byBundleName": "芒果TV",
+     "byIdPkg": "com.mgtv.phone",
+     "byIdName": "芒果TV"
+    }
+   ]
+  },
+  {
+   "seed": "企业微信",
+   "category": "black",
+   "verifiedBundle": "com.tencent.wework.hmos",
+   "confirmedBundles": [
+    "com.tencent.wework.hmos"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "企业微信",
+     "pkgName": "com.tencent.wework.hmos",
+     "appId": "C5765880207855743989",
+     "developerName": "广州腾讯科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/64c38a3af8ac45d4b94c229ebb128121.webp",
+     "version": "0.9.20"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.tencent.wework.hmos",
+     "appId": "C5765880207855743989",
+     "developerName": "广州腾讯科技有限公司",
+     "byBundlePkg": "com.tencent.wework.hmos",
+     "byBundleName": "企业微信",
+     "byIdPkg": "com.tencent.wework.hmos",
+     "byIdName": "企业微信"
+    }
+   ]
+  },
+  {
+   "seed": "飞书",
+   "category": "black",
+   "verifiedBundle": "com.ss.feishu",
+   "confirmedBundles": [
+    "com.ss.feishu"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "飞书",
+     "pkgName": "com.ss.feishu",
+     "appId": "C5765880207853802505",
+     "developerName": "北京飞书科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/cb5d326a36d745489dcff6124214e20e.webp",
+     "version": "8.4.7"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.ss.feishu",
+     "appId": "C5765880207853802505",
+     "developerName": "北京飞书科技有限公司",
+     "byBundlePkg": "com.ss.feishu",
+     "byBundleName": "飞书",
+     "byIdPkg": "com.ss.feishu",
+     "byIdName": "飞书"
+    }
+   ]
+  },
+  {
+   "seed": "WPS Office",
+   "category": "black",
+   "verifiedBundle": "cn.wps.mobileoffice.hap",
+   "confirmedBundles": [
+    "cn.wps.office.hap"
+   ],
+   "status": "conflict",
+   "exactHits": [
+    {
+     "name": "WPS Office",
+     "pkgName": "cn.wps.office.hap",
+     "appId": "C5765880207854473781",
+     "developerName": "珠海金山办公软件有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1af3d62118c1461499c7b85eec3651f4.webp",
+     "version": "12.1.3.29687"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "cn.wps.office.hap",
+     "appId": "C5765880207854473781",
+     "developerName": "珠海金山办公软件有限公司",
+     "byBundlePkg": "cn.wps.office.hap",
+     "byBundleName": "WPS Office",
+     "byIdPkg": "cn.wps.office.hap",
+     "byIdName": "WPS Office"
+    }
+   ],
+   "verifiedBundleName": "WPS移动版"
+  },
+  {
+   "seed": "个人所得税",
+   "category": "black",
+   "verifiedBundle": "cn.gov.chinatax.gt4.hm",
+   "confirmedBundles": [
+    "cn.gov.tax.its.hm"
+   ],
+   "status": "conflict",
+   "exactHits": [
+    {
+     "name": "个人所得税",
+     "pkgName": "cn.gov.tax.its.hm",
+     "appId": "C5765880207855037995",
+     "developerName": "国家税务总局税收大数据和风险管理局",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/84209201ecb74be2b0893c4ffa715362.webp",
+     "version": "2.3.6"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "cn.gov.tax.its.hm",
+     "appId": "C5765880207855037995",
+     "developerName": "国家税务总局税收大数据和风险管理局",
+     "byBundlePkg": "cn.gov.tax.its.hm",
+     "byBundleName": "个人所得税",
+     "byIdPkg": "cn.gov.tax.its.hm",
+     "byIdName": "个人所得税"
+    }
+   ],
+   "verifiedBundleName": "电子税务局"
+  },
+  {
+   "seed": "中国工商银行",
+   "category": "black",
+   "verifiedBundle": "com.icbc.harmonyclient",
+   "confirmedBundles": [
+    "com.icbc.harmonyclient"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "中国工商银行",
+     "pkgName": "com.icbc.harmonyclient",
+     "appId": "C5765880207853428917",
+     "developerName": "中国工商银行股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/7a778919286b403aa577ae07ff235428.webp",
+     "version": "11.1.1.0.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.icbc.harmonyclient",
+     "appId": "C5765880207853428917",
+     "developerName": "中国工商银行股份有限公司",
+     "byBundlePkg": "com.icbc.harmonyclient",
+     "byBundleName": "中国工商银行",
+     "byIdPkg": "com.icbc.harmonyclient",
+     "byIdName": "中国工商银行"
+    }
+   ]
+  },
+  {
+   "seed": "中国建设银行",
+   "category": "black",
+   "verifiedBundle": "com.ccb.mobilebank.hm",
+   "confirmedBundles": [
+    "com.ccb.mobilebank.hm"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "中国建设银行",
+     "pkgName": "com.ccb.mobilebank.hm",
+     "appId": "C5765880207852970537",
+     "developerName": "中国建设银行股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/5cfff5ed5917444bb9511edc87ee159f.webp",
+     "version": "9.8.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.ccb.mobilebank.hm",
+     "appId": "C5765880207852970537",
+     "developerName": "中国建设银行股份有限公司",
+     "byBundlePkg": "com.ccb.mobilebank.hm",
+     "byBundleName": "中国建设银行",
+     "byIdPkg": "com.ccb.mobilebank.hm",
+     "byIdName": "中国建设银行"
+    }
+   ]
+  },
+  {
+   "seed": "招商银行",
+   "category": "black",
+   "verifiedBundle": "com.cmbchina.harmony",
+   "confirmedBundles": [
+    "com.cmbchina.harmony"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "招商银行",
+     "pkgName": "com.cmbchina.harmony",
+     "appId": "C747770673820085120",
+     "developerName": "招商银行股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/8d92ff43be9846a3b3f534a19327d27d.webp",
+     "version": "14.4.8"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.cmbchina.harmony",
+     "appId": "C747770673820085120",
+     "developerName": "招商银行股份有限公司",
+     "byBundlePkg": "com.cmbchina.harmony",
+     "byBundleName": "招商银行",
+     "byIdPkg": "com.cmbchina.harmony",
+     "byIdName": "招商银行"
+    }
+   ]
+  },
+  {
+   "seed": "中国农业银行",
+   "category": "black",
+   "verifiedBundle": "com.bankabc.openharmonyapp.release",
+   "confirmedBundles": [
+    "com.bankabc.openharmonyapp.release"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "中国农业银行",
+     "pkgName": "com.bankabc.openharmonyapp.release",
+     "appId": "C5765880207853409097",
+     "developerName": "中国农业银行股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/70db7ad871994f74ad9420b5d92c497e.webp",
+     "version": "11.3.2"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.bankabc.openharmonyapp.release",
+     "appId": "C5765880207853409097",
+     "developerName": "中国农业银行股份有限公司",
+     "byBundlePkg": "com.bankabc.openharmonyapp.release",
+     "byBundleName": "中国农业银行",
+     "byIdPkg": "com.bankabc.openharmonyapp.release",
+     "byIdName": "中国农业银行"
+    }
+   ]
+  },
+  {
+   "seed": "中国银行",
+   "category": "black",
+   "verifiedBundle": "com.boc.bocsoft.mbs.personal",
+   "confirmedBundles": [
+    "com.boc.bocsoft.mbs.personal"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "中国银行",
+     "pkgName": "com.boc.bocsoft.mbs.personal",
+     "appId": "C5765880207853435449",
+     "developerName": "中国银行股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/939c3bb8dbcb417ea2550d6f38b5a329.webp",
+     "version": "9.9.38"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.boc.bocsoft.mbs.personal",
+     "appId": "C5765880207853435449",
+     "developerName": "中国银行股份有限公司",
+     "byBundlePkg": "com.boc.bocsoft.mbs.personal",
+     "byBundleName": "中国银行",
+     "byIdPkg": "com.boc.bocsoft.mbs.personal",
+     "byIdName": "中国银行"
+    }
+   ]
+  },
+  {
+   "seed": "交通银行",
+   "category": "black",
+   "verifiedBundle": "com.bankcomm.mobshos",
+   "confirmedBundles": [
+    "com.bankcomm.mobshos"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "交通银行",
+     "pkgName": "com.bankcomm.mobshos",
+     "appId": "C5765880207853063213",
+     "developerName": "交通银行股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b2ba25b738d14d129e37630f7ff3482f.webp",
+     "version": "11.0.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.bankcomm.mobshos",
+     "appId": "C5765880207853063213",
+     "developerName": "交通银行股份有限公司",
+     "byBundlePkg": "com.bankcomm.mobshos",
+     "byBundleName": "交通银行",
+     "byIdPkg": "com.bankcomm.mobshos",
+     "byIdName": "交通银行"
+    }
+   ]
+  },
+  {
+   "seed": "邮储银行",
+   "category": "black",
+   "verifiedBundle": "com.psbc.mbank.hm",
+   "confirmedBundles": [
+    "com.psbc.mbank.hm"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "邮储银行",
+     "pkgName": "com.psbc.mbank.hm",
+     "appId": "C5765880207854447009",
+     "developerName": "中国邮政储蓄银行股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/e318cb84feaf4ceaada317cd0722ea62.webp",
+     "version": "11.10.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.psbc.mbank.hm",
+     "appId": "C5765880207854447009",
+     "developerName": "中国邮政储蓄银行股份有限公司",
+     "byBundlePkg": "com.psbc.mbank.hm",
+     "byBundleName": "邮储银行",
+     "byIdPkg": "com.psbc.mbank.hm",
+     "byIdName": "邮储银行"
+    }
+   ]
+  },
+  {
+   "seed": "中信银行",
+   "category": "black",
+   "verifiedBundle": "cn.citicbank.wap",
+   "confirmedBundles": [
+    "cn.citicbank.wap"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "中信银行",
+     "pkgName": "cn.citicbank.wap",
+     "appId": "C5765880207853963421",
+     "developerName": "中信银行股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/89f452e7418142e48ae0696c53fef876.webp",
+     "version": "12.2.8"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "cn.citicbank.wap",
+     "appId": "C5765880207853963421",
+     "developerName": "中信银行股份有限公司",
+     "byBundlePkg": "cn.citicbank.wap",
+     "byBundleName": "中信银行",
+     "byIdPkg": "cn.citicbank.wap",
+     "byIdName": "中信银行"
+    }
+   ]
+  },
+  {
+   "seed": "中国民生银行",
+   "category": "black",
+   "verifiedBundle": "cn.com.cmbc.ohmbank",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "平安银行",
+   "category": "black",
+   "verifiedBundle": "com.pingan.bank.pocket",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "兴业银行",
+   "category": "black",
+   "verifiedBundle": "com.cib.cibmbhmos",
+   "confirmedBundles": [
+    "com.cib.cibmbhmos"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "兴业银行",
+     "pkgName": "com.cib.cibmbhmos",
+     "appId": "C5765880207854846257",
+     "developerName": "兴业银行股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f6e97ec6c6d545e98258e801efbc0d85.webp",
+     "version": "8.0.6"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.cib.cibmbhmos",
+     "appId": "C5765880207854846257",
+     "developerName": "兴业银行股份有限公司",
+     "byBundlePkg": "com.cib.cibmbhmos",
+     "byBundleName": "兴业银行",
+     "byIdPkg": "com.cib.cibmbhmos",
+     "byIdName": "兴业银行"
+    }
+   ]
+  },
+  {
+   "seed": "华为视频",
+   "category": "black",
+   "verifiedBundle": "com.huawei.hmsapp.himovie",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "华为音乐",
+   "category": "black",
+   "verifiedBundle": "com.huawei.hmsapp.music",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "华为阅读",
+   "category": "black",
+   "verifiedBundle": "com.huawei.hmsapp.books",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "华为钱包",
+   "category": "black",
+   "verifiedBundle": "com.huawei.hmos.wallet",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "运动健康",
+   "category": "black",
+   "verifiedBundle": "com.huawei.hmos.health",
+   "confirmedBundles": [
+    "com.huawei.hmos.health"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "运动健康",
+     "pkgName": "com.huawei.hmos.health",
+     "appId": "C1167174791690463936",
+     "developerName": "华为软件技术有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0c63994069d94acb900416e89badd363.webp",
+     "version": "17.0.10.300"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.huawei.hmos.health",
+     "appId": "C1167174791690463936",
+     "developerName": "华为软件技术有限公司",
+     "byBundlePkg": "com.huawei.hmos.health",
+     "byBundleName": "运动健康",
+     "byIdPkg": "com.huawei.hmos.health",
+     "byIdName": "运动健康"
+    }
+   ]
+  },
+  {
+   "seed": "转转",
+   "category": "black",
+   "verifiedBundle": "com.zhuanzhuan.hmoszz",
+   "confirmedBundles": [
+    "com.zhuanzhuan.hmoszz"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "转转",
+     "pkgName": "com.zhuanzhuan.hmoszz",
+     "appId": "C5765880207853019243",
+     "developerName": "北京转转精神科技有限责任公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1456413059c74985a457123395892214.webp",
+     "version": "10.30.105"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.zhuanzhuan.hmoszz",
+     "appId": "C5765880207853019243",
+     "developerName": "北京转转精神科技有限责任公司",
+     "byBundlePkg": "com.zhuanzhuan.hmoszz",
+     "byBundleName": "转转",
+     "byIdPkg": "com.zhuanzhuan.hmoszz",
+     "byIdName": "转转"
+    }
+   ]
+  },
+  {
+   "seed": "58同城",
+   "category": "black",
+   "verifiedBundle": "com.wuba.life",
+   "confirmedBundles": [
+    "com.wuba.life",
+    "com.atomicservice.5765880207854893925"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "58同城",
+     "pkgName": "com.wuba.life",
+     "appId": "C5765880207853134833",
+     "developerName": "北京五八信息技术有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f7c956ad2e7040c6ba5a74fdb0f98b1a.webp",
+     "version": "13.62.2"
+    },
+    {
+     "name": "58同城",
+     "pkgName": "com.atomicservice.5765880207854893925",
+     "appId": "C5765880207854893925",
+     "developerName": "北京城市网邻信息技术有限公司天津分公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/99ef816b28c54f14846f72cd278b41a5.webp",
+     "version": "1.2.5"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.wuba.life",
+     "appId": "C5765880207853134833",
+     "developerName": "北京五八信息技术有限公司",
+     "byBundlePkg": "com.wuba.life",
+     "byBundleName": "58同城",
+     "byIdPkg": "com.wuba.life",
+     "byIdName": "58同城"
+    },
+    {
+     "bundle": "com.atomicservice.5765880207854893925",
+     "appId": "C5765880207854893925",
+     "developerName": "北京城市网邻信息技术有限公司天津分公司",
+     "byBundlePkg": "com.atomicservice.5765880207854893925",
+     "byBundleName": "58同城",
+     "byIdPkg": "com.atomicservice.5765880207854893925",
+     "byIdName": "58同城"
+    }
+   ]
+  },
+  {
+   "seed": "海底捞",
+   "category": "black",
+   "verifiedBundle": "com.haidilao.haros",
+   "confirmedBundles": [
+    "com.haidilao.haros",
+    "com.atomicservice.6917571790488671361"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "海底捞",
+     "pkgName": "com.haidilao.haros",
+     "appId": "C5765880207854963045",
+     "developerName": "海鸿达（北京）餐饮管理有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/01b7eedd1aad4ca8aa7ba80a600aa1ab.webp",
+     "version": "9.11.2"
+    },
+    {
+     "name": "海底捞",
+     "pkgName": "com.atomicservice.6917571790488671361",
+     "appId": "C6917571790488671361",
+     "developerName": "海鸿达（北京）餐饮管理有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/35ea6b75513e4b0eb754773f7d62b83a.webp",
+     "version": "1.1.2"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.haidilao.haros",
+     "appId": "C5765880207854963045",
+     "developerName": "海鸿达（北京）餐饮管理有限公司",
+     "byBundlePkg": "com.haidilao.haros",
+     "byBundleName": "海底捞",
+     "byIdPkg": "com.haidilao.haros",
+     "byIdName": "海底捞"
+    },
+    {
+     "bundle": "com.atomicservice.6917571790488671361",
+     "appId": "C6917571790488671361",
+     "developerName": "海鸿达（北京）餐饮管理有限公司",
+     "byBundlePkg": "com.atomicservice.6917571790488671361",
+     "byBundleName": "海底捞",
+     "byIdPkg": "com.atomicservice.6917571790488671361",
+     "byIdName": "海底捞"
+    }
+   ]
+  },
+  {
+   "seed": "中国移动",
+   "category": "black",
+   "verifiedBundle": "com.droi.tong",
+   "confirmedBundles": [
+    "com.chinamobile.cmcc",
+    "com.atomicservice.5765880207854357741"
+   ],
+   "status": "conflict",
+   "exactHits": [
+    {
+     "name": "中国移动",
+     "pkgName": "com.chinamobile.cmcc",
+     "appId": "C5765880207853298313",
+     "developerName": "中移在线服务有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/09dab870dba7493e8f4f3503f7ffa9b3.webp",
+     "version": "12.5.6"
+    },
+    {
+     "name": "中国移动",
+     "pkgName": "com.atomicservice.5765880207854357741",
+     "appId": "C5765880207854357741",
+     "developerName": "中国移动通信有限公司销售分公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/3db36a3ae8f44b2aa6b10b3dad023232.webp",
+     "version": "1.0.2"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.chinamobile.cmcc",
+     "appId": "C5765880207853298313",
+     "developerName": "中移在线服务有限公司",
+     "byBundlePkg": "com.chinamobile.cmcc",
+     "byBundleName": "中国移动",
+     "byIdPkg": "com.chinamobile.cmcc",
+     "byIdName": "中国移动"
+    },
+    {
+     "bundle": "com.atomicservice.5765880207854357741",
+     "appId": "C5765880207854357741",
+     "developerName": "中国移动通信有限公司销售分公司",
+     "byBundlePkg": "com.atomicservice.5765880207854357741",
+     "byBundleName": "中国移动",
+     "byIdPkg": "com.atomicservice.5765880207854357741",
+     "byIdName": "中国移动"
+    }
+   ],
+   "verifiedBundleName": "卓易通"
+  },
+  {
+   "seed": "中国联通",
+   "category": "black",
+   "verifiedBundle": "com.sinovatech.unicom.ha",
+   "confirmedBundles": [
+    "com.sinovatech.unicom.ha",
+    "com.atomicservice.5765880207855787677"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "中国联通",
+     "pkgName": "com.sinovatech.unicom.ha",
+     "appId": "C5765880207853800893",
+     "developerName": "中国联合网络通信集团有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/7a2a52672383438c8004804c84478af3.webp",
+     "version": "13.2"
+    },
+    {
+     "name": "中国联通",
+     "pkgName": "com.atomicservice.5765880207855787677",
+     "appId": "C5765880207855787677",
+     "developerName": "中国联合网络通信集团有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/e7d4f50a75614a53a3d9f211f7a38a5f.webp",
+     "version": "1.0.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.sinovatech.unicom.ha",
+     "appId": "C5765880207853800893",
+     "developerName": "中国联合网络通信集团有限公司",
+     "byBundlePkg": "com.sinovatech.unicom.ha",
+     "byBundleName": "中国联通",
+     "byIdPkg": "com.sinovatech.unicom.ha",
+     "byIdName": "中国联通"
+    },
+    {
+     "bundle": "com.atomicservice.5765880207855787677",
+     "appId": "C5765880207855787677",
+     "developerName": "中国联合网络通信集团有限公司",
+     "byBundlePkg": "com.atomicservice.5765880207855787677",
+     "byBundleName": "中国联通",
+     "byIdPkg": "com.atomicservice.5765880207855787677",
+     "byIdName": "中国联通"
+    }
+   ]
+  },
+  {
+   "seed": "阿里巴巴",
+   "category": "black",
+   "verifiedBundle": "com.alibaba.wireless_hmos",
+   "confirmedBundles": [
+    "com.alibaba.wireless_hmos"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "阿里巴巴",
+     "pkgName": "com.alibaba.wireless_hmos",
+     "appId": "C5765880207853482675",
+     "developerName": "杭州阿里巴巴广告有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0c706cc1ab834fd2be035884f3eb3511.webp",
+     "version": "12.25.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.alibaba.wireless_hmos",
+     "appId": "C5765880207853482675",
+     "developerName": "杭州阿里巴巴广告有限公司",
+     "byBundlePkg": "com.alibaba.wireless_hmos",
+     "byBundleName": "阿里巴巴",
+     "byIdPkg": "com.alibaba.wireless_hmos",
+     "byIdName": "阿里巴巴"
+    }
+   ]
+  },
+  {
+   "seed": "UC浏览器",
+   "category": "black",
+   "verifiedBundle": "com.uc.mobile",
+   "confirmedBundles": [
+    "com.uc.mobile"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "UC浏览器",
+     "pkgName": "com.uc.mobile",
+     "appId": "C5765880207854396131",
+     "developerName": "广州市动景计算机科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/cf17380c6f284282804b7fd797ad79e8.webp",
+     "version": "19.2.8.0313"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.uc.mobile",
+     "appId": "C5765880207854396131",
+     "developerName": "广州市动景计算机科技有限公司",
+     "byBundlePkg": "com.uc.mobile",
+     "byBundleName": "UC浏览器",
+     "byIdPkg": "com.uc.mobile",
+     "byIdName": "UC浏览器"
+    }
+   ]
+  },
+  {
+   "seed": "迅雷",
+   "category": "black",
+   "verifiedBundle": "com.xunlei.thunder",
+   "confirmedBundles": [
+    "com.xunlei.thunder"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "迅雷",
+     "pkgName": "com.xunlei.thunder",
+     "appId": "C5765880207854526681",
+     "developerName": "深圳市迅雷网络技术有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/d55e4b245708413782fb06bedbbb814f.webp",
+     "version": "1.3.922"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.xunlei.thunder",
+     "appId": "C5765880207854526681",
+     "developerName": "深圳市迅雷网络技术有限公司",
+     "byBundlePkg": "com.xunlei.thunder",
+     "byBundleName": "迅雷",
+     "byIdPkg": "com.xunlei.thunder",
+     "byIdName": "迅雷"
+    }
+   ]
+  },
+  {
+   "seed": "搜狗输入法",
+   "category": "black",
+   "verifiedBundle": "com.sogou.input",
+   "confirmedBundles": [
+    "com.sogou.input"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "搜狗输入法",
+     "pkgName": "com.sogou.input",
+     "appId": "C5765880207855275657",
+     "developerName": "北京搜狗科技发展有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/22153ae6b78048c5a3e2d0ccc4c5a845.webp",
+     "version": "3.5.1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.sogou.input",
+     "appId": "C5765880207855275657",
+     "developerName": "北京搜狗科技发展有限公司",
+     "byBundlePkg": "com.sogou.input",
+     "byBundleName": "搜狗输入法",
+     "byIdPkg": "com.sogou.input",
+     "byIdName": "搜狗输入法"
+    }
+   ]
+  },
+  {
+   "seed": "扫描全能王",
+   "category": "black",
+   "verifiedBundle": "com.intsig.camscanner.hap",
+   "confirmedBundles": [
+    "com.intsig.camscanner.hap"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "扫描全能王",
+     "pkgName": "com.intsig.camscanner.hap",
+     "appId": "C5765880207853454905",
+     "developerName": "上海合合信息科技股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/6690ecb64fec4d8abd7fcb470095c9f6.webp",
+     "version": "1.36.0.20261109"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.intsig.camscanner.hap",
+     "appId": "C5765880207853454905",
+     "developerName": "上海合合信息科技股份有限公司",
+     "byBundlePkg": "com.intsig.camscanner.hap",
+     "byBundleName": "扫描全能王",
+     "byIdPkg": "com.intsig.camscanner.hap",
+     "byIdName": "扫描全能王"
+    }
+   ]
+  },
+  {
+   "seed": "美图秀秀",
+   "category": "black",
+   "verifiedBundle": "com.meitu.meitupic",
+   "confirmedBundles": [
+    "com.meitu.meitupic"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "美图秀秀",
+     "pkgName": "com.meitu.meitupic",
+     "appId": "C5765880207854648703",
+     "developerName": "厦门美图网科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/2fc124ff3169480888b22492a64244b4.webp",
+     "version": "12.22.3"
+    },
+    {
+     "name": "美图秀秀",
+     "pkgName": "com.meitu.mtxxpro",
+     "appId": "C6917568406542402944",
+     "developerName": "厦门美图网科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/rearrowcar/19274aaab5814e838e2d04fe54a1aba4.png",
+     "version": "7.8.6.3"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.meitu.meitupic",
+     "appId": "C5765880207854648703",
+     "developerName": "厦门美图网科技有限公司",
+     "byBundlePkg": "com.meitu.meitupic",
+     "byBundleName": "美图秀秀",
+     "byIdPkg": "com.meitu.meitupic",
+     "byIdName": "美图秀秀"
+    }
+   ]
+  },
+  {
+   "seed": "中国光大银行",
+   "category": "black",
+   "verifiedBundle": "com.cebbank.mobile.cembhmwork",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "华夏银行",
+   "category": "black",
+   "verifiedBundle": "com.hxb.mobile.hm",
+   "confirmedBundles": [
+    "com.hxb.mobile.hm"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "华夏银行",
+     "pkgName": "com.hxb.mobile.hm",
+     "appId": "C5765880207854354065",
+     "developerName": "华夏银行股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/7749eae7cb924a11935218539b4a80e4.webp",
+     "version": "7.1.8"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.hxb.mobile.hm",
+     "appId": "C5765880207854354065",
+     "developerName": "华夏银行股份有限公司",
+     "byBundlePkg": "com.hxb.mobile.hm",
+     "byBundleName": "华夏银行",
+     "byIdPkg": "com.hxb.mobile.hm",
+     "byIdName": "华夏银行"
+    }
+   ]
+  },
+  {
+   "seed": "北京银行",
+   "category": "black",
+   "verifiedBundle": "com.bankofbeijing.hmobilebanking",
+   "confirmedBundles": [
+    "com.bankofbeijing.hmobilebanking"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "北京银行",
+     "pkgName": "com.bankofbeijing.hmobilebanking",
+     "appId": "C5765880207853877841",
+     "developerName": "北京银行股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/bb9b181eb0704f83a794a1e84f196aa5.webp",
+     "version": "10.0.9"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.bankofbeijing.hmobilebanking",
+     "appId": "C5765880207853877841",
+     "developerName": "北京银行股份有限公司",
+     "byBundlePkg": "com.bankofbeijing.hmobilebanking",
+     "byBundleName": "北京银行",
+     "byIdPkg": "com.bankofbeijing.hmobilebanking",
+     "byIdName": "北京银行"
+    }
+   ]
+  },
+  {
+   "seed": "广发银行",
+   "category": "black",
+   "verifiedBundle": "com.cgbchina.xpt.hm",
+   "confirmedBundles": [
+    "com.cgbchina.xpt.hm"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "广发银行",
+     "pkgName": "com.cgbchina.xpt.hm",
+     "appId": "C5765880207854193479",
+     "developerName": "广发银行股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0d6c79e2915d4f96a0f5318e31df63be.webp",
+     "version": "11.7.3"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.cgbchina.xpt.hm",
+     "appId": "C5765880207854193479",
+     "developerName": "广发银行股份有限公司",
+     "byBundlePkg": "com.cgbchina.xpt.hm",
+     "byBundleName": "广发银行",
+     "byIdPkg": "com.cgbchina.xpt.hm",
+     "byIdName": "广发银行"
+    }
+   ]
+  },
+  {
+   "seed": "上海银行",
+   "category": "black",
+   "verifiedBundle": "cn.com.shbank.mperhm",
+   "confirmedBundles": [
+    "cn.com.shbank.mperhm"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "上海银行",
+     "pkgName": "cn.com.shbank.mperhm",
+     "appId": "C5765880207854252239",
+     "developerName": "上海银行股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/ccd65ec8d4044ed59e53a256c6045c3d.webp",
+     "version": "10.2.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "cn.com.shbank.mperhm",
+     "appId": "C5765880207854252239",
+     "developerName": "上海银行股份有限公司",
+     "byBundlePkg": "cn.com.shbank.mperhm",
+     "byBundleName": "上海银行",
+     "byIdPkg": "cn.com.shbank.mperhm",
+     "byIdName": "上海银行"
+    }
+   ]
+  },
+  {
+   "seed": "钉钉",
+   "category": "black",
+   "verifiedBundle": "com.dingtalk.hmos",
+   "confirmedBundles": [
+    "com.dingtalk.hmos"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "钉钉",
+     "pkgName": "com.dingtalk.hmos",
+     "appId": "C5765880207854012043",
+     "developerName": "钉钉科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/44792eecb3a64a56ac1bdc39d67b5c73.webp",
+     "version": "9.0.8"
+    },
+    {
+     "name": "钉钉",
+     "pkgName": "com.dingtalk.hmos.pc",
+     "appId": "C6917562670927859654",
+     "developerName": "钉钉科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/66c936df11e144ebad6f717f6d31adab.png",
+     "version": "9.0.1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.dingtalk.hmos",
+     "appId": "C5765880207854012043",
+     "developerName": "钉钉科技有限公司",
+     "byBundlePkg": "com.dingtalk.hmos",
+     "byBundleName": "钉钉",
+     "byIdPkg": "com.dingtalk.hmos",
+     "byIdName": "钉钉"
+    }
+   ]
+  },
+  {
+   "seed": "腾讯会议",
+   "category": "black",
+   "verifiedBundle": "com.tencent.meeting.app",
+   "confirmedBundles": [
+    "com.tencent.meeting.app"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "腾讯会议",
+     "pkgName": "com.tencent.meeting.app",
+     "appId": "C5765880207855638347",
+     "developerName": "腾讯科技（北京）有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/bfbcdfa46b9848d9a5f3cbae4621944a.webp",
+     "version": "3.34.110.415"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.tencent.meeting.app",
+     "appId": "C5765880207855638347",
+     "developerName": "腾讯科技（北京）有限公司",
+     "byBundlePkg": "com.tencent.meeting.app",
+     "byBundleName": "腾讯会议",
+     "byIdPkg": "com.tencent.meeting.app",
+     "byIdName": "腾讯会议"
+    }
+   ]
+  },
+  {
+   "seed": "云闪付",
+   "category": "black",
+   "verifiedBundle": "com.unionpay.hmos.wallet",
+   "confirmedBundles": [
+    "com.unionpay.hmos.wallet"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "云闪付",
+     "pkgName": "com.unionpay.hmos.wallet",
+     "appId": "C5765880207853843981",
+     "developerName": "中国银联股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/ffbdc955e8304c71b5fa5137d5068385.webp",
+     "version": "10.1.9"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.unionpay.hmos.wallet",
+     "appId": "C5765880207853843981",
+     "developerName": "中国银联股份有限公司",
+     "byBundlePkg": "com.unionpay.hmos.wallet",
+     "byBundleName": "云闪付",
+     "byIdPkg": "com.unionpay.hmos.wallet",
+     "byIdName": "云闪付"
+    }
+   ]
+  },
+  {
+   "seed": "天猫",
+   "category": "black",
+   "verifiedBundle": "com.tmall.tmall4hmos",
+   "confirmedBundles": [
+    "com.tmall.tmall4hmos"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "天猫",
+     "pkgName": "com.tmall.tmall4hmos",
+     "appId": "C5765880207855081457",
+     "developerName": "浙江天猫网络有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/5f3fc9a4237549fd93b3e84288861a95.webp",
+     "version": "15.91.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.tmall.tmall4hmos",
+     "appId": "C5765880207855081457",
+     "developerName": "浙江天猫网络有限公司",
+     "byBundlePkg": "com.tmall.tmall4hmos",
+     "byBundleName": "天猫",
+     "byIdPkg": "com.tmall.tmall4hmos",
+     "byIdName": "天猫"
+    }
+   ]
+  },
+  {
+   "seed": "网易云音乐",
+   "category": "black",
+   "verifiedBundle": "com.netease.cloudmusic.hm",
+   "confirmedBundles": [
+    "com.netease.cloudmusic.hm"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "网易云音乐",
+     "pkgName": "com.netease.cloudmusic.hm",
+     "appId": "C5765880207854644683",
+     "developerName": "杭州乐读科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f54b2f18bba94e38afa0bdd10f2293f3.webp",
+     "version": "9.6.31"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.netease.cloudmusic.hm",
+     "appId": "C5765880207854644683",
+     "developerName": "杭州乐读科技有限公司",
+     "byBundlePkg": "com.netease.cloudmusic.hm",
+     "byBundleName": "网易云音乐",
+     "byIdPkg": "com.netease.cloudmusic.hm",
+     "byIdName": "网易云音乐"
+    }
+   ]
+  },
+  {
+   "seed": "酷狗音乐",
+   "category": "black",
+   "verifiedBundle": "com.kugou.hmmusic",
+   "confirmedBundles": [
+    "com.kugou.hmmusic"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "酷狗音乐",
+     "pkgName": "com.kugou.hmmusic",
+     "appId": "C5765880207853008087",
+     "developerName": "广州酷狗计算机科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f697560ceacd4a279f4f914fd9b4fd8e.webp",
+     "version": "20.4.7.0"
+    },
+    {
+     "name": "酷狗音乐",
+     "pkgName": "com.kugou.harmony.sportwatch",
+     "appId": "C446263437811526336",
+     "developerName": "广州酷狗计算机科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/watch/icon144/dcaa200d152e43df914c45324c938cad.png",
+     "version": "1.9.1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.kugou.hmmusic",
+     "appId": "C5765880207853008087",
+     "developerName": "广州酷狗计算机科技有限公司",
+     "byBundlePkg": "com.kugou.hmmusic",
+     "byBundleName": "酷狗音乐",
+     "byIdPkg": "com.kugou.hmmusic",
+     "byIdName": "酷狗音乐"
+    }
+   ]
+  },
+  {
+   "seed": "酷我音乐",
+   "category": "black",
+   "verifiedBundle": "com.hmkuwo.cn",
+   "confirmedBundles": [
+    "com.hmkuwo.cn"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "酷我音乐",
+     "pkgName": "com.hmkuwo.cn",
+     "appId": "C5765880207855914575",
+     "developerName": "北京酷我科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/3881534e18874cff9767605b36ef264d.webp",
+     "version": "1.2.4.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.hmkuwo.cn",
+     "appId": "C5765880207855914575",
+     "developerName": "北京酷我科技有限公司",
+     "byBundlePkg": "com.hmkuwo.cn",
+     "byBundleName": "酷我音乐",
+     "byIdPkg": "com.hmkuwo.cn",
+     "byIdName": "酷我音乐"
+    }
+   ]
+  },
+  {
+   "seed": "腾讯地图",
+   "category": "black",
+   "verifiedBundle": "com.tencent.mapohos",
+   "confirmedBundles": [
+    "com.tencent.mapohos"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "腾讯地图",
+     "pkgName": "com.tencent.mapohos",
+     "appId": "C6917560021126113911",
+     "developerName": "深圳市腾讯计算机系统有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/6a334c75df7446c79e7d9e754284d31a.webp",
+     "version": "11.7.2"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.tencent.mapohos",
+     "appId": "C6917560021126113911",
+     "developerName": "深圳市腾讯计算机系统有限公司",
+     "byBundlePkg": "com.tencent.mapohos",
+     "byBundleName": "腾讯地图",
+     "byIdPkg": "com.tencent.mapohos",
+     "byIdName": "腾讯地图"
+    }
+   ]
+  },
+  {
+   "seed": "淘宝闪购",
+   "category": "black",
+   "verifiedBundle": "me.ele.eleme",
+   "confirmedBundles": [
+    "me.ele.eleme"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "淘宝闪购",
+     "pkgName": "me.ele.eleme",
+     "appId": "C5765880207854642753",
+     "developerName": "上海拉扎斯信息科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/95fe1f8be5ee4eb887f9cd962f2ec080.webp",
+     "version": "12.10.68"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "me.ele.eleme",
+     "appId": "C5765880207854642753",
+     "developerName": "上海拉扎斯信息科技有限公司",
+     "byBundlePkg": "me.ele.eleme",
+     "byBundleName": "淘宝闪购",
+     "byIdPkg": "me.ele.eleme",
+     "byIdName": "淘宝闪购"
+    }
+   ]
+  },
+  {
+   "seed": "交管12123",
+   "category": "black",
+   "verifiedBundle": "com.tmri.app.harmony12123",
+   "confirmedBundles": [
+    "com.tmri.app.harmony12123"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "交管12123",
+     "pkgName": "com.tmri.app.harmony12123",
+     "appId": "C6917559384755888642",
+     "developerName": "公安部交通管理科学研究所",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a556da966f884178a7e48d9ec1e25938.webp",
+     "version": "3.5.9"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.tmri.app.harmony12123",
+     "appId": "C6917559384755888642",
+     "developerName": "公安部交通管理科学研究所",
+     "byBundlePkg": "com.tmri.app.harmony12123",
+     "byBundleName": "交管12123",
+     "byIdPkg": "com.tmri.app.harmony12123",
+     "byIdName": "交管12123"
+    }
+   ]
+  },
+  {
+   "seed": "航旅纵横",
+   "category": "black",
+   "verifiedBundle": "com.umetrip.hm.app",
+   "confirmedBundles": [
+    "com.umetrip.hm.app",
+    "com.atomicservice.5765880207855457039"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "航旅纵横",
+     "pkgName": "com.umetrip.hm.app",
+     "appId": "C5765880207854461023",
+     "developerName": "中航信移动科技股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/03ab561d59d04fb8b244da40a248c489.webp",
+     "version": "8.6.7"
+    },
+    {
+     "name": "航旅纵横",
+     "pkgName": "com.company.umetripWatch",
+     "appId": "C462209939675293952",
+     "developerName": "中航信移动科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/watch/icon144/d4123ab6fa604dad8b8fe3bb085f855b.png",
+     "version": "1.5"
+    },
+    {
+     "name": "航旅纵横",
+     "pkgName": "com.atomicservice.5765880207855457039",
+     "appId": "C5765880207855457039",
+     "developerName": "中航信移动科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/e040db6791f14e6abb7fa3fd106b54d0.webp",
+     "version": "1.0.1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.umetrip.hm.app",
+     "appId": "C5765880207854461023",
+     "developerName": "中航信移动科技股份有限公司",
+     "byBundlePkg": "com.umetrip.hm.app",
+     "byBundleName": "航旅纵横",
+     "byIdPkg": "com.umetrip.hm.app",
+     "byIdName": "航旅纵横"
+    },
+    {
+     "bundle": "com.atomicservice.5765880207855457039",
+     "appId": "C5765880207855457039",
+     "developerName": "中航信移动科技有限公司",
+     "byBundlePkg": "com.atomicservice.5765880207855457039",
+     "byBundleName": "航旅纵横",
+     "byIdPkg": "com.atomicservice.5765880207855457039",
+     "byIdName": "航旅纵横"
+    }
+   ]
+  },
+  {
+   "seed": "国家医保服务平台",
+   "category": "black",
+   "verifiedBundle": "cn.hsa.app.hos",
+   "confirmedBundles": [
+    "cn.hsa.app.hos"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "国家医保服务平台",
+     "pkgName": "cn.hsa.app.hos",
+     "appId": "C6917578699992887492",
+     "developerName": "国家医疗保障局",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/78b788fb0e574c2ba9e4ed66faed5e21.webp",
+     "version": "1.3.36.3200"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "cn.hsa.app.hos",
+     "appId": "C6917578699992887492",
+     "developerName": "国家医疗保障局",
+     "byBundlePkg": "cn.hsa.app.hos",
+     "byBundleName": "国家医保服务平台",
+     "byIdPkg": "cn.hsa.app.hos",
+     "byIdName": "国家医保服务平台"
+    }
+   ]
+  },
+  {
+   "seed": "优酷",
+   "category": "black",
+   "verifiedBundle": "com.youku.next",
+   "confirmedBundles": [],
+   "status": "not-indexed",
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "seed": "咪咕视频",
+   "category": "black",
+   "verifiedBundle": "com.cmcc.cmvideohm",
+   "confirmedBundles": [
+    "com.cmcc.cmvideohm"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "咪咕视频",
+     "pkgName": "com.cmcc.cmvideohm",
+     "appId": "C5765880207853254737",
+     "developerName": "咪咕视讯科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/ade0eddf5850483181390b7d5a9fb4ff.webp",
+     "version": "6.5.76"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.cmcc.cmvideohm",
+     "appId": "C5765880207853254737",
+     "developerName": "咪咕视讯科技有限公司",
+     "byBundlePkg": "com.cmcc.cmvideohm",
+     "byBundleName": "咪咕视频",
+     "byIdPkg": "com.cmcc.cmvideohm",
+     "byIdName": "咪咕视频"
+    }
+   ]
+  },
+  {
+   "seed": "菜鸟",
+   "category": "black",
+   "verifiedBundle": "com.cainiao.cainiao4hmos",
+   "confirmedBundles": [
+    "com.cainiao.cainiao4hmos"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "菜鸟",
+     "pkgName": "com.cainiao.cainiao4hmos",
+     "appId": "C5765880207854134599",
+     "developerName": "杭州菜鸟物流信息科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1efbab4bfd1a44d5bf9361be900f363e.webp",
+     "version": "8.11.410"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.cainiao.cainiao4hmos",
+     "appId": "C5765880207854134599",
+     "developerName": "杭州菜鸟物流信息科技有限公司",
+     "byBundlePkg": "com.cainiao.cainiao4hmos",
+     "byBundleName": "菜鸟",
+     "byIdPkg": "com.cainiao.cainiao4hmos",
+     "byIdName": "菜鸟"
+    }
+   ]
+  },
+  {
+   "seed": "豆瓣",
+   "category": "black",
+   "verifiedBundle": "com.douban.frodo.hap",
+   "confirmedBundles": [
+    "com.douban.frodo.hap"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "豆瓣",
+     "pkgName": "com.douban.frodo.hap",
+     "appId": "C5765880207853753491",
+     "developerName": "北京豆网科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/3cdc1d872ec44043a731989aab49f9bc.webp",
+     "version": "7.36.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.douban.frodo.hap",
+     "appId": "C5765880207853753491",
+     "developerName": "北京豆网科技有限公司",
+     "byBundlePkg": "com.douban.frodo.hap",
+     "byBundleName": "豆瓣",
+     "byIdPkg": "com.douban.frodo.hap",
+     "byIdName": "豆瓣"
+    }
+   ]
+  },
+  {
+   "seed": "Soul",
+   "category": "black",
+   "verifiedBundle": "com.soul.soulapp",
+   "confirmedBundles": [
+    "com.soul.soulapp"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "Soul",
+     "pkgName": "com.soul.soulapp",
+     "appId": "C5765880207853394487",
+     "developerName": "上海任意门科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/69e68be41c304fa7a631d8afa3d4e73f.webp",
+     "version": "6.35.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.soul.soulapp",
+     "appId": "C5765880207853394487",
+     "developerName": "上海任意门科技有限公司",
+     "byBundlePkg": "com.soul.soulapp",
+     "byBundleName": "Soul",
+     "byIdPkg": "com.soul.soulapp",
+     "byIdName": "Soul"
+    }
+   ]
+  }
+ ]
+}

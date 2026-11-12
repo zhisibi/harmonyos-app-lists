@@ -17,7 +17,10 @@
 | 路径 | 说明 |
 | --- | --- |
 | `seeds/white.txt`、`seeds/black.txt` | 分类种子：人工维护，一行一个应用名，`#` 开头为注释。白名单 = 需要走代理的应用，黑名单 = 直连的国内常用应用。种子里只写括注前的短名（如「花瓣搜索」「HMTG」）。 |
-| `data/apps-pool.json` | 应用池产物（提交进仓）：采集到的全部应用及其包名、核实状态等中间数据。 |
+| `data/verified.json` | **唯一权威源**：已核实的鸿蒙包名（应用名 → bundle / fullName，新条目带 source / collectedAt / developer）。dist 的包名只取它。 |
+| `data/apps-pool.json` | 应用池产物（提交进仓）：榜单发现的常用应用；`bundle` 是应用市场 Web 目录包名（安卓目录，仅作对照），核实到的鸿蒙包名在 `hmBundle` 字段。 |
+| `data/seed-check.json` | 种子对账报告（自动生成）：每个种子经「在线获取包名」接口组复核的状态（match / conflict / not-indexed）与证据；conflict 只上报、不自动改 verified。 |
+| `data/pool-check.json` | 应用池核实报告（自动生成）：每个池内应用的鸿蒙包名核实证据。 |
 | `dist/perapp-lists.json` | 最终分发产物（提交进仓）：供咪咪v2ray 直接导入的黑白名单 JSON，见下节格式。 |
 | `scripts/collect.py` | 采集脚本（后续提交补入）：读取种子、查应用市场、更新 `data/` 与 `dist/`。 |
 
@@ -41,8 +44,9 @@
 
 ## 数据来源
 
-- 华为应用市场公开接口：按种子应用名检索、匹配包名；
-- 人工核实种子：`seeds/` 由维护者人工整理分类，核实状态以 `verified` 字段标注。
+- 包名核实走「在线获取包名」接口组（与咪咪v2ray App 内查应用同源）：`next.vcck.cn` 按名搜索（鸿蒙 NEXT 目录索引）发现候选，再经华为应用市场 `webedge/appinfo` 接口按包名 + 按 appId 双向确认；接口细节与实测结论见 [docs/api.md](docs/api.md)。
+- 应用市场 Web 目录接口（getTabDetail）返回的是**安卓目录包名**，与鸿蒙包名大面积不一致，只用于榜单发现常用应用名，不作包名依据。
+- 人工核实种子：`seeds/` 由维护者人工整理分类；新包名经接口确认 + 人工复核后才写入 `data/verified.json`。
 
 ## 自动更新
 

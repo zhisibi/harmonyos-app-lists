@@ -318,5 +318,124 @@
  "上海银行": {
   "bundle": "cn.com.shbank.mperhm",
   "fullName": "上海银行"
+ },
+ "钉钉": {
+  "bundle": "com.dingtalk.hmos",
+  "fullName": "钉钉",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "钉钉科技有限公司"
+ },
+ "腾讯会议": {
+  "bundle": "com.tencent.meeting.app",
+  "fullName": "腾讯会议",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "腾讯科技（北京）有限公司"
+ },
+ "云闪付": {
+  "bundle": "com.unionpay.hmos.wallet",
+  "fullName": "云闪付",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "中国银联股份有限公司"
+ },
+ "天猫": {
+  "bundle": "com.tmall.tmall4hmos",
+  "fullName": "天猫",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "浙江天猫网络有限公司"
+ },
+ "网易云音乐": {
+  "bundle": "com.netease.cloudmusic.hm",
+  "fullName": "网易云音乐",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "杭州乐读科技有限公司"
+ },
+ "酷狗音乐": {
+  "bundle": "com.kugou.hmmusic",
+  "fullName": "酷狗音乐",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "广州酷狗计算机科技有限公司"
+ },
+ "酷我音乐": {
+  "bundle": "com.hmkuwo.cn",
+  "fullName": "酷我音乐",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "北京酷我科技有限公司"
+ },
+ "腾讯地图": {
+  "bundle": "com.tencent.mapohos",
+  "fullName": "腾讯地图",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "深圳市腾讯计算机系统有限公司"
+ },
+ "淘宝闪购": {
+  "bundle": "me.ele.eleme",
+  "fullName": "淘宝闪购",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "上海拉扎斯信息科技有限公司"
+ },
+ "交管12123": {
+  "bundle": "com.tmri.app.harmony12123",
+  "fullName": "交管12123",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "公安部交通管理科学研究所"
+ },
+ "航旅纵横": {
+  "bundle": "com.umetrip.hm.app",
+  "fullName": "航旅纵横",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "中航信移动科技股份有限公司"
+ },
+ "国家医保服务平台": {
+  "bundle": "cn.hsa.app.hos",
+  "fullName": "国家医保服务平台",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "国家医疗保障局"
+ },
+ "优酷": {
+  "bundle": "com.youku.next",
+  "fullName": "优酷视频",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "优酷信息技术（北京）有限公司"
+ },
+ "咪咕视频": {
+  "bundle": "com.cmcc.cmvideohm",
+  "fullName": "咪咕视频",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "咪咕视讯科技有限公司"
+ },
+ "菜鸟": {
+  "bundle": "com.cainiao.cainiao4hmos",
+  "fullName": "菜鸟",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "杭州菜鸟物流信息科技有限公司"
+ },
+ "豆瓣": {
+  "bundle": "com.douban.frodo.hap",
+  "fullName": "豆瓣",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "北京豆网科技有限公司"
+ },
+ "Soul": {
+  "bundle": "com.soul.soulapp",
+  "fullName": "Soul",
+  "source": "vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "上海任意门科技有限公司"
  }
 }

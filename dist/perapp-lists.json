@@ -401,6 +401,91 @@
    "name": "上海银行",
    "bundle": "cn.com.shbank.mperhm",
    "verified": true
+  },
+  {
+   "name": "钉钉",
+   "bundle": "com.dingtalk.hmos",
+   "verified": true
+  },
+  {
+   "name": "腾讯会议",
+   "bundle": "com.tencent.meeting.app",
+   "verified": true
+  },
+  {
+   "name": "云闪付",
+   "bundle": "com.unionpay.hmos.wallet",
+   "verified": true
+  },
+  {
+   "name": "天猫",
+   "bundle": "com.tmall.tmall4hmos",
+   "verified": true
+  },
+  {
+   "name": "网易云音乐",
+   "bundle": "com.netease.cloudmusic.hm",
+   "verified": true
+  },
+  {
+   "name": "酷狗音乐",
+   "bundle": "com.kugou.hmmusic",
+   "verified": true
+  },
+  {
+   "name": "酷我音乐",
+   "bundle": "com.hmkuwo.cn",
+   "verified": true
+  },
+  {
+   "name": "腾讯地图",
+   "bundle": "com.tencent.mapohos",
+   "verified": true
+  },
+  {
+   "name": "淘宝闪购",
+   "bundle": "me.ele.eleme",
+   "verified": true
+  },
+  {
+   "name": "交管12123",
+   "bundle": "com.tmri.app.harmony12123",
+   "verified": true
+  },
+  {
+   "name": "航旅纵横",
+   "bundle": "com.umetrip.hm.app",
+   "verified": true
+  },
+  {
+   "name": "国家医保服务平台",
+   "bundle": "cn.hsa.app.hos",
+   "verified": true
+  },
+  {
+   "name": "优酷",
+   "bundle": "com.youku.next",
+   "verified": true
+  },
+  {
+   "name": "咪咕视频",
+   "bundle": "com.cmcc.cmvideohm",
+   "verified": true
+  },
+  {
+   "name": "菜鸟",
+   "bundle": "com.cainiao.cainiao4hmos",
+   "verified": true
+  },
+  {
+   "name": "豆瓣",
+   "bundle": "com.douban.frodo.hap",
+   "verified": true
+  },
+  {
+   "name": "Soul",
+   "bundle": "com.soul.soulapp",
+   "verified": true
   }
  ]
 }

@@ -1,0 +1,832 @@
+{
+ "interface": "vcck-search+ag-appinfo",
+ "generatedAt": "2026-11-12",
+ "results": [
+  {
+   "name": "Opera Mini: Fast Web Browser",
+   "agwebBundle": "com.opera.mini.native",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "CapCut",
+   "agwebBundle": "com.lemon.lvoverseas",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Госуслуги",
+   "agwebBundle": "ru.rostel",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Temu: Shop Like a Billionaire",
+   "agwebBundle": "com.einnovation.temu",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Likee - Short Video Community",
+   "agwebBundle": "video.like.huawei",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "VPN Master: Free & Secure VPN",
+   "agwebBundle": "free.vpn.unblock.proxy.vpnmaster",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "SHAREit lite",
+   "agwebBundle": "shareit.lite",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Clear Scan - PDF Scanner App",
+   "agwebBundle": "com.indymobileapp.document.scanner.huawei",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Absa Banking App",
+   "agwebBundle": "com.barclays.absa.banking",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Yandex Music, Books & Podcasts",
+   "agwebBundle": "ru.yandex.music",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Outlook",
+   "agwebBundle": "com.microsoft.office.outlook",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Loklok",
+   "agwebBundle": "com.tv.loklok",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "Radio FM",
+   "agwebBundle": "com.radio.fmradio",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "QR Code Reader - Scanner Code",
+   "agwebBundle": "com.gamma.scan.app",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "BBVA México",
+   "agwebBundle": "com.bancomer.mbanking",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "车祸模拟器2",
+   "agwebBundle": "com.achmnqe",
+   "hmBundle": "com.chmnqe.huawei",
+   "confirmedBundles": [
+    "com.chmnqe.huawei"
+   ],
+   "exactHits": [
+    {
+     "name": "车祸模拟器2",
+     "pkgName": "com.chmnqe.huawei",
+     "appId": "C6917586478153992888",
+     "developerName": "厦门歆阳网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0c468370abe746ce802f57e1c49488d0.webp",
+     "version": "1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.chmnqe.huawei",
+     "appId": "C6917586478153992888",
+     "developerName": "厦门歆阳网络科技有限公司",
+     "byBundlePkg": "com.chmnqe.huawei",
+     "byBundleName": "车祸模拟器2",
+     "byIdPkg": "com.chmnqe.huawei",
+     "byIdName": "车祸模拟器2"
+    }
+   ]
+  },
+  {
+   "name": "暴走山地自行车2",
+   "agwebBundle": "com.bzsdzxc2apk.huawei",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "欧洲卡车模拟器",
+   "agwebBundle": "com.ozkcmnqapk.huawei",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "国产车模拟器",
+   "agwebBundle": "com.gccmnqapk.huawei",
+   "hmBundle": "com.gccmnqhap.huawei",
+   "confirmedBundles": [
+    "com.gccmnqhap.huawei"
+   ],
+   "exactHits": [
+    {
+     "name": "国产车模拟器",
+     "pkgName": "com.gccmnqhap.huawei",
+     "appId": "C6917608516371946888",
+     "developerName": "厦门索润网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/8a91790b39ee41a387a856ff78352bf5.webp",
+     "version": "1.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.gccmnqhap.huawei",
+     "appId": "C6917608516371946888",
+     "developerName": "厦门索润网络科技有限公司",
+     "byBundlePkg": "com.gccmnqhap.huawei",
+     "byBundleName": "国产车模拟器",
+     "byIdPkg": "com.gccmnqhap.huawei",
+     "byIdName": "国产车模拟器"
+    }
+   ]
+  },
+  {
+   "name": "开心台球",
+   "agwebBundle": "com.zyyx.kxtqyx.huawei",
+   "hmBundle": "com.zykeji.kxtq.huawei",
+   "confirmedBundles": [
+    "com.zykeji.kxtq.huawei"
+   ],
+   "exactHits": [
+    {
+     "name": "开心台球",
+     "pkgName": "com.zykeji.kxtq.huawei",
+     "appId": "C6917568155867117123",
+     "developerName": "沈阳纵艺科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/fa3219b88cc54f6b87f9fbfddd81acaa.webp",
+     "version": "1.6.1.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.zykeji.kxtq.huawei",
+     "appId": "C6917568155867117123",
+     "developerName": "沈阳纵艺科技有限公司",
+     "byBundlePkg": "com.zykeji.kxtq.huawei",
+     "byBundleName": "开心台球",
+     "byIdPkg": "com.zykeji.kxtq.huawei",
+     "byIdName": "开心台球"
+    }
+   ]
+  },
+  {
+   "name": "警车模拟2025",
+   "agwebBundle": "com.jcmn2025apk.huawei",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "警车驾驶模拟",
+   "agwebBundle": "com.jcjsmnapk.huawei",
+   "hmBundle": "com.jcjsmn.hm.huawei",
+   "confirmedBundles": [
+    "com.jcjsmn.hm.huawei"
+   ],
+   "exactHits": [
+    {
+     "name": "警车驾驶模拟",
+     "pkgName": "com.jcjsmn.hm.huawei",
+     "appId": "C6917586312359139663",
+     "developerName": "厦门索润网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/5fff9fdd0d7f44a68947f6e7c4909fb4.webp",
+     "version": "1.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.jcjsmn.hm.huawei",
+     "appId": "C6917586312359139663",
+     "developerName": "厦门索润网络科技有限公司",
+     "byBundlePkg": "com.jcjsmn.hm.huawei",
+     "byBundleName": "警车驾驶模拟",
+     "byIdPkg": "com.jcjsmn.hm.huawei",
+     "byIdName": "警车驾驶模拟"
+    }
+   ]
+  },
+  {
+   "name": "挖掘机3D驾驶",
+   "agwebBundle": "com.whj3djsapk.huawei",
+   "hmBundle": "com.wjj3djs.hm.huawei",
+   "confirmedBundles": [
+    "com.wjj3djs.hm.huawei"
+   ],
+   "exactHits": [
+    {
+     "name": "挖掘机3D驾驶",
+     "pkgName": "com.wjj3djs.hm.huawei",
+     "appId": "C6917586311635538186",
+     "developerName": "厦门索润网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/57a0da27da1648abbc1e9c9a607f4603.webp",
+     "version": "1.1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.wjj3djs.hm.huawei",
+     "appId": "C6917586311635538186",
+     "developerName": "厦门索润网络科技有限公司",
+     "byBundlePkg": "com.wjj3djs.hm.huawei",
+     "byBundleName": "挖掘机3D驾驶",
+     "byIdPkg": "com.wjj3djs.hm.huawei",
+     "byIdName": "挖掘机3D驾驶"
+    }
+   ]
+  },
+  {
+   "name": "卡车模拟驾驶",
+   "agwebBundle": "com.kcmnjsapk.huawei",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "亚洲卡车驾驶模拟器",
+   "agwebBundle": "com.yzkcjsmnqapk.huawei",
+   "hmBundle": "com.yzkcjsmnq.hm.huawei",
+   "confirmedBundles": [
+    "com.yzkcjsmnq.hm.huawei"
+   ],
+   "exactHits": [
+    {
+     "name": "亚洲卡车驾驶模拟器",
+     "pkgName": "com.yzkcjsmnq.hm.huawei",
+     "appId": "C6917586654254798721",
+     "developerName": "厦门索润网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/6e0d96f55e824bf2811c955b52f9b7bf.webp",
+     "version": "1.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.yzkcjsmnq.hm.huawei",
+     "appId": "C6917586654254798721",
+     "developerName": "厦门索润网络科技有限公司",
+     "byBundlePkg": "com.yzkcjsmnq.hm.huawei",
+     "byBundleName": "亚洲卡车驾驶模拟器",
+     "byIdPkg": "com.yzkcjsmnq.hm.huawei",
+     "byIdName": "亚洲卡车驾驶模拟器"
+    }
+   ]
+  },
+  {
+   "name": "疯狂特技赛车",
+   "agwebBundle": "com.fktjscapk.huawei",
+   "hmBundle": "com.fktjsc.hm.huawei",
+   "confirmedBundles": [
+    "com.fktjsc.hm.huawei"
+   ],
+   "exactHits": [
+    {
+     "name": "疯狂特技赛车",
+     "pkgName": "com.fktjsc.hm.huawei",
+     "appId": "C6917585509772548698",
+     "developerName": "厦门索润网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c84edb1444dc4ad4b77b6fb4549fb291.webp",
+     "version": "1.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.fktjsc.hm.huawei",
+     "appId": "C6917585509772548698",
+     "developerName": "厦门索润网络科技有限公司",
+     "byBundlePkg": "com.fktjsc.hm.huawei",
+     "byBundleName": "疯狂特技赛车",
+     "byIdPkg": "com.fktjsc.hm.huawei",
+     "byIdName": "疯狂特技赛车"
+    }
+   ]
+  },
+  {
+   "name": "越野摩托车",
+   "agwebBundle": "com.yymtcapk.huawei",
+   "hmBundle": "com.yymtc.hm.huawei",
+   "confirmedBundles": [
+    "com.yymtc.hm.huawei"
+   ],
+   "exactHits": [
+    {
+     "name": "越野摩托车",
+     "pkgName": "com.yymtc.hm.huawei",
+     "appId": "C6917589133967615518",
+     "developerName": "厦门筑姚网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c9691cb77c2f42149d955fbe16a49dd4.webp",
+     "version": "1.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.yymtc.hm.huawei",
+     "appId": "C6917589133967615518",
+     "developerName": "厦门筑姚网络科技有限公司",
+     "byBundlePkg": "com.yymtc.hm.huawei",
+     "byBundleName": "越野摩托车",
+     "byIdPkg": "com.yymtc.hm.huawei",
+     "byIdName": "越野摩托车"
+    }
+   ]
+  },
+  {
+   "name": "越野车山地竞速",
+   "agwebBundle": "com.yycsdjsapk.huawei",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "救护车驾驶",
+   "agwebBundle": "com.jhcjsapk.huawei",
+   "hmBundle": "com.hm.jhcjs.huawei",
+   "confirmedBundles": [
+    "com.hm.jhcjs.huawei"
+   ],
+   "exactHits": [
+    {
+     "name": "救护车驾驶",
+     "pkgName": "com.hm.jhcjs.huawei",
+     "appId": "C6917586305771804184",
+     "developerName": "厦门萌桉网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0345b64c8b114e69af60584f1d68c010.webp",
+     "version": "1.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.hm.jhcjs.huawei",
+     "appId": "C6917586305771804184",
+     "developerName": "厦门萌桉网络科技有限公司",
+     "byBundlePkg": "com.hm.jhcjs.huawei",
+     "byBundleName": "救护车驾驶",
+     "byIdPkg": "com.hm.jhcjs.huawei",
+     "byIdName": "救护车驾驶"
+    }
+   ]
+  },
+  {
+   "name": "Snaptube",
+   "agwebBundle": "com.snaptube.premium",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "越野登山赛车",
+   "agwebBundle": "com.yydsscapk.huawei",
+   "hmBundle": "com.yydssc.hm.huawei",
+   "confirmedBundles": [
+    "com.yydssc.hm.huawei"
+   ],
+   "exactHits": [
+    {
+     "name": "越野登山赛车",
+     "pkgName": "com.yydssc.hm.huawei",
+     "appId": "C6917586453616087126",
+     "developerName": "厦门索润网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/893b290eb6fc42fd890dda6aee020180.webp",
+     "version": "1.1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.yydssc.hm.huawei",
+     "appId": "C6917586453616087126",
+     "developerName": "厦门索润网络科技有限公司",
+     "byBundlePkg": "com.yydssc.hm.huawei",
+     "byBundleName": "越野登山赛车",
+     "byIdPkg": "com.yydssc.hm.huawei",
+     "byIdName": "越野登山赛车"
+    }
+   ]
+  },
+  {
+   "name": "易次元",
+   "agwebBundle": "com.netease.avg.huawei",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "七猫免费小说",
+   "agwebBundle": "com.kmxs.reader",
+   "hmBundle": "com.qimao.novel",
+   "confirmedBundles": [
+    "com.qimao.novel"
+   ],
+   "exactHits": [
+    {
+     "name": "七猫免费小说",
+     "pkgName": "com.qimao.novel",
+     "appId": "C5765880207854241299",
+     "developerName": "上海七猫文化传媒有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/7ac0fbfba3a74e9799c243108d24f6db.webp",
+     "version": "8.11.1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.qimao.novel",
+     "appId": "C5765880207854241299",
+     "developerName": "上海七猫文化传媒有限公司",
+     "byBundlePkg": "com.qimao.novel",
+     "byBundleName": "七猫免费小说",
+     "byIdPkg": "com.qimao.novel",
+     "byIdName": "七猫免费小说"
+    }
+   ]
+  },
+  {
+   "name": "快看漫画",
+   "agwebBundle": "com.kuaikan.comic",
+   "hmBundle": "com.kuaikan.world",
+   "confirmedBundles": [
+    "com.kuaikan.world"
+   ],
+   "exactHits": [
+    {
+     "name": "快看漫画",
+     "pkgName": "com.kuaikan.world",
+     "appId": "C5765880207854960677",
+     "developerName": "快看世界（北京）科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/5f5aed7ff0d64cb3a4cc8e59dea80253.webp",
+     "version": "8.23.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.kuaikan.world",
+     "appId": "C5765880207854960677",
+     "developerName": "快看世界（北京）科技有限公司",
+     "byBundlePkg": "com.kuaikan.world",
+     "byBundleName": "快看漫画",
+     "byIdPkg": "com.kuaikan.world",
+     "byIdName": "快看漫画"
+    }
+   ]
+  },
+  {
+   "name": "话本小说",
+   "agwebBundle": "com.huabenapp",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "咪咕悦看",
+   "agwebBundle": "com.ophone.reader.ui",
+   "hmBundle": "com.migu.cmread.hm",
+   "confirmedBundles": [
+    "com.migu.cmread.hm"
+   ],
+   "exactHits": [
+    {
+     "name": "咪咕悦看",
+     "pkgName": "com.migu.cmread.hm",
+     "appId": "C5765880207855018749",
+     "developerName": "咪咕数字传媒有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/690e1ace62b1444e9b34a303372a1e4e.webp",
+     "version": "11.9.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.migu.cmread.hm",
+     "appId": "C5765880207855018749",
+     "developerName": "咪咕数字传媒有限公司",
+     "byBundlePkg": "com.migu.cmread.hm",
+     "byBundleName": "咪咕悦看",
+     "byIdPkg": "com.migu.cmread.hm",
+     "byIdName": "咪咕悦看"
+    }
+   ]
+  },
+  {
+   "name": "百灵创作",
+   "agwebBundle": "com.abailing.write",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "京东读书",
+   "agwebBundle": "com.jd.app.reader",
+   "hmBundle": "com.jd.app.reader.hos",
+   "confirmedBundles": [
+    "com.jd.app.reader.hos"
+   ],
+   "exactHits": [
+    {
+     "name": "京东读书",
+     "pkgName": "com.jd.app.reader.hos",
+     "appId": "C6917561975170776755",
+     "developerName": "北京京东叁佰陆拾度电子商务有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1bc46123e56d4680a9571c473d480698.webp",
+     "version": "4.70.08"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.jd.app.reader.hos",
+     "appId": "C6917561975170776755",
+     "developerName": "北京京东叁佰陆拾度电子商务有限公司",
+     "byBundlePkg": "com.jd.app.reader.hos",
+     "byBundleName": "京东读书",
+     "byIdPkg": "com.jd.app.reader.hos",
+     "byIdName": "京东读书"
+    }
+   ]
+  },
+  {
+   "name": "哔哩哔哩漫画",
+   "agwebBundle": "com.bilibili.comic",
+   "hmBundle": "yylx.bilibili.comic",
+   "confirmedBundles": [
+    "yylx.bilibili.comic"
+   ],
+   "exactHits": [
+    {
+     "name": "哔哩哔哩漫画",
+     "pkgName": "yylx.bilibili.comic",
+     "appId": "C5765880207855098311",
+     "developerName": "上海呵呵呵文化传播有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/86893fa8fff44e93a165806f34ec5e97.webp",
+     "version": "7.6.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "yylx.bilibili.comic",
+     "appId": "C5765880207855098311",
+     "developerName": "上海呵呵呵文化传播有限公司",
+     "byBundlePkg": "yylx.bilibili.comic",
+     "byBundleName": "哔哩哔哩漫画",
+     "byIdPkg": "yylx.bilibili.comic",
+     "byIdName": "哔哩哔哩漫画"
+    }
+   ]
+  },
+  {
+   "name": "懒人听书",
+   "agwebBundle": "bubei.tingshu",
+   "hmBundle": "bubei.tingshu.hos",
+   "confirmedBundles": [
+    "bubei.tingshu.hos"
+   ],
+   "exactHits": [
+    {
+     "name": "懒人听书",
+     "pkgName": "bubei.tingshu.hos",
+     "appId": "C5765880207853907497",
+     "developerName": "深圳市懒人在线科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1039e3edc93547e6b51a170a26975673.webp",
+     "version": "3.3.1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "bubei.tingshu.hos",
+     "appId": "C5765880207853907497",
+     "developerName": "深圳市懒人在线科技有限公司",
+     "byBundlePkg": "bubei.tingshu.hos",
+     "byBundleName": "懒人听书",
+     "byIdPkg": "bubei.tingshu.hos",
+     "byIdName": "懒人听书"
+    }
+   ]
+  },
+  {
+   "name": "今日看看极速版",
+   "agwebBundle": "com.syey.jinrikk",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
+   "name": "直播吧",
+   "agwebBundle": "android.zhibo8",
+   "hmBundle": "com.zhibo8.hmclient",
+   "confirmedBundles": [
+    "com.zhibo8.hmclient"
+   ],
+   "exactHits": [
+    {
+     "name": "直播吧",
+     "pkgName": "com.zhibo8.hmclient",
+     "appId": "C5765880207853341495",
+     "developerName": "厦门傲播网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1d2bc30d60b045349d8e6670a5efe551.webp",
+     "version": "1.6.4"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.zhibo8.hmclient",
+     "appId": "C5765880207853341495",
+     "developerName": "厦门傲播网络科技有限公司",
+     "byBundlePkg": "com.zhibo8.hmclient",
+     "byBundleName": "直播吧",
+     "byIdPkg": "com.zhibo8.hmclient",
+     "byIdName": "直播吧"
+    }
+   ]
+  },
+  {
+   "name": "虎扑",
+   "agwebBundle": "com.hupu.games",
+   "hmBundle": "com.hupu.heroes",
+   "confirmedBundles": [
+    "com.hupu.heroes"
+   ],
+   "exactHits": [
+    {
+     "name": "虎扑",
+     "pkgName": "com.hupu.heroes",
+     "appId": "C5765880207854612841",
+     "developerName": "上海匡慧网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/48fe1f0b553d49fdb864779220e81a41.webp",
+     "version": "8.2.49"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.hupu.heroes",
+     "appId": "C5765880207854612841",
+     "developerName": "上海匡慧网络科技有限公司",
+     "byBundlePkg": "com.hupu.heroes",
+     "byBundleName": "虎扑",
+     "byIdPkg": "com.hupu.heroes",
+     "byIdName": "虎扑"
+    }
+   ]
+  },
+  {
+   "name": "盐言故事",
+   "agwebBundle": "com.zhihu.vip.android",
+   "hmBundle": "com.zhihu.vip.hmos",
+   "confirmedBundles": [
+    "com.zhihu.vip.hmos"
+   ],
+   "exactHits": [
+    {
+     "name": "盐言故事",
+     "pkgName": "com.zhihu.vip.hmos",
+     "appId": "C6917571443665619579",
+     "developerName": "北京智者天下科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/5e9a26c666b044a8a4cdea3c05169914.webp",
+     "version": "1.92.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.zhihu.vip.hmos",
+     "appId": "C6917571443665619579",
+     "developerName": "北京智者天下科技有限公司",
+     "byBundlePkg": "com.zhihu.vip.hmos",
+     "byBundleName": "盐言故事",
+     "byIdPkg": "com.zhihu.vip.hmos",
+     "byIdName": "盐言故事"
+    }
+   ]
+  },
+  {
+   "name": "简讯",
+   "agwebBundle": "com.tipsoon.android",
+   "hmBundle": "com.tipsoon.harm",
+   "confirmedBundles": [
+    "com.tipsoon.harm"
+   ],
+   "exactHits": [
+    {
+     "name": "简讯",
+     "pkgName": "com.tipsoon.harm",
+     "appId": "C5765880207854167531",
+     "developerName": "成都黑领科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0d11b4a0620645bab4266b6d0309c527.webp",
+     "version": "5.1.2"
+    },
+    {
+     "name": "简讯",
+     "pkgName": "com.atomicservice.5765880207856178593",
+     "appId": "C5765880207856178593",
+     "developerName": "成都黑领科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/7eb79a645adf403db716ebffe4ba837b.webp",
+     "version": "1.0.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.tipsoon.harm",
+     "appId": "C5765880207854167531",
+     "developerName": "成都黑领科技有限公司",
+     "byBundlePkg": "com.tipsoon.harm",
+     "byBundleName": "简讯",
+     "byIdPkg": "com.tipsoon.harm",
+     "byIdName": "简讯"
+    },
+    {
+     "bundle": "com.atomicservice.5765880207856178593",
+     "appId": "C5765880207856178593",
+     "developerName": "成都黑领科技有限公司",
+     "byBundlePkg": null,
+     "byBundleName": null,
+     "byIdPkg": null,
+     "byIdName": null
+    }
+   ]
+  },
+  {
+   "name": "画涯",
+   "agwebBundle": "cn.fzhuayantcoltd.huayaapp",
+   "hmBundle": "com.huaya.view",
+   "confirmedBundles": [
+    "com.huaya.view"
+   ],
+   "exactHits": [
+    {
+     "name": "画涯",
+     "pkgName": "com.huaya.view",
+     "appId": "C6917587448530886182",
+     "developerName": "福州市画涯网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/385324816c27498587b5206308b2b939.webp",
+     "version": "2.1.8"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.huaya.view",
+     "appId": "C6917587448530886182",
+     "developerName": "福州市画涯网络科技有限公司",
+     "byBundlePkg": "com.huaya.view",
+     "byBundleName": "画涯",
+     "byIdPkg": "com.huaya.view",
+     "byIdName": "画涯"
+    }
+   ]
+  }
+ ]
+}
