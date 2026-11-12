@@ -19,8 +19,11 @@
 | `data/apps-pool.json` | 应用池产物（提交进仓）：榜单发现的常用应用；`bundle` 是应用市场 Web 目录包名（安卓目录，仅作对照），核实到的鸿蒙包名在 `hmBundle` 字段。 |
 | `data/seed-check.json` | 种子对账报告（自动生成）：每个种子经接口组复核的状态（match / conflict / not-indexed）与证据；conflict 只上报、不自动改 verified。 |
 | `data/pool-check.json` | 应用池核实报告（自动生成）：每个池内应用的鸿蒙包名核实证据。 |
+| `data/submissions-check.json` | 提交核实记录（自动生成）：经应用提交入口送来的条目中未过核实闸的记录与原因。 |
+| `data/overrides.json` | 覆盖审计记录（自动生成，append-only）：提交条目与既有条目冲突、按所有者裁决以提交覆盖的逐条留痕（旧/新包名与分类），可回溯、可回滚。 |
 | `dist/perapp-lists.json` | 最终分发产物（提交进仓）：已核实包名的结构化 JSON，见下节格式。 |
 | `scripts/collect.py` | 采集脚本：读取种子、查应用市场接口、更新 `data/` 与 `dist/`。 |
+| `scripts/intake.py` | 提交处理脚本：拉取应用提交入口的待处理条目，走同一组接口核实后写入 `data/verified.json`。 |
 
 ## `dist/perapp-lists.json` 格式
 
@@ -38,6 +41,7 @@
 - 包名核实走一组公开接口：`next.vcck.cn` 按名搜索（鸿蒙 NEXT 目录索引）发现候选，再经华为应用市场 `webedge/appinfo` 接口按包名 + 按 appId 双向确认；接口细节与实测结论见 [docs/api.md](docs/api.md)。
 - 应用市场 Web 目录接口（getTabDetail）返回的是**安卓目录包名**，与鸿蒙包名大面积不一致，只用于榜单发现常用应用名，不作包名依据。
 - 人工核实种子：`seeds/` 由维护者人工整理分类；新包名经接口确认 + 人工复核后才写入 `data/verified.json`。
+- 经应用提交入口送来的条目走同一组接口核实闸（核实标准不变，未过闸不入）；过闸后与既有条目冲突时**以提交为准**覆盖（2026-11-12 数据集所有者裁决），每次覆盖记入 `data/overrides.json`。注意这与种子对账不同：种子对账发现的 conflict 仍只上报、不自动改 verified。
 
 ## 自动更新
 

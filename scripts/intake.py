@@ -17,6 +17,13 @@ collect.py 有 __main__ 守卫，import 无副作用（已确认）。
 即本体包名——confirmed 里排除元服务变体（com.atomicservice.*）
 后的第一条。提交包名不是本体（哪怕在 confirmed 里）一律不过闸。
 
+冲突口径（2026-11-12 数据集所有者裁决）：任何会改动既有数据的
+处理都先过闸，闸口不放水；过闸后若与既有条目冲突（同名不同包名 /
+同包名不同名 / 同名同包名但分类不同），不再拒绝，**以提交为准
+覆盖**，每次覆盖记入 data/overrides.json（append-only）留痕。
+与既有条目完全一致（同名同包名同分类）的为 already-verified，
+不查接口、不改数据。
+
 收件端约定：
   - Worker 地址与管理口令优先读环境变量 WORKER_URL / PERAPP_ADMIN_TOKEN
     （GitHub Actions 模式由仓库 Secrets 注入）；无 env 时回落本地
@@ -54,6 +61,7 @@ TODAY = date.today().isoformat()
 
 VERIFIED_PATH = ROOT / "data" / "verified.json"
 SUBMISSIONS_CHECK_PATH = ROOT / "data" / "submissions-check.json"
+OVERRIDES_PATH = ROOT / "data" / "overrides.json"
 DIST_PATH = ROOT / "dist" / "perapp-lists.json"
 
 LIST_TO_CATEGORY = {"white": "include", "black": "exclude"}
@@ -63,6 +71,7 @@ SOURCE_TAG = "app-submit+vcck-search+ag-appinfo"
 COMMIT_PATHS = [
     "data/verified.json",
     "data/submissions-check.json",
+    "data/overrides.json",
     "dist/perapp-lists.json",
     "seeds/include.txt",
     "seeds/exclude.txt",
@@ -241,6 +250,28 @@ def append_seed(category, name):
     return True
 
 
+def remove_seed(category, name):
+    """把 name 从 seeds/<category>.txt 删除（覆盖改名/移分类用）。
+
+    只删内容行（去空白后与 name 全等且非注释行），注释与其余行原样
+    保留、顺序不变。不在文件中则不动文件、返回 False。
+    """
+    path = ROOT / "seeds" / f"{category}.txt"
+    lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
+    kept, removed = [], False
+    for line in lines:
+        stripped = line.strip()
+        if (not removed and stripped == name
+                and not stripped.startswith("#")):
+            removed = True
+            continue
+        kept.append(line)
+    if not removed:
+        return False
+    path.write_text("".join(kept), encoding="utf-8")
+    return True
+
+
 def regenerate_dist(verified):
     """按 collect.py main() 第 3 步同法重生成 dist/perapp-lists.json。"""
     seeds = {cat: read_seeds(cat) for cat in ("include", "exclude")}
@@ -275,21 +306,45 @@ def append_submissions_check(records):
     return True
 
 
+def append_overrides(records):
+    """把本轮覆盖记录 append 进 data/overrides.json（append-only 审计）。
+
+    顶层 JSON 数组；文件不存在则新建。记录形如
+    {date, name, oldBundle, newBundle, oldList, newList, origin}，
+    改名时另带 oldName。无记录时不动文件。
+    """
+    if not records:
+        return False
+    existing = []
+    if OVERRIDES_PATH.exists():
+        raw = OVERRIDES_PATH.read_text(encoding="utf-8").strip()
+        if raw:
+            parsed = json.loads(raw)
+            if not isinstance(parsed, list):
+                raise IntakeError(
+                    f"{OVERRIDES_PATH} exists but is not a JSON array")
+            existing = parsed
+    existing.extend(records)
+    OVERRIDES_PATH.write_text(_dump_json(existing), encoding="utf-8")
+    return True
+
+
 # ---------------------------------------------------------------- git 提交
 def _git(*args):
     return subprocess.run(["git", "-C", str(ROOT), *args],
                           capture_output=True, text=True)
 
 
-def maybe_commit(n_accepted, n_rejected, no_commit):
-    """有 accepted 或 submissions-check 有新增、且工作区确有变化时提交推送。
+def maybe_commit(n_accepted, n_overridden, n_rejected, no_commit):
+    """有 accepted/overridden 或 submissions-check 有新增、且工作区
+    确有变化时提交推送。
 
     返回状态字符串：skipped-no-commit / no-changes / committed /
     commit-failed:<原因>。只 add COMMIT_PATHS 里的文件。
     """
     if no_commit:
         return "skipped-no-commit"
-    if n_accepted <= 0 and n_rejected <= 0:
+    if n_accepted <= 0 and n_overridden <= 0 and n_rejected <= 0:
         return "no-changes"
     existing = [p for p in COMMIT_PATHS if (ROOT / p).exists()]
     if not existing:
@@ -306,8 +361,9 @@ def maybe_commit(n_accepted, n_rejected, no_commit):
     staged = _git("diff", "--cached", "--name-only", "--", *existing)
     if staged.returncode != 0 or not staged.stdout.strip():
         return "no-changes"
-    if n_accepted > 0:
-        message = f"feat: +{n_accepted} verified from app submissions"
+    if n_accepted > 0 or n_overridden > 0:
+        message = (f"feat: +{n_accepted} verified, {n_overridden} overridden "
+                   f"from app submissions")
     else:
         message = f"chore: record {n_rejected} rejected app submissions"
     commit = _git("commit", "-m", message)
@@ -320,25 +376,69 @@ def maybe_commit(n_accepted, n_rejected, no_commit):
 
 
 # ---------------------------------------------------------------- 主流程
+def _build_entry(rec, name, bundle):
+    """按确认记录构造 verified 条目（accepted 与覆盖共用）。"""
+    conf = find_confirmation(rec, bundle) or {}
+    entry = {
+        "bundle": bundle,
+        "fullName": conf.get("byBundleName") or name,
+        "source": SOURCE_TAG,
+        "collectedAt": TODAY,
+    }
+    if conf.get("developerName"):
+        entry["developer"] = conf["developerName"]
+    return entry
+
+
 def process_items(items, hm=None):
     """逐条处理 pending 项。
 
-    返回 (results, verified, seeds_to_append, rejected_records)：
-      results: [{name, bundle, list, category, outcome, stage?}, ...]
-      verified: 更新后的 verified dict（仅 accepted 时有新增）
-      seeds_to_append: [(category, name), ...] 待追加种子
+    返回 (results, verified, seed_ops, rejected_records, override_records)：
+      results: [{name, bundle, list, category, outcome, stage?, detail?}]
+        outcome ∈ accepted / overridden / already-verified / rejected
+      verified: 更新后的 verified dict
+      seed_ops: [("append"|"remove", category, name), ...]，由 main 按序
+        落盘（append_seed/remove_seed），与内存里的分类状态保持一致
       rejected_records: 待写入 submissions-check 的记录
+      override_records: 待写入 overrides.json 的审计记录
     单条抛异常记 rejected/stage="error" 并继续其余条。
+
+    处理顺序（2026-11-12 裁决口径）：与既有条目完全一致（同名同包名
+    同分类）直接 already-verified；其余一律先过三向确认闸，过不了闸
+    按证据 stage 拒绝；过闸后无冲突为新入选 accepted，有冲突以提交
+    为准覆盖 overridden 并留审计记录。
     """
     if hm is None:
         hm = HmClient()
     verified = json.loads(VERIFIED_PATH.read_text(encoding="utf-8"))
-    verified_bundles = {v.get("bundle") for v in verified.values()
-                        if isinstance(v, dict)}
+    # bundle -> 当前持有它的应用名（同轮变更随之更新）
+    bundle_owner = {}
+    for nm, v in verified.items():
+        if isinstance(v, dict) and v.get("bundle"):
+            bundle_owner[v["bundle"]] = nm
+    # 应用名当前的分类（以 seeds 成员关系为准），随本轮变更同步维护
+    seeds_map = {cat: list(read_seeds(cat)) for cat in ("include", "exclude")}
+
+    def _category_of(nm):
+        for cat in ("include", "exclude"):
+            if nm in seeds_map[cat]:
+                return cat
+        return None
 
     results = []
-    seeds_to_append = []
+    seed_ops = []
     rejected_records = []
+    override_records = []
+
+    def _seed_append(cat, nm):
+        if nm not in seeds_map[cat]:
+            seeds_map[cat].append(nm)
+            seed_ops.append(("append", cat, nm))
+
+    def _seed_remove(cat, nm):
+        if cat and nm in seeds_map[cat]:
+            seeds_map[cat].remove(nm)
+            seed_ops.append(("remove", cat, nm))
 
     for item in items:
         bundle = (item or {}).get("bundle")
@@ -358,29 +458,88 @@ def process_items(items, hm=None):
         try:
             if not bundle or not name or category is None:
                 _reject("error")
-            elif bundle in verified_bundles:
+                results.append(result)
+                continue
+
+            name_entry = verified.get(name)
+            owner = bundle_owner.get(bundle)  # 持有该 bundle 的名字（可能为 None）
+            cur_cat = _category_of(name) if name_entry else None
+
+            if (name_entry is not None
+                    and name_entry.get("bundle") == bundle
+                    and owner == name
+                    and cur_cat == category):
+                # 与既有条目完全一致：不查接口、不改数据
                 result["outcome"] = "already-verified"
-            elif name in verified and verified[name].get("bundle") != bundle:
-                # verified 绝不静默覆盖：同名不同包名只记录冲突
-                _reject("conflict-existing")
+                results.append(result)
+                continue
+
+            # 任何数据改动先过闸，闸口不放水
+            rec = resolve_name(hm, name)
+            if not gate_passes(rec, bundle):
+                _reject(rejection_stage(rec, name, bundle))
+                results.append(result)
+                continue
+
+            if name_entry is None and owner is None:
+                # 无冲突：新入选
+                verified[name] = _build_entry(rec, name, bundle)
+                bundle_owner[bundle] = name
+                _seed_append(category, name)
+                result["outcome"] = "accepted"
+                results.append(result)
+                continue
+
+            # 有冲突：以提交为准覆盖，逐个被顶替的既有条目留审计
+            result["outcome"] = "overridden"
+            details = []
+
+            if owner is not None and owner != name:
+                # 同包名不同名：旧名条目让位（改名）
+                owner_cat = _category_of(owner)
+                del verified[owner]
+                _seed_remove(owner_cat, owner)
+                override_records.append({
+                    "date": TODAY, "name": name, "oldName": owner,
+                    "oldBundle": bundle, "newBundle": bundle,
+                    "oldList": owner_cat, "newList": category,
+                    "origin": "app-submit"})
+                details.append(f"oldName={owner}")
+
+            if name_entry is not None and name_entry.get("bundle") != bundle:
+                # 同名不同包名：换包名（分类不同则一并移分类）
+                old_bundle = name_entry.get("bundle")
+                verified[name] = _build_entry(rec, name, bundle)
+                if bundle_owner.get(old_bundle) == name:
+                    del bundle_owner[old_bundle]
+                if cur_cat != category:
+                    _seed_remove(cur_cat, name)
+                    _seed_append(category, name)
+                override_records.append({
+                    "date": TODAY, "name": name,
+                    "oldBundle": old_bundle, "newBundle": bundle,
+                    "oldList": cur_cat, "newList": category,
+                    "origin": "app-submit"})
+                details.append(f"oldBundle={old_bundle}")
+            elif name_entry is not None:
+                # 同名同包名、仅分类不同：移分类，条目本身不动
+                if cur_cat != category:
+                    _seed_remove(cur_cat, name)
+                    _seed_append(category, name)
+                    override_records.append({
+                        "date": TODAY, "name": name,
+                        "oldBundle": bundle, "newBundle": bundle,
+                        "oldList": cur_cat, "newList": category,
+                        "origin": "app-submit"})
+                    details.append(f"oldList={cur_cat}")
             else:
-                rec = resolve_name(hm, name)
-                if gate_passes(rec, bundle):
-                    conf = find_confirmation(rec, bundle) or {}
-                    entry = {
-                        "bundle": bundle,
-                        "fullName": conf.get("byBundleName") or name,
-                        "source": SOURCE_TAG,
-                        "collectedAt": TODAY,
-                    }
-                    if conf.get("developerName"):
-                        entry["developer"] = conf["developerName"]
-                    verified[name] = entry
-                    verified_bundles.add(bundle)
-                    seeds_to_append.append((category, name))
-                    result["outcome"] = "accepted"
-                else:
-                    _reject(rejection_stage(rec, name, bundle))
+                # 纯改名（名是新的、包名被旧名占用，已在上面让位）：落新条目
+                verified[name] = _build_entry(rec, name, bundle)
+                _seed_append(category, name)
+
+            bundle_owner[bundle] = name
+            if details:
+                result["detail"] = " ".join(details)
         except Exception as e:  # 单条失败不中断全轮
             print(f"  [warn] intake failed for {name} ({bundle}): {e}",
                   file=sys.stderr)
@@ -388,7 +547,7 @@ def process_items(items, hm=None):
                 _reject("error")
         results.append(result)
 
-    return results, verified, seeds_to_append, rejected_records
+    return results, verified, seed_ops, rejected_records, override_records
 
 
 def main(argv=None):
@@ -418,18 +577,30 @@ def main(argv=None):
 
     print(f"pending: {len(items)}")
 
-    results, verified, seeds_to_append, rejected_records = process_items(items)
+    (results, verified, seed_ops,
+     rejected_records, override_records) = process_items(items)
 
     n_accepted = sum(1 for r in results if r["outcome"] == "accepted")
+    n_overridden = sum(1 for r in results if r["outcome"] == "overridden")
     n_rejected = sum(1 for r in results if r["outcome"] == "rejected")
     n_already = sum(1 for r in results if r["outcome"] == "already-verified")
 
-    # 文件落盘：accepted -> verified + seeds + dist；rejected -> submissions-check
-    if n_accepted > 0:
+    # 文件落盘：accepted/overridden -> verified + seeds + dist + overrides；
+    # rejected -> submissions-check
+    if n_accepted > 0 or n_overridden > 0:
         VERIFIED_PATH.write_text(_dump_json(verified), encoding="utf-8")
-        for category, name in seeds_to_append:
-            append_seed(category, name)
+        for op, category, name in seed_ops:
+            if op == "append":
+                append_seed(category, name)
+            else:
+                remove_seed(category, name)
         regenerate_dist(verified)
+    if override_records:
+        try:
+            append_overrides(override_records)
+        except IntakeError as e:
+            print(f"error: {e}", file=sys.stderr)
+            return 1
     check_changed = False
     if rejected_records:
         try:
@@ -443,6 +614,8 @@ def main(argv=None):
         line = f"{r['outcome']}: {r['name']} ({r['bundle']}) list={r['list']}"
         if r.get("stage"):
             line += f" stage={r['stage']}"
+        if r.get("detail"):
+            line += f" {r['detail']}"
         print(line)
 
     # 全部条目处理完 -> ack 全部 bundle 清除
@@ -456,15 +629,18 @@ def main(argv=None):
             ack_error = str(e)
             print(f"error: {ack_error}", file=sys.stderr)
 
-    # 提交（默认）：有 accepted 或 submissions-check 有新增且确有变化才提交
+    # 提交（默认）：有 accepted/overridden 或 submissions-check 有新增
+    # 且确有变化才提交
     commit_status = maybe_commit(
-        n_accepted, len(rejected_records) if check_changed else 0,
+        n_accepted, n_overridden,
+        len(rejected_records) if check_changed else 0,
         no_commit=args.no_commit)
     print(f"commit: {commit_status}")
 
     print("=== summary ===")
-    print(f"accepted={n_accepted} rejected={n_rejected} "
-          f"already-verified={n_already} total={len(results)}")
+    print(f"accepted={n_accepted} overridden={n_overridden} "
+          f"rejected={n_rejected} already-verified={n_already} "
+          f"total={len(results)}")
 
     if ack_error:
         return 1
