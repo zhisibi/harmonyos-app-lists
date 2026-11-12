@@ -102,7 +102,11 @@ def get_config(base_url_override=None, secrets_path=SECRETS_PATH):
 
 def _worker_request(base, token, method, path, payload=None, timeout=30):
     url = base + path
-    headers = {"X-Admin-Token": token, "Accept": "application/json"}
+    headers = {"X-Admin-Token": token, "Accept": "application/json",
+               # The worker zone's Browser Integrity Check rejects the default
+               # Python-urllib signature (CF error 1010); send a browser UA.
+               "User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 "
+                             "(KHTML, like Gecko) Chrome/120.0 Mobile Safari/537.36"}
     data = None
     if payload is not None:
         data = json.dumps(payload).encode("utf-8")
