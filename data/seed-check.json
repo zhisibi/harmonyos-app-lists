@@ -4615,6 +4615,66 @@
      "byIdName": "金铲铲之战"
     }
    ]
+  },
+  {
+   "seed": "掌阅",
+   "category": "exclude",
+   "verifiedBundle": "com.zhangyue.ireader.hm",
+   "confirmedBundles": [
+    "com.zhangyue.ireader.hm"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "掌阅",
+     "pkgName": "com.zhangyue.ireader.hm",
+     "appId": "C5765880207855215087",
+     "developerName": "掌阅科技股份有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/07377c5237ab40288ab017d6add9e8bc.webp",
+     "version": "1.0.26"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.zhangyue.ireader.hm",
+     "appId": "C5765880207855215087",
+     "developerName": "掌阅科技股份有限公司",
+     "byBundlePkg": "com.zhangyue.ireader.hm",
+     "byBundleName": "掌阅",
+     "byIdPkg": "com.zhangyue.ireader.hm",
+     "byIdName": "掌阅"
+    }
+   ]
+  },
+  {
+   "seed": "车祸模拟器2",
+   "category": "exclude",
+   "verifiedBundle": "com.chmnqe.huawei",
+   "confirmedBundles": [
+    "com.chmnqe.huawei"
+   ],
+   "status": "match",
+   "exactHits": [
+    {
+     "name": "车祸模拟器2",
+     "pkgName": "com.chmnqe.huawei",
+     "appId": "C6917586478153992888",
+     "developerName": "厦门歆阳网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0c468370abe746ce802f57e1c49488d0.webp",
+     "version": "1"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.chmnqe.huawei",
+     "appId": "C6917586478153992888",
+     "developerName": "厦门歆阳网络科技有限公司",
+     "byBundlePkg": "com.chmnqe.huawei",
+     "byBundleName": "车祸模拟器2",
+     "byIdPkg": "com.chmnqe.huawei",
+     "byIdName": "车祸模拟器2"
+    }
+   ]
   }
  ]
 }

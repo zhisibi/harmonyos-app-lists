@@ -791,6 +791,11 @@
    "name": "掌阅",
    "bundle": "com.zhangyue.ireader.hm",
    "verified": true
+  },
+  {
+   "name": "车祸模拟器2",
+   "bundle": "com.chmnqe.huawei",
+   "verified": true
   }
  ]
 }

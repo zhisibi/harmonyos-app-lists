@@ -864,5 +864,12 @@
   "source": "app-submit+vcck-search+ag-appinfo",
   "collectedAt": "2026-11-12",
   "developer": "掌阅科技股份有限公司"
+ },
+ "车祸模拟器2": {
+  "bundle": "com.chmnqe.huawei",
+  "fullName": "车祸模拟器2",
+  "source": "app-submit+vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "厦门歆阳网络科技有限公司"
  }
 }

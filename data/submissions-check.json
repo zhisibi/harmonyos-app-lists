@@ -14,5 +14,13 @@
   "category": "exclude",
   "stage": "vcck-no-exact-phone-hit",
   "date": "2026-11-12"
+ },
+ {
+  "name": "冒烟假应用",
+  "bundle": "com.smoke.fake.app",
+  "list": "black",
+  "category": "exclude",
+  "stage": "vcck-no-exact-phone-hit",
+  "date": "2026-11-12"
  }
 ]
