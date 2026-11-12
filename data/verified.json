@@ -857,5 +857,12 @@
   "source": "vcck-search+ag-appinfo",
   "collectedAt": "2026-11-12",
   "developer": "上海米哈游影铁科技有限公司"
+ },
+ "掌阅": {
+  "bundle": "com.zhangyue.ireader.hm",
+  "fullName": "掌阅",
+  "source": "app-submit+vcck-search+ag-appinfo",
+  "collectedAt": "2026-11-12",
+  "developer": "掌阅科技股份有限公司"
  }
 }

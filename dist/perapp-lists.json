@@ -786,6 +786,11 @@
    "name": "金铲铲之战",
    "bundle": "com.tencent.jkchess.huawei",
    "verified": true
+  },
+  {
+   "name": "掌阅",
+   "bundle": "com.zhangyue.ireader.hm",
+   "verified": true
   }
  ]
 }
