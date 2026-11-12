@@ -4,7 +4,7 @@
  "results": [
   {
    "seed": "华为浏览器",
-   "category": "white",
+   "category": "include",
    "verifiedBundle": "com.huawei.hmos.browser",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -13,7 +13,7 @@
   },
   {
    "seed": "花瓣搜索",
-   "category": "white",
+   "category": "include",
    "verifiedBundle": "com.huawei.hmsapp.hisearch",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -22,7 +22,7 @@
   },
   {
    "seed": "花瓣地图 Petal Maps",
-   "category": "white",
+   "category": "include",
    "verifiedBundle": "com.huawei.hmos.maps.app",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -31,7 +31,7 @@
   },
   {
    "seed": "华为邮箱",
-   "category": "white",
+   "category": "include",
    "verifiedBundle": "com.huawei.hmos.email",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -40,7 +40,7 @@
   },
   {
    "seed": "HMTG",
-   "category": "white",
+   "category": "include",
    "verifiedBundle": "com.YuanChu.HMTG",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -49,7 +49,7 @@
   },
   {
    "seed": "Petrelgram",
-   "category": "white",
+   "category": "include",
    "verifiedBundle": "com.miramira8295.petrelgram",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -58,7 +58,7 @@
   },
   {
    "seed": "OHgram",
-   "category": "white",
+   "category": "include",
    "verifiedBundle": "com.mikannqaq.ohgram",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -67,7 +67,7 @@
   },
   {
    "seed": "Harmony X",
-   "category": "white",
+   "category": "include",
    "verifiedBundle": "com.haohaoai0.harmonyx",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -76,7 +76,7 @@
   },
   {
    "seed": "Instamony",
-   "category": "white",
+   "category": "include",
    "verifiedBundle": "com.fanha.instarmony",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -85,7 +85,7 @@
   },
   {
    "seed": "YourPipe",
-   "category": "white",
+   "category": "include",
    "verifiedBundle": "com.talon.yourpipe",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -94,7 +94,7 @@
   },
   {
    "seed": "ArkCat",
-   "category": "white",
+   "category": "include",
    "verifiedBundle": "me.zmbad.arkcat",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -103,7 +103,7 @@
   },
   {
    "seed": "微信",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.tencent.wechat",
    "confirmedBundles": [
     "com.tencent.wechat"
@@ -141,7 +141,7 @@
   },
   {
    "seed": "QQ",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.tencent.mqq",
    "confirmedBundles": [
     "com.tencent.mqq"
@@ -179,7 +179,7 @@
   },
   {
    "seed": "微博",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.sina.weibo.stage",
    "confirmedBundles": [
     "com.sina.weibo.stage"
@@ -209,7 +209,7 @@
   },
   {
    "seed": "支付宝",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.alipay.mobile.client",
    "confirmedBundles": [
     "com.alipay.mobile.client"
@@ -247,7 +247,7 @@
   },
   {
    "seed": "淘宝",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.taobao.taobao4hmos",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -256,7 +256,7 @@
   },
   {
    "seed": "京东",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.jd.hm.mall",
    "confirmedBundles": [
     "com.jd.hm.mall"
@@ -286,7 +286,7 @@
   },
   {
    "seed": "拼多多",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.xunmeng.pinduoduo.hos",
    "confirmedBundles": [
     "com.xunmeng.pinduoduo.hos"
@@ -316,7 +316,7 @@
   },
   {
    "seed": "闲鱼",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.taobao.idlefish4ohos",
    "confirmedBundles": [
     "com.taobao.idlefish4ohos"
@@ -346,7 +346,7 @@
   },
   {
    "seed": "唯品会",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.vip.hosapp",
    "confirmedBundles": [
     "com.vip.hosapp"
@@ -376,7 +376,7 @@
   },
   {
    "seed": "得物",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.dewu.hos",
    "confirmedBundles": [
     "com.dewu.hos",
@@ -424,7 +424,7 @@
   },
   {
    "seed": "小红书",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.xingin.xhs_hos",
    "confirmedBundles": [
     "com.xingin.xhs_hos"
@@ -454,7 +454,7 @@
   },
   {
    "seed": "知乎",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.zhihu.hmos",
    "confirmedBundles": [
     "com.zhihu.hmos"
@@ -484,7 +484,7 @@
   },
   {
    "seed": "抖音",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.ss.hm.ugc.aweme",
    "confirmedBundles": [
     "com.ss.hm.ugc.aweme"
@@ -522,7 +522,7 @@
   },
   {
    "seed": "快手",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.kuaishou.hmapp",
    "confirmedBundles": [
     "com.kuaishou.hmapp"
@@ -552,7 +552,7 @@
   },
   {
    "seed": "快手极速版",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.kuaishou.hmnebula",
    "confirmedBundles": [
     "com.kuaishou.hmnebula"
@@ -582,7 +582,7 @@
   },
   {
    "seed": "哔哩哔哩",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "yylx.danmaku.bili",
    "confirmedBundles": [
     "yylx.danmaku.bili"
@@ -612,7 +612,7 @@
   },
   {
    "seed": "百度",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.baidu.baiduapp",
    "confirmedBundles": [
     "com.baidu.baiduapp"
@@ -642,7 +642,7 @@
   },
   {
    "seed": "今日头条",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.ss.hm.article.news",
    "confirmedBundles": [
     "com.ss.hm.article.news"
@@ -672,7 +672,7 @@
   },
   {
    "seed": "豆包",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.larus.nova.hm",
    "confirmedBundles": [
     "com.larus.nova.hm"
@@ -710,7 +710,7 @@
   },
   {
    "seed": "QQ音乐",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.tencent.hm.qqmusic",
    "confirmedBundles": [
     "com.tencent.hm.qqmusic"
@@ -740,7 +740,7 @@
   },
   {
    "seed": "汽水音乐",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.luna.hm.music",
    "confirmedBundles": [
     "com.luna.hm.music"
@@ -770,7 +770,7 @@
   },
   {
    "seed": "喜马拉雅",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.ximalaya.ting.xmharmony",
    "confirmedBundles": [
     "com.ximalaya.ting.xmharmony"
@@ -808,7 +808,7 @@
   },
   {
    "seed": "高德地图",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.amap.hmapp",
    "confirmedBundles": [
     "com.amap.hmapp"
@@ -846,7 +846,7 @@
   },
   {
    "seed": "百度地图",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.baidu.hmmap",
    "confirmedBundles": [
     "com.baidu.hmmap"
@@ -876,7 +876,7 @@
   },
   {
    "seed": "美团",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.sankuai.hmeituan",
    "confirmedBundles": [
     "com.sankuai.hmeituan"
@@ -906,7 +906,7 @@
   },
   {
    "seed": "美团外卖",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.meituan.takeaway",
    "confirmedBundles": [
     "com.meituan.takeaway",
@@ -954,7 +954,7 @@
   },
   {
    "seed": "大众点评",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.sankuai.dianping",
    "confirmedBundles": [
     "com.sankuai.dianping"
@@ -984,7 +984,7 @@
   },
   {
    "seed": "滴滴出行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.sdu.didi.hmos.psnger",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -993,7 +993,7 @@
   },
   {
    "seed": "铁路12306",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.chinarailway.ticketingHM",
    "confirmedBundles": [
     "com.chinarailway.ticketingHM"
@@ -1023,7 +1023,7 @@
   },
   {
    "seed": "同程旅行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.tongcheng.hmos",
    "confirmedBundles": [
     "com.tongcheng.hmos",
@@ -1071,7 +1071,7 @@
   },
   {
    "seed": "腾讯视频",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.tencent.videohm",
    "confirmedBundles": [
     "com.tencent.videohm"
@@ -1109,7 +1109,7 @@
   },
   {
    "seed": "爱奇艺",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.qiyi.video.hmy",
    "confirmedBundles": [
     "com.qiyi.video.hmy"
@@ -1139,7 +1139,7 @@
   },
   {
    "seed": "芒果TV",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.mgtv.phone",
    "confirmedBundles": [
     "com.mgtv.phone"
@@ -1169,7 +1169,7 @@
   },
   {
    "seed": "企业微信",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.tencent.wework.hmos",
    "confirmedBundles": [
     "com.tencent.wework.hmos"
@@ -1199,7 +1199,7 @@
   },
   {
    "seed": "飞书",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.ss.feishu",
    "confirmedBundles": [
     "com.ss.feishu"
@@ -1229,7 +1229,7 @@
   },
   {
    "seed": "WPS Office",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "cn.wps.mobileoffice.hap",
    "confirmedBundles": [
     "cn.wps.office.hap"
@@ -1260,7 +1260,7 @@
   },
   {
    "seed": "个人所得税",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "cn.gov.chinatax.gt4.hm",
    "confirmedBundles": [
     "cn.gov.tax.its.hm"
@@ -1291,7 +1291,7 @@
   },
   {
    "seed": "中国工商银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.icbc.harmonyclient",
    "confirmedBundles": [
     "com.icbc.harmonyclient"
@@ -1321,7 +1321,7 @@
   },
   {
    "seed": "中国建设银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.ccb.mobilebank.hm",
    "confirmedBundles": [
     "com.ccb.mobilebank.hm"
@@ -1351,7 +1351,7 @@
   },
   {
    "seed": "招商银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.cmbchina.harmony",
    "confirmedBundles": [
     "com.cmbchina.harmony"
@@ -1381,7 +1381,7 @@
   },
   {
    "seed": "中国农业银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.bankabc.openharmonyapp.release",
    "confirmedBundles": [
     "com.bankabc.openharmonyapp.release"
@@ -1411,7 +1411,7 @@
   },
   {
    "seed": "中国银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.boc.bocsoft.mbs.personal",
    "confirmedBundles": [
     "com.boc.bocsoft.mbs.personal"
@@ -1441,7 +1441,7 @@
   },
   {
    "seed": "交通银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.bankcomm.mobshos",
    "confirmedBundles": [
     "com.bankcomm.mobshos"
@@ -1471,7 +1471,7 @@
   },
   {
    "seed": "邮储银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.psbc.mbank.hm",
    "confirmedBundles": [
     "com.psbc.mbank.hm"
@@ -1501,7 +1501,7 @@
   },
   {
    "seed": "中信银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "cn.citicbank.wap",
    "confirmedBundles": [
     "cn.citicbank.wap"
@@ -1531,7 +1531,7 @@
   },
   {
    "seed": "中国民生银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "cn.com.cmbc.ohmbank",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -1540,7 +1540,7 @@
   },
   {
    "seed": "平安银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.pingan.bank.pocket",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -1549,7 +1549,7 @@
   },
   {
    "seed": "兴业银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.cib.cibmbhmos",
    "confirmedBundles": [
     "com.cib.cibmbhmos"
@@ -1579,7 +1579,7 @@
   },
   {
    "seed": "华为视频",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.huawei.hmsapp.himovie",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -1588,7 +1588,7 @@
   },
   {
    "seed": "华为音乐",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.huawei.hmsapp.music",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -1597,7 +1597,7 @@
   },
   {
    "seed": "华为阅读",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.huawei.hmsapp.books",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -1606,7 +1606,7 @@
   },
   {
    "seed": "华为钱包",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.huawei.hmos.wallet",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -1615,7 +1615,7 @@
   },
   {
    "seed": "运动健康",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.huawei.hmos.health",
    "confirmedBundles": [
     "com.huawei.hmos.health"
@@ -1645,7 +1645,7 @@
   },
   {
    "seed": "转转",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.zhuanzhuan.hmoszz",
    "confirmedBundles": [
     "com.zhuanzhuan.hmoszz"
@@ -1675,7 +1675,7 @@
   },
   {
    "seed": "58同城",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.wuba.life",
    "confirmedBundles": [
     "com.wuba.life",
@@ -1723,7 +1723,7 @@
   },
   {
    "seed": "海底捞",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.haidilao.haros",
    "confirmedBundles": [
     "com.haidilao.haros",
@@ -1771,7 +1771,7 @@
   },
   {
    "seed": "中国移动",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.droi.tong",
    "confirmedBundles": [
     "com.chinamobile.cmcc",
@@ -1820,7 +1820,7 @@
   },
   {
    "seed": "中国联通",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.sinovatech.unicom.ha",
    "confirmedBundles": [
     "com.sinovatech.unicom.ha",
@@ -1868,7 +1868,7 @@
   },
   {
    "seed": "阿里巴巴",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.alibaba.wireless_hmos",
    "confirmedBundles": [
     "com.alibaba.wireless_hmos"
@@ -1898,7 +1898,7 @@
   },
   {
    "seed": "UC浏览器",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.uc.mobile",
    "confirmedBundles": [
     "com.uc.mobile"
@@ -1928,7 +1928,7 @@
   },
   {
    "seed": "迅雷",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.xunlei.thunder",
    "confirmedBundles": [
     "com.xunlei.thunder"
@@ -1958,7 +1958,7 @@
   },
   {
    "seed": "搜狗输入法",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.sogou.input",
    "confirmedBundles": [
     "com.sogou.input"
@@ -1988,7 +1988,7 @@
   },
   {
    "seed": "扫描全能王",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.intsig.camscanner.hap",
    "confirmedBundles": [
     "com.intsig.camscanner.hap"
@@ -2018,7 +2018,7 @@
   },
   {
    "seed": "美图秀秀",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.meitu.meitupic",
    "confirmedBundles": [
     "com.meitu.meitupic"
@@ -2056,7 +2056,7 @@
   },
   {
    "seed": "中国光大银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.cebbank.mobile.cembhmwork",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -2065,7 +2065,7 @@
   },
   {
    "seed": "华夏银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.hxb.mobile.hm",
    "confirmedBundles": [
     "com.hxb.mobile.hm"
@@ -2095,7 +2095,7 @@
   },
   {
    "seed": "北京银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.bankofbeijing.hmobilebanking",
    "confirmedBundles": [
     "com.bankofbeijing.hmobilebanking"
@@ -2125,7 +2125,7 @@
   },
   {
    "seed": "广发银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.cgbchina.xpt.hm",
    "confirmedBundles": [
     "com.cgbchina.xpt.hm"
@@ -2155,7 +2155,7 @@
   },
   {
    "seed": "上海银行",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "cn.com.shbank.mperhm",
    "confirmedBundles": [
     "cn.com.shbank.mperhm"
@@ -2185,7 +2185,7 @@
   },
   {
    "seed": "钉钉",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.dingtalk.hmos",
    "confirmedBundles": [
     "com.dingtalk.hmos"
@@ -2223,7 +2223,7 @@
   },
   {
    "seed": "腾讯会议",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.tencent.meeting.app",
    "confirmedBundles": [
     "com.tencent.meeting.app"
@@ -2253,7 +2253,7 @@
   },
   {
    "seed": "云闪付",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.unionpay.hmos.wallet",
    "confirmedBundles": [
     "com.unionpay.hmos.wallet"
@@ -2283,7 +2283,7 @@
   },
   {
    "seed": "天猫",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.tmall.tmall4hmos",
    "confirmedBundles": [
     "com.tmall.tmall4hmos"
@@ -2313,7 +2313,7 @@
   },
   {
    "seed": "网易云音乐",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.netease.cloudmusic.hm",
    "confirmedBundles": [
     "com.netease.cloudmusic.hm"
@@ -2343,7 +2343,7 @@
   },
   {
    "seed": "酷狗音乐",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.kugou.hmmusic",
    "confirmedBundles": [
     "com.kugou.hmmusic"
@@ -2381,7 +2381,7 @@
   },
   {
    "seed": "酷我音乐",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.hmkuwo.cn",
    "confirmedBundles": [
     "com.hmkuwo.cn"
@@ -2411,7 +2411,7 @@
   },
   {
    "seed": "腾讯地图",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.tencent.mapohos",
    "confirmedBundles": [
     "com.tencent.mapohos"
@@ -2441,7 +2441,7 @@
   },
   {
    "seed": "淘宝闪购",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "me.ele.eleme",
    "confirmedBundles": [
     "me.ele.eleme"
@@ -2471,7 +2471,7 @@
   },
   {
    "seed": "交管12123",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.tmri.app.harmony12123",
    "confirmedBundles": [
     "com.tmri.app.harmony12123"
@@ -2501,7 +2501,7 @@
   },
   {
    "seed": "航旅纵横",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.umetrip.hm.app",
    "confirmedBundles": [
     "com.umetrip.hm.app",
@@ -2557,7 +2557,7 @@
   },
   {
    "seed": "国家医保服务平台",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "cn.hsa.app.hos",
    "confirmedBundles": [
     "cn.hsa.app.hos"
@@ -2587,7 +2587,7 @@
   },
   {
    "seed": "优酷",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.youku.next",
    "confirmedBundles": [],
    "status": "not-indexed",
@@ -2596,7 +2596,7 @@
   },
   {
    "seed": "咪咕视频",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.cmcc.cmvideohm",
    "confirmedBundles": [
     "com.cmcc.cmvideohm"
@@ -2626,7 +2626,7 @@
   },
   {
    "seed": "菜鸟",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.cainiao.cainiao4hmos",
    "confirmedBundles": [
     "com.cainiao.cainiao4hmos"
@@ -2656,7 +2656,7 @@
   },
   {
    "seed": "豆瓣",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.douban.frodo.hap",
    "confirmedBundles": [
     "com.douban.frodo.hap"
@@ -2686,7 +2686,7 @@
   },
   {
    "seed": "Soul",
-   "category": "black",
+   "category": "exclude",
    "verifiedBundle": "com.soul.soulapp",
    "confirmedBundles": [
     "com.soul.soulapp"

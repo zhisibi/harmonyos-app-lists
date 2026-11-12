@@ -14,7 +14,7 @@
 
 | 路径 | 说明 |
 | --- | --- |
-| `seeds/white.txt`、`seeds/black.txt` | 分类种子：人工维护，一行一个应用名，`#` 开头为注释。两个文件是维护者按类别整理的两组常用应用名。种子里只写括注前的短名（如「花瓣搜索」「HMTG」）。 |
+| `seeds/include.txt`、`seeds/exclude.txt` | 分类种子：人工维护，一行一个应用名，`#` 开头为注释。两个文件是维护者按类别整理的两组常用应用名。种子里只写括注前的短名（如「花瓣搜索」「HMTG」）。 |
 | `data/verified.json` | **唯一权威源**：已核实的鸿蒙包名（应用名 → bundle / fullName，新条目带 source / collectedAt / developer）。分发产物的包名只取它。 |
 | `data/apps-pool.json` | 应用池产物（提交进仓）：榜单发现的常用应用；`bundle` 是应用市场 Web 目录包名（安卓目录，仅作对照），核实到的鸿蒙包名在 `hmBundle` 字段。 |
 | `data/seed-check.json` | 种子对账报告（自动生成）：每个种子经接口组复核的状态（match / conflict / not-indexed）与证据；conflict 只上报、不自动改 verified。 |
@@ -25,10 +25,10 @@
 ## `dist/perapp-lists.json` 格式
 
 ```json
-{"white":[{"name":"微信","bundle":"com.tencent.wechat","verified":true}],"black":[...]}
+{"include":[{"name":"华为浏览器","bundle":"com.huawei.hmos.browser","verified":true}],"exclude":[...]}
 ```
 
-- `white` / `black`：两个数组，对应种子文件的两个分类；
+- `include` / `exclude`：两个数组，对应种子文件的两个分类；
 - `name`：应用名；
 - `bundle`：应用包名（bundle name）；
 - `verified`：包名是否已经过核实。
@@ -45,7 +45,7 @@ GitHub Actions（`.github/workflows/update.yml`）每日定时运行采集脚本
 
 ## 贡献方式
 
-- 增删条目、修正分类：改 `seeds/white.txt` / `seeds/black.txt`，提 PR；
+- 增删条目、修正分类：改 `seeds/include.txt` / `seeds/exclude.txt`，提 PR；
 - 发现包名错误或应用已改名 / 换包名：开 issue 说明应用名与正确包名（如有）。
 
 ## 许可证

@@ -414,7 +414,7 @@ def merge_pool(old, new):
 # ---------------------------------------------------------------- 主流程
 def main():
     verified = json.loads((ROOT / "data" / "verified.json").read_text("utf-8"))
-    seeds = {cat: read_seeds(cat) for cat in ("white", "black")}
+    seeds = {cat: read_seeds(cat) for cat in ("include", "exclude")}
     ag = AgClient()
     hm = HmClient()
 
@@ -422,7 +422,7 @@ def main():
     check, n_match, n_conflict, n_absent = [], 0, 0, 0
     total = sum(len(v) for v in seeds.values())
     done = 0
-    for cat in ("white", "black"):
+    for cat in ("include", "exclude"):
         for seed in seeds[cat]:
             done += 1
             v = verified.get(seed)
@@ -500,7 +500,7 @@ def main():
 
     # 3) dist：只取 verified.json，顺序同 seeds，解析不到的不进表
     dist = {}
-    for cat in ("white", "black"):
+    for cat in ("include", "exclude"):
         dist[cat] = [{"name": s, "bundle": verified[s]["bundle"],
                       "verified": True}
                      for s in seeds[cat] if s in verified]
@@ -517,7 +517,7 @@ def main():
                   f"({e.get('verifiedBundleName')}) "
                   f"confirmed={e['confirmedBundles']}")
     print(f"pool entries: {len(pool)} hmBundle confirmed: {n_pool_ok}")
-    print(f"dist: white={len(dist['white'])} black={len(dist['black'])}")
+    print(f"dist: include={len(dist['include'])} exclude={len(dist['exclude'])}")
 
 
 if __name__ == "__main__":

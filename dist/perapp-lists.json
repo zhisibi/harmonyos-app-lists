@@ -1,5 +1,5 @@
 {
- "white": [
+ "include": [
   {
    "name": "华为浏览器",
    "bundle": "com.huawei.hmos.browser",
@@ -56,7 +56,7 @@
    "verified": true
   }
  ],
- "black": [
+ "exclude": [
   {
    "name": "微信",
    "bundle": "com.tencent.wechat",
