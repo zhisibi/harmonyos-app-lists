@@ -21,21 +21,42 @@ jobs:
         with:
           python-version: '3.12'
 
-      # 采集脚本 scripts/collect.py 由后续提交补入：
+      # 先处理 App 提交收件（反向同步）：intake.py --no-commit 只改工作区
+      # （data/verified.json、data/submissions-check.json、seeds/、dist/），
+      # 变化由下面的统一提交步骤一并提交。intake 在 collect 之前跑，
+      # 这样新入选条目会被本轮 collect 重生成的 dist 自然带上。
+      # 本步失败（收件端不通/口令问题等）不拖垮每日更新主流程，
+      # 但计数会明确写进日志与 Step Summary。
+      - name: Intake app submissions
+        continue-on-error: true
+        env:
+          WORKER_URL: https://perapp-submit.8985.pp.ua
+          PERAPP_ADMIN_TOKEN: ${{ secrets.PERAPP_ADMIN_TOKEN }}
+        run: |
+          python scripts/intake.py --no-commit 2>&1 | tee /tmp/intake.log
+          summary=$(grep -E '^(accepted=|no pending)' /tmp/intake.log | tail -n 1)
+          if [ -z "$summary" ]; then summary="intake produced no summary line (see log above)"; fi
+          echo "Intake result: $summary"
+          echo "### Intake app submissions" >> "$GITHUB_STEP_SUMMARY"
+          echo "$summary" >> "$GITHUB_STEP_SUMMARY"
+
+      # 采集脚本 scripts/collect.py：
       # 它读取 seeds/ 种子，从华为应用市场公开接口匹配包名，
       # 刷新 data/apps-pool.json 并生成 dist/perapp-lists.json。
       - name: Collect app lists
         run: python scripts/collect.py
 
-      # 只有 dist/ 与 data/ 有实际变化时才提交，避免空提交。
+      # 只有 dist/、data/、seeds/ 有实际变化时才提交，避免空提交。
+      # （seeds/ 是 intake 入选时追加种子的落点，必须一并提交，
+      #   否则后续 collect 按旧种子重生成 dist 会把新条目冲掉。）
       - name: Commit and push if changed
         run: |
-          if git diff --quiet -- dist data && [ -z "$(git status --porcelain -- dist data)" ]; then
-            echo "No changes in dist/ or data/, skip commit."
+          if git diff --quiet -- dist data seeds && [ -z "$(git status --porcelain -- dist data seeds)" ]; then
+            echo "No changes in dist/, data/ or seeds/, skip commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist data
+          git add dist data seeds
           git commit -m "chore: daily update $(date -u +%F)"
           git push

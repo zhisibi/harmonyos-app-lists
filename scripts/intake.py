@@ -18,7 +18,9 @@ collect.py 有 __main__ 守卫，import 无副作用（已确认）。
 后的第一条。提交包名不是本体（哪怕在 confirmed 里）一律不过闸。
 
 收件端约定：
-  - Worker 地址与管理口令读 ~/workspace/cf-perapp-submit/secrets.local.txt
+  - Worker 地址与管理口令优先读环境变量 WORKER_URL / PERAPP_ADMIN_TOKEN
+    （GitHub Actions 模式由仓库 Secrets 注入）；无 env 时回落本地
+    ~/workspace/cf-perapp-submit/secrets.local.txt
     （键 WORKER_URL=、ADMIN_TOKEN=）；--base-url 可覆盖地址。
   - GET  {WORKER_URL}/pending   头 X-Admin-Token: <ADMIN_TOKEN>
         -> {ok: true, items: [{bundle, name, list, firstSeen, lastSeen, count}]}
@@ -32,6 +34,7 @@ collect.py 有 __main__ 守卫，import 无副作用（已确认）。
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 import urllib.error
@@ -87,16 +90,26 @@ def load_secrets(path=SECRETS_PATH):
 
 
 def get_config(base_url_override=None, secrets_path=SECRETS_PATH):
-    """返回 (base_url, admin_token)；--base-url 覆盖 WORKER_URL。"""
-    secrets = load_secrets(secrets_path)
-    base = (base_url_override or secrets.get("WORKER_URL") or "").rstrip("/")
-    token = secrets.get("ADMIN_TOKEN") or ""
+    """返回 (base_url, admin_token)。
+
+    地址优先级：--base-url > env WORKER_URL > secrets 文件 WORKER_URL；
+    口令优先级：env PERAPP_ADMIN_TOKEN > secrets 文件 ADMIN_TOKEN。
+    GitHub Actions 模式下 secrets 文件不存在，只走 env；本机模式回落文件。
+    """
+    secrets = {}
+    if Path(secrets_path).exists():
+        secrets = load_secrets(secrets_path)
+    base = (base_url_override or os.environ.get("WORKER_URL")
+            or secrets.get("WORKER_URL") or "").rstrip("/")
+    token = os.environ.get("PERAPP_ADMIN_TOKEN") or secrets.get("ADMIN_TOKEN") or ""
     if not base:
         raise IntakeError(
-            "WORKER_URL empty or missing (secrets file has no value "
-            "and no --base-url given)")
+            "WORKER_URL empty or missing (no --base-url, no env, "
+            "no value in secrets file)")
     if not token:
-        raise IntakeError("ADMIN_TOKEN missing in secrets file")
+        raise IntakeError(
+            "admin token missing (no PERAPP_ADMIN_TOKEN env, "
+            "no ADMIN_TOKEN in secrets file)")
     return base, token
 
 
