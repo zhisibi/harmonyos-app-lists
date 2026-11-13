@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-12",
+ "generatedAt": "2026-11-13",
  "results": [
   {
    "name": "车祸模拟器2",
@@ -682,8 +682,8 @@
      "pkgName": "bubei.tingshu.hos",
      "appId": "C5765880207853907497",
      "developerName": "深圳市懒人在线科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1039e3edc93547e6b51a170a26975673.webp",
-     "version": "3.3.1"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/2113180f084645229dbba4909b52f508.webp",
+     "version": "3.4.0"
     }
    ],
    "confirmations": [
