@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-13",
+ "generatedAt": "2026-11-14",
  "results": [
   {
    "seed": "华为浏览器",
@@ -115,8 +115,8 @@
      "pkgName": "com.tencent.wechat",
      "appId": "C5765880207854244859",
      "developerName": "腾讯科技（北京）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/333c850ef7f546829fefaf84b0daaa58.webp",
-     "version": "8.0.23.34"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/d3a0edf847ca47fd992f14b789ceaf57.webp",
+     "version": "8.0.23.37"
     },
     {
      "name": "微信",
@@ -389,8 +389,8 @@
      "pkgName": "com.dewu.hos",
      "appId": "C5765880207853455989",
      "developerName": "上海得物信息集团有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0543683bb5db41d5a4b9bac8bff62cb9.webp",
-     "version": "6.4.1"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/5c8f50975d5f473faf7e8b7505a17ca4.webp",
+     "version": "6.4.2"
     },
     {
      "name": "得物",
@@ -1181,7 +1181,7 @@
      "pkgName": "com.tencent.wework.hmos",
      "appId": "C5765880207855743989",
      "developerName": "广州腾讯科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/64c38a3af8ac45d4b94c229ebb128121.webp",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/466c5083798e4b6691d264386c3fc557.webp",
      "version": "0.9.20"
     }
    ],
@@ -1421,8 +1421,8 @@
      "pkgName": "com.boc.bocsoft.mbs.personal",
      "appId": "C5765880207853435449",
      "developerName": "中国银行股份有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/939c3bb8dbcb417ea2550d6f38b5a329.webp",
-     "version": "9.9.38"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1694ab6419ca4c7b96d5df6970866b28.webp",
+     "version": "9.9.39"
     }
    ],
    "confirmations": [
@@ -1655,8 +1655,8 @@
      "pkgName": "com.zhuanzhuan.hmoszz",
      "appId": "C5765880207853019243",
      "developerName": "北京转转精神科技有限责任公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1456413059c74985a457123395892214.webp",
-     "version": "10.30.105"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/d20cc62145cf43628d96baac44001aae.webp",
+     "version": "10.30.110"
     }
    ],
    "confirmations": [
@@ -1877,8 +1877,8 @@
      "pkgName": "com.alibaba.wireless_hmos",
      "appId": "C5765880207853482675",
      "developerName": "杭州阿里巴巴广告有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/2a15faaf5a3a48a8818a9a7062e25c75.webp",
-     "version": "12.26.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/d020599eae0541079b6bdbb919be3336.webp",
+     "version": "12.26.1"
     }
    ],
    "confirmations": [
@@ -1907,8 +1907,8 @@
      "pkgName": "com.uc.mobile",
      "appId": "C5765880207854396131",
      "developerName": "广州市动景计算机科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/cf17380c6f284282804b7fd797ad79e8.webp",
-     "version": "19.2.8.0313"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/3ae310000c57497da46edd26e3e42206.webp",
+     "version": "19.2.8.0314"
     }
    ],
    "confirmations": [
@@ -2420,8 +2420,8 @@
      "pkgName": "com.tencent.mapohos",
      "appId": "C6917560021126113911",
      "developerName": "深圳市腾讯计算机系统有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/6a334c75df7446c79e7d9e754284d31a.webp",
-     "version": "11.7.2"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/5d220df4620b4d9b86a34c2e558742eb.webp",
+     "version": "11.8.0"
     }
    ],
    "confirmations": [
@@ -2605,8 +2605,8 @@
      "pkgName": "com.cmcc.cmvideohm",
      "appId": "C5765880207853254737",
      "developerName": "咪咕视讯科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/ade0eddf5850483181390b7d5a9fb4ff.webp",
-     "version": "6.5.76"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c8f7c470c4434093b75eaf1254333562.webp",
+     "version": "6.5.77"
     }
    ],
    "confirmations": [
@@ -3888,8 +3888,8 @@
      "pkgName": "com.ctrip.harmonynext",
      "appId": "C5765880207853125549",
      "developerName": "携程计算机技术（上海）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/ba4af1d59bed432482b16a69fa533c46.webp",
-     "version": "8.97.4"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/74220bc08b9e4b188bae21166e28d339.webp",
+     "version": "8.97.6"
     }
    ],
    "confirmations": [
@@ -4077,8 +4077,8 @@
      "pkgName": "com.lucky.luckincoffee",
      "appId": "C5765880207853341547",
      "developerName": "瑞幸咖啡（北京）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/679267b16336469fbbbcd57b1ed62a22.webp",
-     "version": "5.6.10"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/93e3916e624e40a5a8ac7f0bd266c342.webp",
+     "version": "5.6.15"
     }
    ],
    "confirmations": [
@@ -4261,8 +4261,8 @@
      "pkgName": "com.quark.ohosbrowser",
      "appId": "C5765880207855186737",
      "developerName": "广州市动悦信息技术有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/207e28ff0e3d475b85568b0bdf8697a7.webp",
-     "version": "10.20.1.238"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0325ed91137d466f885d3104cbb3ecaa.webp",
+     "version": "10.21.0.241"
     }
    ],
    "confirmations": [
