@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-14",
+ "generatedAt": "2026-11-15",
  "results": [
   {
    "seed": "华为浏览器",
@@ -358,8 +358,8 @@
      "pkgName": "com.vip.hosapp",
      "appId": "C5765880207853897799",
      "developerName": "广州唯品会电子商务有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a86905bd0315477185323368071002a4.webp",
-     "version": "9.2.1"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/5c6a24b017d940089cfdf28f6518d423.webp",
+     "version": "9.2.5"
     }
    ],
    "confirmations": [
@@ -624,8 +624,8 @@
      "pkgName": "com.baidu.baiduapp",
      "appId": "C5765880207855276403",
      "developerName": "百度在线网络技术（北京）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f523548fe06f42978c918bb23581efa2.webp",
-     "version": "15.82.0.10"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0abcc263d90848bcb9a1f3334fbae5cd.webp",
+     "version": "15.84.0.10"
     }
    ],
    "confirmations": [
@@ -692,8 +692,8 @@
      "pkgName": "com.bot.pc.doubao",
      "appId": "C6917615127616851417",
      "developerName": "北京春田知韵科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/eea2baf4672c4f0bb9c9b155713fa03a.png",
-     "version": "2.25.1"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/2a104f72ad7a4ac284f12518fc7811b0.png",
+     "version": "2.25.6"
     }
    ],
    "confirmations": [
@@ -782,8 +782,8 @@
      "pkgName": "com.ximalaya.ting.xmharmony",
      "appId": "C5765880207853445853",
      "developerName": "上海喜马拉雅科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/aac48787387b4d67b17fb4725cd0e618.webp",
-     "version": "9.5.23.5"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f42b48b4ae2b4018a6ad7eaa00332322.webp",
+     "version": "9.5.23.6"
     },
     {
      "name": "喜马拉雅",
@@ -1091,8 +1091,8 @@
      "pkgName": "com.tencent.qqlivepchm",
      "appId": "C5765880207855998795",
      "developerName": "腾讯科技（北京）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/185757b95c454cc29c35b78d973f8403.png",
-     "version": "1.5.8"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/3fbc1cbdd0724b0bada07f523eb6c94b.png",
+     "version": "1.5.9"
     }
    ],
    "confirmations": [
@@ -2352,8 +2352,8 @@
      "pkgName": "com.kugou.hmmusic",
      "appId": "C5765880207853008087",
      "developerName": "广州酷狗计算机科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f697560ceacd4a279f4f914fd9b4fd8e.webp",
-     "version": "20.4.7.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/9a3c724647ab479293bd6d283e80005c.webp",
+     "version": "20.4.7.1"
     },
     {
      "name": "酷狗音乐",
@@ -2566,8 +2566,8 @@
      "pkgName": "cn.hsa.app.hos",
      "appId": "C6917578699992887492",
      "developerName": "国家医疗保障局",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/78b788fb0e574c2ba9e4ed66faed5e21.webp",
-     "version": "1.3.36.3200"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/bac849cc43624664b87b16015619c325.webp",
+     "version": "1.3.50.3100"
     }
    ],
    "confirmations": [
@@ -2695,8 +2695,8 @@
      "pkgName": "com.soul.soulapp",
      "appId": "C5765880207853394487",
      "developerName": "上海任意门科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/69e68be41c304fa7a631d8afa3d4e73f.webp",
-     "version": "6.35.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/ff823b07e2c24c26984775e817c504f9.webp",
+     "version": "6.35.2"
     }
    ],
    "confirmations": [
@@ -2905,8 +2905,8 @@
      "pkgName": "com.zhibo8.hmclient",
      "appId": "C5765880207853341495",
      "developerName": "厦门傲播网络科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1d2bc30d60b045349d8e6670a5efe551.webp",
-     "version": "1.6.4"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1ccead7aa6834c12aa82701ab2c0be63.webp",
+     "version": "1.6.5"
     }
    ],
    "confirmations": [
@@ -3372,8 +3372,8 @@
      "pkgName": "com.esscard.esscardapp_harmonyos",
      "appId": "C5765880207854065653",
      "developerName": "金保信社保卡科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/6b5f4d88f9de4026b9c4cb4fafd674f2.webp",
-     "version": "4.8.7"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0395e11dabde45a0a00b87ae7e98a956.webp",
+     "version": "4.8.8"
     }
    ],
    "confirmations": [
@@ -3480,8 +3480,8 @@
      "pkgName": "com.ylzinfo.chinahrss.hm",
      "appId": "C5765880207855350149",
      "developerName": "人力资源和社会保障部信息中心",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/d9648a5687b3484bad30ff90261b4393.webp",
-     "version": "1.0.8"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c37a1539017c4d4f877c879c9d924f2c.webp",
+     "version": "1.0.9"
     }
    ],
    "confirmations": [
@@ -4116,8 +4116,8 @@
      "pkgName": "com.wudaokou.hippo_hmos",
      "appId": "C5765880207854007479",
      "developerName": "上海盒礼网络技术服务有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/928dccb519114ff686a382a879e0bca3.webp",
-     "version": "8.12.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c11f744b7b3b46efafc94f9380d8175c.webp",
+     "version": "8.12.5.0"
     }
    ],
    "confirmations": [

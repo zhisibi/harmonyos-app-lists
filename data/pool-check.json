@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-14",
+ "generatedAt": "2026-11-15",
  "results": [
   {
    "name": "车祸模拟器2",
@@ -719,8 +719,8 @@
      "pkgName": "com.zhibo8.hmclient",
      "appId": "C5765880207853341495",
      "developerName": "厦门傲播网络科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1d2bc30d60b045349d8e6670a5efe551.webp",
-     "version": "1.6.4"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1ccead7aa6834c12aa82701ab2c0be63.webp",
+     "version": "1.6.5"
     }
    ],
    "confirmations": [
