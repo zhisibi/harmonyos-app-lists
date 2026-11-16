@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-15",
+ "generatedAt": "2026-11-16",
  "results": [
   {
    "seed": "华为浏览器",
@@ -221,8 +221,8 @@
      "pkgName": "com.alipay.mobile.client",
      "appId": "C5765880207853300119",
      "developerName": "支付宝（杭州）数字服务技术有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1ccf3ca5429a41b19ac9034c8b57b18a.webp",
-     "version": "12.12.50.5200"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/7f99853e6e26414b8b1bb62a09cdadd7.webp",
+     "version": "12.12.56.5000"
     },
     {
      "name": "支付宝",
@@ -298,8 +298,8 @@
      "pkgName": "com.xunmeng.pinduoduo.hos",
      "appId": "C5765880207855421353",
      "developerName": "上海寻梦信息技术有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/3404cfac8bc140e2bb0381ec87146940.webp",
-     "version": "8.31.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a627966e4a034a35be9c731c41003c30.webp",
+     "version": "8.32.0"
     }
    ],
    "confirmations": [
@@ -389,8 +389,8 @@
      "pkgName": "com.dewu.hos",
      "appId": "C5765880207853455989",
      "developerName": "上海得物信息集团有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/5c8f50975d5f473faf7e8b7505a17ca4.webp",
-     "version": "6.4.2"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1ea21975faa24e978f516b7c9448c85f.webp",
+     "version": "6.4.5"
     },
     {
      "name": "得物",
@@ -436,8 +436,8 @@
      "pkgName": "com.xingin.xhs_hos",
      "appId": "C5765880207852917075",
      "developerName": "行吟信息科技（上海）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/d0ac6fe34877484d8803bca6feccaf98.webp",
-     "version": "9.52.2"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/884fe9f1d3034eadb050dfe55169ddd6.webp",
+     "version": "9.53.0"
     }
    ],
    "confirmations": [
@@ -2324,6 +2324,14 @@
      "developerName": "杭州乐读科技有限公司",
      "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f54b2f18bba94e38afa0bdd10f2293f3.webp",
      "version": "9.6.31"
+    },
+    {
+     "name": "网易云音乐",
+     "pkgName": "com.netease.cloudmusic.hmpc",
+     "appId": "C6917614806910795061",
+     "developerName": "杭州乐读科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/fef6a386c9864c6e9cb4c5bdebbb8565.png",
+     "version": "9.6.22"
     }
    ],
    "confirmations": [
@@ -3798,7 +3806,7 @@
      "pkgName": "com.tencent.weread.hmos",
      "appId": "C5765880207855467807",
      "developerName": "广州腾讯科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/9f9bfecef1da4744b4478c2cf4a5ae61.webp",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c4af541c13b84e079c3baf1812da7ddc.webp",
      "version": "1.0.4"
     }
    ],
