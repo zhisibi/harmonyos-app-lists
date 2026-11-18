@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-17",
+ "generatedAt": "2026-11-18",
  "results": [
   {
    "seed": "华为浏览器",
@@ -191,7 +191,7 @@
      "pkgName": "com.sina.weibo.stage",
      "appId": "C5765880207853243673",
      "developerName": "北京微梦创科网络技术有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b855dae7fba24e7181daa77b4cfbc030.webp",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/109c2b5c45a24458905e4455f4aa1628.webp",
      "version": "16.11.0"
     }
    ],
@@ -389,8 +389,8 @@
      "pkgName": "com.dewu.hos",
      "appId": "C5765880207853455989",
      "developerName": "上海得物信息集团有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1ea21975faa24e978f516b7c9448c85f.webp",
-     "version": "6.4.5"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/aeeb7d9222fa49d58e8024a20eaf8fe7.webp",
+     "version": "6.4.6"
     },
     {
      "name": "得物",
@@ -436,8 +436,8 @@
      "pkgName": "com.xingin.xhs_hos",
      "appId": "C5765880207852917075",
      "developerName": "行吟信息科技（上海）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/884fe9f1d3034eadb050dfe55169ddd6.webp",
-     "version": "9.53.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/e1c420daa6414e92bfae8c2661dbe338.webp",
+     "version": "9.53.1"
     }
    ],
    "confirmations": [
@@ -466,8 +466,8 @@
      "pkgName": "com.zhihu.hmos",
      "appId": "C5765880207853190821",
      "developerName": "智者四海（北京）技术有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/25cf9ab15ac1493984453489417c78dd.webp",
-     "version": "11.15.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/97af48c5ed6a4df2a7e86ea488747ca3.webp",
+     "version": "11.16.0"
     }
    ],
    "confirmations": [
@@ -564,8 +564,8 @@
      "pkgName": "com.kuaishou.hmnebula",
      "appId": "C5765880207854418971",
      "developerName": "北京快手科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c3a241c53f484895b5ff1b3356706502.webp",
-     "version": "14.10.10"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/5dbe547d1872410b9b299bc67ae1f1a3.webp",
+     "version": "14.10.20"
     }
    ],
    "confirmations": [
@@ -888,8 +888,8 @@
      "pkgName": "com.sankuai.hmeituan",
      "appId": "C5765880207853190259",
      "developerName": "厦门三快在线科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/643c253910834efb823fa38dabcad41a.webp",
-     "version": "12.69.202"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/9586ab872d564cf2bfd4ac18a40892c1.webp",
+     "version": "12.69.402"
     }
    ],
    "confirmations": [
@@ -1083,8 +1083,8 @@
      "pkgName": "com.tencent.videohm",
      "appId": "C5765880207854575129",
      "developerName": "腾讯科技（北京）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/73504a60e38245f29090c4e24ff5a17e.webp",
-     "version": "9.04.80.13014"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/e3dbceef3d3549b088f87587299c7130.webp",
+     "version": "9.04.85.13024"
     },
     {
      "name": "腾讯视频",
@@ -2202,8 +2202,8 @@
      "pkgName": "com.dingtalk.hmos.pc",
      "appId": "C6917562670927859654",
      "developerName": "钉钉科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/66c936df11e144ebad6f717f6d31adab.png",
-     "version": "9.0.1"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/ba93432d432e436197a921d3b31b0d4d.png",
+     "version": "9.0.6"
     }
    ],
    "confirmations": [
@@ -2428,7 +2428,7 @@
      "pkgName": "com.tencent.mapohos",
      "appId": "C6917560021126113911",
      "developerName": "深圳市腾讯计算机系统有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/5d220df4620b4d9b86a34c2e558742eb.webp",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/47c0ad34bc4e4477a60d9d829844bc9a.webp",
      "version": "11.8.0"
     }
    ],
@@ -2703,8 +2703,8 @@
      "pkgName": "com.soul.soulapp",
      "appId": "C5765880207853394487",
      "developerName": "上海任意门科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/ff823b07e2c24c26984775e817c504f9.webp",
-     "version": "6.35.2"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b13e4d6d0b1f43e3b738fff719ebba73.webp",
+     "version": "6.36.0"
     }
    ],
    "confirmations": [
@@ -2733,8 +2733,8 @@
      "pkgName": "com.qimao.novel",
      "appId": "C5765880207854241299",
      "developerName": "上海七猫文化传媒有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/7ac0fbfba3a74e9799c243108d24f6db.webp",
-     "version": "8.11.1"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/2fb757b2d1c146f6b1c9eb67714e3a34.webp",
+     "version": "8.12.0"
     }
    ],
    "confirmations": [
@@ -3290,8 +3290,8 @@
      "pkgName": "com.czbank.mbankharmony",
      "appId": "C5765880207854920567",
      "developerName": "浙商银行股份有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/2e00ffe7a8464dc69abb998be7dd4357.webp",
-     "version": "6.2.6"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/891a76a9f501450d963d95d3c3d9267b.webp",
+     "version": "6.2.7"
     }
    ],
    "confirmations": [
@@ -3411,8 +3411,8 @@
      "pkgName": "com.service.harmenyos.gov.cn",
      "appId": "C5765880207854970747",
      "developerName": "国务院办公厅",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/4ff3b78f89814556af333803ade0d309.webp",
-     "version": "1.0.4"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f14cddb42913417490103586065163c0.webp",
+     "version": "1.0.5"
     },
     {
      "name": "国家政务服务平台",
@@ -3638,8 +3638,8 @@
      "pkgName": "com.ss.hm.ugc.aweme.lite",
      "appId": "C6917596636395606401",
      "developerName": "北京抖音科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/ee488e39fa20486c8793015c27f184e5.webp",
-     "version": "41.0.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/cddf08ee728644a0bcadcd93ed620746.webp",
+     "version": "41.2.0"
     }
    ],
    "confirmations": [
@@ -3716,8 +3716,8 @@
      "pkgName": "com.duowan.hyhos",
      "appId": "C5765880207854894031",
      "developerName": "广州虎牙信息科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1987c9f902494abea314304636c36b33.webp",
-     "version": "2.20.3"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/8df90f6a780b48f8837588a829872cdd.webp",
+     "version": "2.21.0"
     }
    ],
    "confirmations": [
@@ -3736,31 +3736,19 @@
    "seed": "斗鱼",
    "category": "exclude",
    "verifiedBundle": "com.douyu.ho.app",
-   "confirmedBundles": [
-    "com.douyu.ho.app"
-   ],
-   "status": "match",
+   "confirmedBundles": [],
+   "status": "not-indexed",
    "exactHits": [
     {
      "name": "斗鱼",
      "pkgName": "com.douyu.ho.app",
      "appId": "C5765880207854451737",
      "developerName": "武汉瓯越网视有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/86a12e585fdf4291830b25eebdfab72d.webp",
-     "version": "7.6.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/rearrowcar/c20fb983335240deb29a632f1e658ede.png",
+     "version": "7.6.1"
     }
    ],
-   "confirmations": [
-    {
-     "bundle": "com.douyu.ho.app",
-     "appId": "C5765880207854451737",
-     "developerName": "武汉瓯越网视有限公司",
-     "byBundlePkg": "com.douyu.ho.app",
-     "byBundleName": "斗鱼",
-     "byIdPkg": "com.douyu.ho.app",
-     "byIdName": "斗鱼"
-    }
-   ]
+   "confirmations": []
   },
   {
    "seed": "番茄免费小说",
@@ -3806,7 +3794,7 @@
      "pkgName": "com.tencent.weread.hmos",
      "appId": "C5765880207855467807",
      "developerName": "广州腾讯科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c4af541c13b84e079c3baf1812da7ddc.webp",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a4ff99df53f44b5e81320d4332f3a00c.webp",
      "version": "1.0.4"
     }
    ],
@@ -3956,8 +3944,8 @@
      "pkgName": "com.fliggy.hmos",
      "appId": "C5765880207854491503",
      "developerName": "杭州淘美航空服务有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/2616c9dd548a468baa5009cd9b47dfc3.webp",
-     "version": "10.0.11.103"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/2eb7e08382f743698a0523e0444eb8c7.webp",
+     "version": "10.0.11.106"
     }
    ],
    "confirmations": [
@@ -3986,8 +3974,8 @@
      "pkgName": "com.hellobike.app",
      "appId": "C5765880207853755677",
      "developerName": "上海哈啰普惠科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/8942bd4705d748e0b205075bc882d208.webp",
-     "version": "7.0.75"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/8921c592b65d48339d7eabc062e4dcac.webp",
+     "version": "7.0.80"
     }
    ],
    "confirmations": [
@@ -4046,8 +4034,8 @@
      "pkgName": "com.mcdonalds.cma.hm",
      "appId": "C5765880207854237531",
      "developerName": "金拱门（中国）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f02b8348499a44c0b68669cbffdb31ff.webp",
-     "version": "7.0.45.1"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a73033c43bb24c8eb27923ac70f39c32.webp",
+     "version": "7.0.46.0"
     }
    ],
    "confirmations": [
