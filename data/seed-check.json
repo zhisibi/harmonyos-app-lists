@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-18",
+ "generatedAt": "2026-11-19",
  "results": [
   {
    "seed": "华为浏览器",
@@ -594,8 +594,8 @@
      "pkgName": "yylx.danmaku.bili",
      "appId": "C5765880207853448221",
      "developerName": "上海宽娱数码科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/ba18b1ed32f34d02a98ebe10c4851acd.webp",
-     "version": "8.50.1"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/db717a6497364a129a650d16350f7833.webp",
+     "version": "8.51.0"
     }
    ],
    "confirmations": [
@@ -966,8 +966,8 @@
      "pkgName": "com.sankuai.dianping",
      "appId": "C5765880207853932133",
      "developerName": "互诚信息技术（上海）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/2478a5b4e3e2494e9ab6bddf97af47da.webp",
-     "version": "11.75.3"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f743d5989ab14977a04587ba0e75bee8.webp",
+     "version": "11.75.13"
     }
    ],
    "confirmations": [
@@ -1181,7 +1181,7 @@
      "pkgName": "com.tencent.wework.hmos",
      "appId": "C5765880207855743989",
      "developerName": "广州腾讯科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/466c5083798e4b6691d264386c3fc557.webp",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0a3a7c972a314b03bdfd17b6b3a7ec23.webp",
      "version": "0.9.20"
     }
    ],
@@ -1937,8 +1937,8 @@
      "pkgName": "com.xunlei.thunder",
      "appId": "C5765880207854526681",
      "developerName": "深圳市迅雷网络技术有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/d55e4b245708413782fb06bedbbb814f.webp",
-     "version": "1.3.922"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/83e06c412f0640c588ade8aeab568b30.webp",
+     "version": "1.4.0"
     }
    ],
    "confirmations": [
@@ -1967,8 +1967,8 @@
      "pkgName": "com.sogou.input",
      "appId": "C5765880207855275657",
      "developerName": "北京搜狗科技发展有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/22153ae6b78048c5a3e2d0ccc4c5a845.webp",
-     "version": "3.5.1"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c787e6fa38ad4b7198330339a4814573.webp",
+     "version": "3.6.0"
     }
    ],
    "confirmations": [
@@ -2194,8 +2194,8 @@
      "pkgName": "com.dingtalk.hmos",
      "appId": "C5765880207854012043",
      "developerName": "钉钉科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/be3bd2f61f3c49b0b34629bdf286a47a.webp",
-     "version": "9.0.10"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/fa6ef3aaf753437fa6871b8506d3dcea.webp",
+     "version": "9.0.11"
     },
     {
      "name": "钉钉",
@@ -3140,8 +3140,8 @@
      "pkgName": "com.hexin.hmn.sjcg",
      "appId": "C5765880207854445241",
      "developerName": "浙江同花顺云软件有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/902512bc436243a8b1718f43ecdd2abf.webp",
-     "version": "12.48.20"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/5844d7b2b90e461e9364b40c2c49d4c6.webp",
+     "version": "12.49.20"
     }
    ],
    "confirmations": [
@@ -4142,8 +4142,8 @@
      "pkgName": "com.bzl.bosszhipin",
      "appId": "C5765880207854664873",
      "developerName": "北京华品博睿网络技术有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/75b779a5898040e3a1836d3c7b967df7.webp",
-     "version": "14.190"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/75ed059f0f494102913c57c8da2c74ba.webp",
+     "version": "14.200"
     },
     {
      "name": "BOSS直聘",
@@ -4189,8 +4189,8 @@
      "pkgName": "com.baidu.netdisk.hmos",
      "appId": "C5765880207854410709",
      "developerName": "北京度友科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/61f237861eef417cba4aaf0482e9e28b.webp",
-     "version": "13.37.5"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/318c7ee868704f59b9c606e77cfbcb49.webp",
+     "version": "13.38.0"
     },
     {
      "name": "百度网盘",
