@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-21",
+ "generatedAt": "2026-11-22",
  "results": [
   {
    "name": "车祸模拟器2",
@@ -627,16 +627,37 @@
    ]
   },
   {
-   "name": "Loklok",
-   "agwebBundle": "com.tv.loklok",
-   "hmBundle": null,
-   "confirmedBundles": [],
-   "exactHits": [],
-   "confirmations": []
+   "name": "羽毛球世界巨星",
+   "agwebBundle": "com.biantian.ymqsjjx",
+   "hmBundle": "com.biantian.ymqsjjx.huawei",
+   "confirmedBundles": [
+    "com.biantian.ymqsjjx.huawei"
+   ],
+   "exactHits": [
+    {
+     "name": "羽毛球世界巨星",
+     "pkgName": "com.biantian.ymqsjjx.huawei",
+     "appId": "C6917619463547546435",
+     "developerName": "厦门彼岸天网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/adedcceb3f6240fea90212d750831c4d.webp",
+     "version": "1.1.2"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.biantian.ymqsjjx.huawei",
+     "appId": "C6917619463547546435",
+     "developerName": "厦门彼岸天网络科技有限公司",
+     "byBundlePkg": "com.biantian.ymqsjjx.huawei",
+     "byBundleName": "羽毛球世界巨星",
+     "byIdPkg": "com.biantian.ymqsjjx.huawei",
+     "byIdName": "羽毛球世界巨星"
+    }
+   ]
   },
   {
-   "name": "越野车山地竞速",
-   "agwebBundle": "com.yycsdjsapk.huawei",
+   "name": "Loklok",
+   "agwebBundle": "com.tv.loklok",
    "hmBundle": null,
    "confirmedBundles": [],
    "exactHits": [],
@@ -668,35 +689,6 @@
      "byBundleName": "盐言故事",
      "byIdPkg": "com.zhihu.vip.hmos",
      "byIdName": "盐言故事"
-    }
-   ]
-  },
-  {
-   "name": "救护车驾驶",
-   "agwebBundle": "com.jhcjsapk.huawei",
-   "hmBundle": "com.hm.jhcjs.huawei",
-   "confirmedBundles": [
-    "com.hm.jhcjs.huawei"
-   ],
-   "exactHits": [
-    {
-     "name": "救护车驾驶",
-     "pkgName": "com.hm.jhcjs.huawei",
-     "appId": "C6917586305771804184",
-     "developerName": "厦门萌桉网络科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0345b64c8b114e69af60584f1d68c010.webp",
-     "version": "1.0"
-    }
-   ],
-   "confirmations": [
-    {
-     "bundle": "com.hm.jhcjs.huawei",
-     "appId": "C6917586305771804184",
-     "developerName": "厦门萌桉网络科技有限公司",
-     "byBundlePkg": "com.hm.jhcjs.huawei",
-     "byBundleName": "救护车驾驶",
-     "byIdPkg": "com.hm.jhcjs.huawei",
-     "byIdName": "救护车驾驶"
     }
    ]
   },
@@ -755,6 +747,14 @@
    ]
   },
   {
+   "name": "越野车山地竞速",
+   "agwebBundle": "com.yycsdjsapk.huawei",
+   "hmBundle": null,
+   "confirmedBundles": [],
+   "exactHits": [],
+   "confirmations": []
+  },
+  {
    "name": "画涯",
    "agwebBundle": "cn.fzhuayantcoltd.huayaapp",
    "hmBundle": "com.huaya.view",
@@ -790,6 +790,35 @@
    "confirmedBundles": [],
    "exactHits": [],
    "confirmations": []
+  },
+  {
+   "name": "救护车驾驶",
+   "agwebBundle": "com.jhcjsapk.huawei",
+   "hmBundle": "com.hm.jhcjs.huawei",
+   "confirmedBundles": [
+    "com.hm.jhcjs.huawei"
+   ],
+   "exactHits": [
+    {
+     "name": "救护车驾驶",
+     "pkgName": "com.hm.jhcjs.huawei",
+     "appId": "C6917586305771804184",
+     "developerName": "厦门萌桉网络科技有限公司",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0345b64c8b114e69af60584f1d68c010.webp",
+     "version": "1.0"
+    }
+   ],
+   "confirmations": [
+    {
+     "bundle": "com.hm.jhcjs.huawei",
+     "appId": "C6917586305771804184",
+     "developerName": "厦门萌桉网络科技有限公司",
+     "byBundlePkg": "com.hm.jhcjs.huawei",
+     "byBundleName": "救护车驾驶",
+     "byIdPkg": "com.hm.jhcjs.huawei",
+     "byIdName": "救护车驾驶"
+    }
+   ]
   },
   {
    "name": "越野登山赛车",

@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-21",
+ "generatedAt": "2026-11-22",
  "results": [
   {
    "seed": "华为浏览器",
@@ -358,8 +358,8 @@
      "pkgName": "com.vip.hosapp",
      "appId": "C5765880207853897799",
      "developerName": "广州唯品会电子商务有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/5c6a24b017d940089cfdf28f6518d423.webp",
-     "version": "9.2.5"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/e887ae23d0f0471cbaf0c98f60d6c704.webp",
+     "version": "9.3.0"
     }
    ],
    "confirmations": [
@@ -692,8 +692,8 @@
      "pkgName": "com.bot.pc.doubao",
      "appId": "C6917615127616851417",
      "developerName": "北京春田知韵科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/2a104f72ad7a4ac284f12518fc7811b0.png",
-     "version": "2.25.6"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/pc/44ca6ff187244f4ab58936d82afc9b1d.png",
+     "version": "2.35.2"
     }
    ],
    "confirmations": [
@@ -1511,8 +1511,8 @@
      "pkgName": "cn.citicbank.wap",
      "appId": "C5765880207853963421",
      "developerName": "中信银行股份有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/89f452e7418142e48ae0696c53fef876.webp",
-     "version": "12.2.8"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/40fd14c8c438416ab3d142a77f85269b.webp",
+     "version": "12.3.0"
     }
    ],
    "confirmations": [
@@ -2428,7 +2428,7 @@
      "pkgName": "com.tencent.mapohos",
      "appId": "C6917560021126113911",
      "developerName": "深圳市腾讯计算机系统有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/558ebf99a7624772b212ee61ef4f2676.webp",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/adb5dd97695c4adb87d4f47d6c0f8141.webp",
      "version": "11.8.0"
     }
    ],
@@ -4085,8 +4085,8 @@
      "pkgName": "com.lucky.luckincoffee",
      "appId": "C5765880207853341547",
      "developerName": "瑞幸咖啡（北京）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/93e3916e624e40a5a8ac7f0bd266c342.webp",
-     "version": "5.6.15"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a5c63fc9fba44343801cce19b3039bbc.webp",
+     "version": "5.6.17"
     }
    ],
    "confirmations": [

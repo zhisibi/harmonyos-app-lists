@@ -284,17 +284,19 @@
   "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
+  "name": "羽毛球世界巨星",
+  "bundle": "com.biantian.ymqsjjx",
+  "rank": 13,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "hmBundle": "com.biantian.ymqsjjx.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
   "name": "Loklok",
   "bundle": "com.tv.loklok",
   "rank": 13,
   "from": "Top",
-  "bundleSource": "appgallery-web"
- },
- {
-  "name": "越野车山地竞速",
-  "bundle": "com.yycsdjsapk.huawei",
-  "rank": 13,
-  "from": "Games",
   "bundleSource": "appgallery-web"
  },
  {
@@ -304,15 +306,6 @@
   "from": "Apps",
   "bundleSource": "appgallery-web",
   "hmBundle": "com.zhihu.vip.hmos",
-  "hmBundleSource": "vcck-search+ag-appinfo"
- },
- {
-  "name": "救护车驾驶",
-  "bundle": "com.jhcjsapk.huawei",
-  "rank": 14,
-  "from": "Games",
-  "bundleSource": "appgallery-web",
-  "hmBundle": "com.hm.jhcjs.huawei",
   "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
@@ -332,6 +325,13 @@
   "hmBundleSource": "vcck-search+ag-appinfo"
  },
  {
+  "name": "越野车山地竞速",
+  "bundle": "com.yycsdjsapk.huawei",
+  "rank": 14,
+  "from": "Games",
+  "bundleSource": "appgallery-web"
+ },
+ {
   "name": "画涯",
   "bundle": "cn.fzhuayantcoltd.huayaapp",
   "rank": 15,
@@ -348,13 +348,23 @@
   "bundleSource": "appgallery-web"
  },
  {
+  "name": "救护车驾驶",
+  "bundle": "com.jhcjsapk.huawei",
+  "rank": 15,
+  "from": "Games",
+  "bundleSource": "appgallery-web",
+  "hmBundle": "com.hm.jhcjs.huawei",
+  "hmBundleSource": "vcck-search+ag-appinfo"
+ },
+ {
   "name": "越野登山赛车",
   "bundle": "com.yydsscapk.huawei",
   "rank": 15,
   "from": "Games",
   "bundleSource": "appgallery-web",
   "hmBundle": "com.yydssc.hm.huawei",
-  "hmBundleSource": "vcck-search+ag-appinfo"
+  "hmBundleSource": "vcck-search+ag-appinfo",
+  "stale": true
  },
  {
   "name": "Google Maps",
