@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-22",
+ "generatedAt": "2026-11-23",
  "results": [
   {
    "seed": "华为浏览器",
@@ -298,8 +298,8 @@
      "pkgName": "com.xunmeng.pinduoduo.hos",
      "appId": "C5765880207855421353",
      "developerName": "上海寻梦信息技术有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a627966e4a034a35be9c731c41003c30.webp",
-     "version": "8.32.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/27b1fb64871f445798fd920a2b4abfca.webp",
+     "version": "8.33.0"
     }
    ],
    "confirmations": [
@@ -752,8 +752,8 @@
      "pkgName": "com.luna.hm.music",
      "appId": "C5765880207854902039",
      "developerName": "北京抖音科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1a85729d13a04395bc30986c7daed192.webp",
-     "version": "21.7.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/d5299686109a41bd95bf37442a36b05b.webp",
+     "version": "21.8.0"
     }
    ],
    "confirmations": [
@@ -919,8 +919,8 @@
      "pkgName": "com.meituan.takeaway",
      "appId": "C5765880207853978109",
      "developerName": "厦门三快在线科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/292d27e05efa460482b1460ae90ec56f.webp",
-     "version": "8.86.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1f6a5d6ef6e34c629d040c4fff9fb11b.webp",
+     "version": "8.87.0"
     },
     {
      "name": "美团外卖",
@@ -1331,8 +1331,8 @@
      "pkgName": "com.ccb.mobilebank.hm",
      "appId": "C5765880207852970537",
      "developerName": "中国建设银行股份有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/5cfff5ed5917444bb9511edc87ee159f.webp",
-     "version": "9.8.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/07fb9be991964edf9b7e84dc071aac90.webp",
+     "version": "9.8.2"
     }
    ],
    "confirmations": [
@@ -1997,8 +1997,8 @@
      "pkgName": "com.intsig.camscanner.hap",
      "appId": "C5765880207853454905",
      "developerName": "上海合合信息科技股份有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/6690ecb64fec4d8abd7fcb470095c9f6.webp",
-     "version": "1.36.0.20261109"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/724eafc7a5664f939921cbc101dbee2f.webp",
+     "version": "1.37.0.20261120"
     }
    ],
    "confirmations": [
@@ -2322,8 +2322,8 @@
      "pkgName": "com.netease.cloudmusic.hm",
      "appId": "C5765880207854644683",
      "developerName": "杭州乐读科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f54b2f18bba94e38afa0bdd10f2293f3.webp",
-     "version": "9.6.31"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b2c248e980a24bd7aafcc1502b61cc4d.webp",
+     "version": "9.6.33"
     },
     {
      "name": "网易云音乐",
@@ -2703,8 +2703,8 @@
      "pkgName": "com.soul.soulapp",
      "appId": "C5765880207853394487",
      "developerName": "上海任意门科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b13e4d6d0b1f43e3b738fff719ebba73.webp",
-     "version": "6.36.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/fa0f8920ebf54b53abcab09e645cc59d.webp",
+     "version": "6.36.1"
     }
    ],
    "confirmations": [
@@ -3669,7 +3669,7 @@
      "pkgName": "cn.migu.music",
      "appId": "C5765880207856364773",
      "developerName": "咪咕音乐有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/2d684b47c5074574b6fe2138efae41f0.webp",
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/e67fc74b81c2421786e0fc39080a8562.webp",
      "version": "3.9.0"
     },
     {
@@ -4359,8 +4359,8 @@
      "pkgName": "com.tencent.qqmail.hmos",
      "appId": "C5765880207855736955",
      "developerName": "广州腾讯科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/ee77de86c3db4c10bf83df31d20f93c1.webp",
-     "version": "7.1.9"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/723760bf17ac4a0bbc48f04770694f3c.webp",
+     "version": "7.2.0"
     }
    ],
    "confirmations": [
