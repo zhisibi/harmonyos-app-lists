@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-23",
+ "generatedAt": "2026-11-24",
  "results": [
   {
    "seed": "华为浏览器",
@@ -268,8 +268,8 @@
      "pkgName": "com.jd.hm.mall",
      "appId": "C5765880207854246411",
      "developerName": "北京京东世纪贸易有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/71f48713dbbe416d91443ce3a7a41a25.webp",
-     "version": "16.1.50"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/698b6e386f8b4b9d9d51c936116be8e9.webp",
+     "version": "16.2.0"
     }
    ],
    "confirmations": [
@@ -328,8 +328,8 @@
      "pkgName": "com.taobao.idlefish4ohos",
      "appId": "C5765880207854392995",
      "developerName": "浙江阿里巴巴闲鱼网络科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/58b9e173d7ff4424952cf1552cbdfcf7.webp",
-     "version": "7.29.20"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/bf501727827b45a5be8f93231d9ce710.webp",
+     "version": "7.29.30"
     }
    ],
    "confirmations": [
@@ -496,8 +496,8 @@
      "pkgName": "com.ss.hm.ugc.aweme",
      "appId": "C5765880207853570783",
      "developerName": "北京抖音科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/8c339ad46a92429aa0274ffaf36d251e.webp",
-     "version": "41.2.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/2f1f586c15954272aa9df95a9c482326.webp",
+     "version": "41.3.0"
     },
     {
      "name": "抖音",
@@ -534,8 +534,8 @@
      "pkgName": "com.kuaishou.hmapp",
      "appId": "C5765880207853819885",
      "developerName": "北京快手科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a2e35f6048d74cf48cdabe9fc789cbd9.webp",
-     "version": "14.10.20"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f2dcd8f35093470caa1681ba8797b891.webp",
+     "version": "14.10.30"
     }
    ],
    "confirmations": [
@@ -1559,8 +1559,8 @@
      "pkgName": "com.cib.cibmbhmos",
      "appId": "C5765880207854846257",
      "developerName": "兴业银行股份有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f6e97ec6c6d545e98258e801efbc0d85.webp",
-     "version": "8.0.6"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/dffe5805914743d68e14119c40d23166.webp",
+     "version": "8.0.7"
     }
    ],
    "confirmations": [
@@ -2853,8 +2853,8 @@
      "pkgName": "yylx.bilibili.comic",
      "appId": "C5765880207855098311",
      "developerName": "上海呵呵呵文化传播有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/86893fa8fff44e93a165806f34ec5e97.webp",
-     "version": "7.6.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/72ae5cfcc37c4166931d36f760753585.webp",
+     "version": "7.7.0"
     }
    ],
    "confirmations": [
@@ -3608,8 +3608,8 @@
      "pkgName": "com.ss.hm.article.video",
      "appId": "C5765880207853771755",
      "developerName": "北京抖音信息服务有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1758ce2dbc054bf7b9cdb5d9dfc499ce.webp",
-     "version": "14.8.2"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/d8be46e31a764bfcbccfc785309e6691.webp",
+     "version": "14.8.4"
     }
    ],
    "confirmations": [

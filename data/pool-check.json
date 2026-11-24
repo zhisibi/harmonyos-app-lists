@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-23",
+ "generatedAt": "2026-11-24",
  "results": [
   {
    "name": "车祸模拟器2",
@@ -351,8 +351,8 @@
      "pkgName": "yylx.bilibili.comic",
      "appId": "C5765880207855098311",
      "developerName": "上海呵呵呵文化传播有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/86893fa8fff44e93a165806f34ec5e97.webp",
-     "version": "7.6.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/72ae5cfcc37c4166931d36f760753585.webp",
+     "version": "7.7.0"
     }
    ],
    "confirmations": [
