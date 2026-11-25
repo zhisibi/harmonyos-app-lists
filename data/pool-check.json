@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-24",
+ "generatedAt": "2026-11-25",
  "results": [
   {
    "name": "车祸模拟器2",
@@ -573,8 +573,8 @@
      "pkgName": "com.hupu.heroes",
      "appId": "C5765880207854612841",
      "developerName": "上海匡慧网络科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/48fe1f0b553d49fdb864779220e81a41.webp",
-     "version": "8.2.49"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/7d6d085bf7be420aaf47448bf909798f.webp",
+     "version": "8.2.50"
     }
    ],
    "confirmations": [
