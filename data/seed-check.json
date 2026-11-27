@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-26",
+ "generatedAt": "2026-11-27",
  "results": [
   {
    "seed": "华为浏览器",
@@ -358,8 +358,8 @@
      "pkgName": "com.vip.hosapp",
      "appId": "C5765880207853897799",
      "developerName": "广州唯品会电子商务有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/4390c588a2d8441291d231475a02fb26.webp",
-     "version": "9.3.1"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/94e12df048b244d8bf6eada47e013456.webp",
+     "version": "9.3.2"
     }
    ],
    "confirmations": [
@@ -436,8 +436,8 @@
      "pkgName": "com.xingin.xhs_hos",
      "appId": "C5765880207852917075",
      "developerName": "行吟信息科技（上海）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f3eec33898de487f8d91471e2ed4a8a8.webp",
-     "version": "9.54.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/99fb4b6a3e364616871e52f1c8fe9e63.webp",
+     "version": "9.55.0"
     }
    ],
    "confirmations": [
@@ -722,8 +722,8 @@
      "pkgName": "com.tencent.hm.qqmusic",
      "appId": "C5765880207853000627",
      "developerName": "腾讯音乐娱乐（深圳）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f463211101654c89867fd9a226cff454.webp",
-     "version": "3.5.5.2"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b9076401d4cb4ae59156fabd961700f9.webp",
+     "version": "3.6.0.2"
     }
    ],
    "confirmations": [
@@ -782,8 +782,8 @@
      "pkgName": "com.ximalaya.ting.xmharmony",
      "appId": "C5765880207853445853",
      "developerName": "上海喜马拉雅科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/678c6c82ca874176a45d00284afd9d1d.webp",
-     "version": "9.5.28.6"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0da5b9bbf2f54ba890d50a885362d33b.webp",
+     "version": "9.5.28.7"
     },
     {
      "name": "喜马拉雅",
@@ -820,8 +820,8 @@
      "pkgName": "com.amap.hmapp",
      "appId": "C1268244389566675520",
      "developerName": "北京高德图强科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/12f0a2565c3a4a8bacc2baad40ad3ae8.webp",
-     "version": "17.03.0.2009"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c8fba2f5999c46439f5536e85b2f111b.webp",
+     "version": "17.05.0.2009"
     },
     {
      "name": "高德地图",
@@ -1121,8 +1121,8 @@
      "pkgName": "com.qiyi.video.hmy",
      "appId": "C5765880207853052103",
      "developerName": "北京爱奇艺科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b2b304bb29714eeeb856814cd4ab2fc1.webp",
-     "version": "3.11.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/6178876c66b748ee82bc3038087f9353.webp",
+     "version": "3.11.5"
     }
    ],
    "confirmations": [
@@ -1877,8 +1877,8 @@
      "pkgName": "com.alibaba.wireless_hmos",
      "appId": "C5765880207853482675",
      "developerName": "杭州阿里巴巴广告有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/6d196b243d344e8fb680b0d608a74113.webp",
-     "version": "12.27.1"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/504f4c644fc74fdfa2fa742b086b940a.webp",
+     "version": "12.28.0"
     }
    ],
    "confirmations": [
@@ -1967,8 +1967,8 @@
      "pkgName": "com.sogou.input",
      "appId": "C5765880207855275657",
      "developerName": "北京搜狗科技发展有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/313da95373824d4ea16c16636876f4d6.webp",
-     "version": "3.6.2"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/13acf5e889b9454db5e7ce20e8868e0e.webp",
+     "version": "3.6.3"
     }
    ],
    "confirmations": [
@@ -2703,8 +2703,8 @@
      "pkgName": "com.soul.soulapp",
      "appId": "C5765880207853394487",
      "developerName": "上海任意门科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/7908037e8aa74e3586b220864353f20f.webp",
-     "version": "6.37.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/604d547243814ef4b5aeaeab603ddc48.webp",
+     "version": "6.37.1"
     }
    ],
    "confirmations": [
@@ -3776,8 +3776,8 @@
      "pkgName": "com.dragon.read.next",
      "appId": "C5765880207854136449",
      "developerName": "北京臻鼎科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f1ff71486f8c4dc4aa94d95046428203.webp",
-     "version": "7.4.6.33"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c08784fab91c4630bf9151538ea92b60.webp",
+     "version": "7.4.7.32"
     }
    ],
    "confirmations": [
@@ -3956,8 +3956,8 @@
      "pkgName": "com.fliggy.hmos",
      "appId": "C5765880207854491503",
      "developerName": "杭州淘美航空服务有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c14f14c56fbb424b87e1381d08f69a07.webp",
-     "version": "10.0.13.102"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/4fb95e506f0b4b5f838123d921b060b0.webp",
+     "version": "10.0.14.101"
     }
    ],
    "confirmations": [
@@ -4016,8 +4016,8 @@
      "pkgName": "com.yumc.kfc.superapp",
      "appId": "C5765880207853929853",
      "developerName": "环胜电子商务（上海）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a4bfe39227fe4963a418f791fff99abd.webp",
-     "version": "1.21.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/8d5f1e87bd69464da4f5121c19cf62de.webp",
+     "version": "1.22.0"
     }
    ],
    "confirmations": [
@@ -4737,8 +4737,8 @@
      "pkgName": "com.huawei.hmsapp.alliance",
      "appId": "C5765880207853860463",
      "developerName": "华为软件技术有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a4a4260e3e8844a3944b24386062165b.webp",
-     "version": "1.1.1.300"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/612f692c9b1f42c09d606c76030b880e.webp",
+     "version": "1.1.2.300"
     }
    ],
    "confirmations": [
