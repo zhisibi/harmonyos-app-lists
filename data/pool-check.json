@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-27",
+ "generatedAt": "2026-11-28",
  "results": [
   {
    "name": "车祸模拟器2",
@@ -203,8 +203,8 @@
      "pkgName": "com.migu.cmread.hm",
      "appId": "C5765880207855018749",
      "developerName": "咪咕数字传媒有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/690e1ace62b1444e9b34a303372a1e4e.webp",
-     "version": "11.9.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a7dd3bc2ed7346f8ac9ba52a255f6b46.webp",
+     "version": "11.10.0"
     }
    ],
    "confirmations": [
@@ -507,8 +507,8 @@
      "pkgName": "com.zhibo8.hmclient",
      "appId": "C5765880207853341495",
      "developerName": "厦门傲播网络科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1ccead7aa6834c12aa82701ab2c0be63.webp",
-     "version": "1.6.5"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c685c2a95a4549fba72cf937c030a330.webp",
+     "version": "1.6.6"
     }
    ],
    "confirmations": [

@@ -1,6 +1,6 @@
 {
  "interface": "vcck-search+ag-appinfo",
- "generatedAt": "2026-11-27",
+ "generatedAt": "2026-11-28",
  "results": [
   {
    "seed": "华为浏览器",
@@ -358,8 +358,8 @@
      "pkgName": "com.vip.hosapp",
      "appId": "C5765880207853897799",
      "developerName": "广州唯品会电子商务有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/94e12df048b244d8bf6eada47e013456.webp",
-     "version": "9.3.2"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/fd60bf83c3e44aff8d362dde2b547517.webp",
+     "version": "9.3.5"
     }
    ],
    "confirmations": [
@@ -624,8 +624,8 @@
      "pkgName": "com.baidu.baiduapp",
      "appId": "C5765880207855276403",
      "developerName": "百度在线网络技术（北京）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0abcc263d90848bcb9a1f3334fbae5cd.webp",
-     "version": "15.84.0.10"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/7df748a9557b4462b752a2a818227f0e.webp",
+     "version": "15.86.0.10"
     }
    ],
    "confirmations": [
@@ -722,8 +722,8 @@
      "pkgName": "com.tencent.hm.qqmusic",
      "appId": "C5765880207853000627",
      "developerName": "腾讯音乐娱乐（深圳）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b9076401d4cb4ae59156fabd961700f9.webp",
-     "version": "3.6.0.2"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c92aee23ba3443948cdce10f6945503d.webp",
+     "version": "3.6.0.3"
     }
    ],
    "confirmations": [
@@ -782,8 +782,8 @@
      "pkgName": "com.ximalaya.ting.xmharmony",
      "appId": "C5765880207853445853",
      "developerName": "上海喜马拉雅科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0da5b9bbf2f54ba890d50a885362d33b.webp",
-     "version": "9.5.28.7"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/cf693fa54617445489b15f755b9e39d6.webp",
+     "version": "9.5.28.8"
     },
     {
      "name": "喜马拉雅",
@@ -858,8 +858,8 @@
      "pkgName": "com.baidu.hmmap",
      "appId": "C5765880207855476629",
      "developerName": "北京百度网讯科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/e58df1e338ff42e9b4df2d45385e61f4.webp",
-     "version": "1.22.20"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/8770d9dd77fc48cebada77e0b6ad618c.webp",
+     "version": "1.22.40"
     }
    ],
    "confirmations": [
@@ -1083,8 +1083,8 @@
      "pkgName": "com.tencent.videohm",
      "appId": "C5765880207854575129",
      "developerName": "腾讯科技（北京）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/9ae3ca6749bf4073b8dc79a29b0e6490.webp",
-     "version": "9.04.90.13033"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/097096a45ab54dd487dd579ebe23c486.webp",
+     "version": "9.04.91.13037"
     },
     {
      "name": "腾讯视频",
@@ -1271,8 +1271,8 @@
      "pkgName": "cn.gov.tax.its.hm",
      "appId": "C5765880207855037995",
      "developerName": "国家税务总局税收大数据和风险管理局",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/84209201ecb74be2b0893c4ffa715362.webp",
-     "version": "2.3.6"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/96ad2af8ca1d4838b4d393ad6977e52f.webp",
+     "version": "2.3.7"
     }
    ],
    "confirmations": [
@@ -1421,8 +1421,8 @@
      "pkgName": "com.boc.bocsoft.mbs.personal",
      "appId": "C5765880207853435449",
      "developerName": "中国银行股份有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1694ab6419ca4c7b96d5df6970866b28.webp",
-     "version": "9.9.39"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c46efbea40a942e0b4c7380425d34aea.webp",
+     "version": "9.9.40"
     }
    ],
    "confirmations": [
@@ -2035,8 +2035,8 @@
      "pkgName": "com.meitu.mtxxpro",
      "appId": "C6917568406542402944",
      "developerName": "厦门美图网科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/rearrowcar/19274aaab5814e838e2d04fe54a1aba4.png",
-     "version": "7.8.6.3"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/rearrowcar/64370d998e824040a19ba23210161af5.png",
+     "version": "7.8.6.4"
     }
    ],
    "confirmations": [
@@ -2104,8 +2104,8 @@
      "pkgName": "com.bankofbeijing.hmobilebanking",
      "appId": "C5765880207853877841",
      "developerName": "北京银行股份有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/bb9b181eb0704f83a794a1e84f196aa5.webp",
-     "version": "10.0.9"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a50bd196b84d43eaba6d1c0c565a1dd2.webp",
+     "version": "11.0.0"
     }
    ],
    "confirmations": [
@@ -2232,8 +2232,8 @@
      "pkgName": "com.tencent.meeting.app",
      "appId": "C5765880207855638347",
      "developerName": "腾讯科技（北京）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/bfbcdfa46b9848d9a5f3cbae4621944a.webp",
-     "version": "3.34.110.415"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/bdf9ffe9ce3f40c88df7acc35cbe8f4b.webp",
+     "version": "3.44.11.414"
     }
    ],
    "confirmations": [
@@ -2292,8 +2292,8 @@
      "pkgName": "com.tmall.tmall4hmos",
      "appId": "C5765880207855081457",
      "developerName": "浙江天猫网络有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/54340b09dfd1496a8a09509ce9b11753.webp",
-     "version": "15.92.2"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/8c37d0a892af4b1ba2bf8dc1ff3dd037.webp",
+     "version": "15.95.0"
     }
    ],
    "confirmations": [
@@ -2322,8 +2322,8 @@
      "pkgName": "com.netease.cloudmusic.hm",
      "appId": "C5765880207854644683",
      "developerName": "杭州乐读科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b2c248e980a24bd7aafcc1502b61cc4d.webp",
-     "version": "9.6.33"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b2f81d9a113f4fefb9f249096fe352ef.webp",
+     "version": "9.6.34"
     },
     {
      "name": "网易云音乐",
@@ -2458,8 +2458,8 @@
      "pkgName": "me.ele.eleme",
      "appId": "C5765880207854642753",
      "developerName": "上海拉扎斯信息科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/9fe708e279fb4f2ca6f48026804c2c49.webp",
-     "version": "12.11.9"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/68abf5534a1f40b4826c71e5fa4a150b.webp",
+     "version": "12.11.38"
     }
    ],
    "confirmations": [
@@ -2519,8 +2519,8 @@
      "pkgName": "com.umetrip.hm.app",
      "appId": "C5765880207854461023",
      "developerName": "中航信移动科技股份有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c3dad60bc3384006a3327d45d5ed521f.webp",
-     "version": "8.6.8"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/6c4136df98794946ad24d1cc581ce85e.webp",
+     "version": "8.6.9"
     },
     {
      "name": "航旅纵横",
@@ -2793,8 +2793,8 @@
      "pkgName": "com.migu.cmread.hm",
      "appId": "C5765880207855018749",
      "developerName": "咪咕数字传媒有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/690e1ace62b1444e9b34a303372a1e4e.webp",
-     "version": "11.9.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/a7dd3bc2ed7346f8ac9ba52a255f6b46.webp",
+     "version": "11.10.0"
     }
    ],
    "confirmations": [
@@ -2913,8 +2913,8 @@
      "pkgName": "com.zhibo8.hmclient",
      "appId": "C5765880207853341495",
      "developerName": "厦门傲播网络科技有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/1ccead7aa6834c12aa82701ab2c0be63.webp",
-     "version": "1.6.5"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/c685c2a95a4549fba72cf937c030a330.webp",
+     "version": "1.6.6"
     }
    ],
    "confirmations": [
@@ -3110,8 +3110,8 @@
      "pkgName": "com.eastmoney.hmn.berlin",
      "appId": "C1250032724710809984",
      "developerName": "东方财富信息股份有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b7a7e9a2ef5147079d4723dfa1ab3483.webp",
-     "version": "1.25"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/8071c141b7164898be907e1c06f0ba8f.webp",
+     "version": "1.25.1"
     }
    ],
    "confirmations": [
@@ -3896,8 +3896,8 @@
      "pkgName": "com.ctrip.harmonynext",
      "appId": "C5765880207853125549",
      "developerName": "携程计算机技术（上海）有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b8bc46fdfc5244deb6339e249b50c9c5.webp",
-     "version": "8.98.0"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/f425151065ab4ffba007bff1a1c79f90.webp",
+     "version": "8.98.2"
     }
    ],
    "confirmations": [
@@ -4124,8 +4124,8 @@
      "pkgName": "com.wudaokou.hippo_hmos",
      "appId": "C5765880207854007479",
      "developerName": "上海盒礼网络技术服务有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/8476ac3284a347a3b2cac0d806e93302.webp",
-     "version": "8.13.1"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/b4670a571e9146b88ba1eb42dd966d08.webp",
+     "version": "8.13.5.0"
     }
    ],
    "confirmations": [
@@ -4269,8 +4269,8 @@
      "pkgName": "com.quark.ohosbrowser",
      "appId": "C5765880207855186737",
      "developerName": "广州市动悦信息技术有限公司",
-     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/0325ed91137d466f885d3104cbb3ecaa.webp",
-     "version": "10.21.0.241"
+     "iconUrl": "https://appimg-drcn.dbankcdn.com/application/icon144/phone/ae1a84a08b1b4bd1baf2463c8ded9c8d.webp",
+     "version": "10.22.0.246"
     }
    ],
    "confirmations": [
